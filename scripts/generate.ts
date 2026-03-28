@@ -409,7 +409,7 @@ const rootReadme = readFileSync(join(rootDir, 'README.md'), 'utf-8').trimEnd();
 
 const tableRows = results
   .map(({ config }) =>
-    `| \`${config.sourcePackage}\` | ${config.sourceConfig ? `\`${config.sourceConfig}\`` : ''} | \`${oxlintConfigFor(config)}\` |`,
+    `| \`${config.sourcePackage}\` | ${config.sourceConfig ? `\`${config.sourceConfig}\`` : ''} | \`${outputFor(config)}\` |`,
   )
   .join('\n');
 
@@ -435,7 +435,11 @@ function migratedSection(rules: OxlintConfig['rules'], strippedOptions: string[]
 
 const configSections = results
   .map(({ config, oxlintResult, skipped, strippedOptions, warnings }) => {
-    const parts: string[] = [`### \`${oxlintConfigFor(config)}\``];
+    const extendsExample = `"./node_modules/oxlint-config-presets/${outputFor(config)}"`;
+    const parts: string[] = [
+      `### \`${outputFor(config)}\``,
+      extendsExample,
+    ];
 
     const migrated = migratedSection(oxlintResult.rules, strippedOptions);
     if (migrated) parts.push(migrated);
