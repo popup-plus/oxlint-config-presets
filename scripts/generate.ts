@@ -197,6 +197,28 @@ const fromXo = () => {
 // eslint-config-problems exposes a plain flat config object with a `rules` property.
 const problemsConfig = req('eslint-config-problems') as { rules: EslintRules };
 
+// eslint-config-eslint (ESLint team's own config) uses flat config arrays loadable via require.
+type FlatConfigArray = Array<{ rules?: EslintRules }>;
+const fromFlatArray = (pkg: string) => () => {
+  const entries = req(pkg) as FlatConfigArray | { rules?: EslintRules };
+  const arr = Array.isArray(entries) ? entries : [entries];
+  const rules: EslintRules = {};
+  for (const entry of arr) Object.assign(rules, entry.rules ?? {});
+  return rules;
+};
+
+// eslint-config-prettier disables all formatting rules that conflict with Prettier.
+const prettierConfig = req('eslint-config-prettier') as { rules: EslintRules };
+
+// @antfu/eslint-config is an async ESM factory function returning a flat config array.
+const antfuModule = await import('@antfu/eslint-config');
+const antfuEntries = await (antfuModule.default as () => Promise<FlatConfigArray>)();
+const fromAntfu = () => {
+  const rules: EslintRules = {};
+  for (const entry of antfuEntries) Object.assign(rules, entry.rules ?? {});
+  return rules;
+};
+
 const configs: ConfigEntry[] = [
   // ── airbnb ────────────────────────────────────────────────────────────────
   {
@@ -354,6 +376,63 @@ const configs: ConfigEntry[] = [
     eslintEquivalent: 'eslint-config-wikimedia',
     output: 'wikimedia/index.json',
     resolveRules: fromPackage('eslint-config-wikimedia'),
+  },
+
+  // ── eslint-team ───────────────────────────────────────────────────────────
+  {
+    label: 'eslint-team',
+    exportName: 'oxlint-config-presets/eslint-team',
+    eslintEquivalent: 'eslint-config-eslint',
+    output: 'eslint-team/index.json',
+    resolveRules: fromFlatArray('eslint-config-eslint'),
+  },
+  {
+    label: 'eslint-team/base',
+    exportName: 'oxlint-config-presets/eslint-team/base',
+    eslintEquivalent: 'eslint-config-eslint/base',
+    output: 'eslint-team/base.json',
+    resolveRules: fromFlatArray('eslint-config-eslint/base'),
+  },
+
+  // ── alloy ─────────────────────────────────────────────────────────────────
+  {
+    label: 'alloy',
+    exportName: 'oxlint-config-presets/alloy',
+    eslintEquivalent: 'eslint-config-alloy',
+    output: 'alloy/index.json',
+    resolveRules: fromPackage('eslint-config-alloy'),
+  },
+  {
+    label: 'alloy/react',
+    exportName: 'oxlint-config-presets/alloy/react',
+    eslintEquivalent: 'eslint-config-alloy/react',
+    output: 'alloy/react.json',
+    resolveRules: fromPackage('eslint-config-alloy/react'),
+  },
+  {
+    label: 'alloy/typescript',
+    exportName: 'oxlint-config-presets/alloy/typescript',
+    eslintEquivalent: 'eslint-config-alloy/typescript',
+    output: 'alloy/typescript.json',
+    resolveRules: fromPackage('eslint-config-alloy/typescript'),
+  },
+
+  // ── prettier ──────────────────────────────────────────────────────────────
+  {
+    label: 'prettier',
+    exportName: 'oxlint-config-presets/prettier',
+    eslintEquivalent: 'eslint-config-prettier',
+    output: 'prettier/index.json',
+    resolveRules: () => prettierConfig.rules,
+  },
+
+  // ── antfu ─────────────────────────────────────────────────────────────────
+  {
+    label: 'antfu',
+    exportName: 'oxlint-config-presets/antfu',
+    eslintEquivalent: '@antfu/eslint-config',
+    output: 'antfu/index.json',
+    resolveRules: fromAntfu,
   },
 ];
 
