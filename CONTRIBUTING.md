@@ -1,5 +1,15 @@
 # Contributing
 
+## How it works
+
+Each config in this package is generated from the corresponding ESLint config using [`@oxlint/migrate`](https://github.com/oxc-project/oxlint-migrate). The generation script:
+
+1. Loads the source ESLint config and recursively resolves its `extends` chain to collect the full set of rules.
+2. Passes the flattened rules through `@oxlint/migrate`, which maps supported rules to their oxlint equivalents and drops unsupported ones.
+3. Writes the result as a JSON file under `configs/<styleguide>/`.
+
+Rules that oxlint does not support are silently dropped. The generated files are committed to the repository so consumers do not need to run any build step.
+
 ## Regenerating configs
 
 After updating a source styleguide dependency, regenerate all configs with:
