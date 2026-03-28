@@ -423,12 +423,7 @@
     "import/no-webpack-loader-syntax": "error",
     "import/no-named-default": "error",
     "import/no-self-import": "error",
-    "import/no-cycle": [
-      "error",
-      {
-        "maxDepth": "∞"
-      }
-    ],
+    "import/no-cycle": "error",
     "react/jsx-boolean-value": [
       "error",
       "never",
@@ -436,12 +431,7 @@
         "always": []
       }
     ],
-    "react/jsx-no-duplicate-props": [
-      "error",
-      {
-        "ignoreCase": true
-      }
-    ],
+    "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-undef": "error",
     "react/jsx-pascal-case": [
       "error",
@@ -547,12 +537,7 @@
         "input[type=\"image\"]": []
       }
     ],
-    "jsx-a11y/anchor-has-content": [
-      "error",
-      {
-        "components": []
-      }
-    ],
+    "jsx-a11y/anchor-has-content": "error",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {

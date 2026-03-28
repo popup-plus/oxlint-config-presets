@@ -404,11 +404,6 @@
     "import/no-webpack-loader-syntax": "error",
     "import/no-named-default": "error",
     "import/no-self-import": "error",
-    "import/no-cycle": [
-      "error",
-      {
-        "maxDepth": "∞"
-      }
-    ]
+    "import/no-cycle": "error"
   }
 }

@@ -640,15 +640,7 @@
     "import/no-self-import": [
       "warn"
     ],
-    "import/no-cycle": [
-      "warn",
-      {
-        "maxDepth": "∞",
-        "ignoreExternal": false,
-        "allowUnsafeDynamicCyclicDependency": false,
-        "disableScc": false
-      }
-    ],
+    "import/no-cycle": "warn",
     "react/jsx-boolean-value": [
       "warn",
       "never",
@@ -656,12 +648,7 @@
         "always": []
       }
     ],
-    "react/jsx-no-duplicate-props": [
-      "warn",
-      {
-        "ignoreCase": true
-      }
-    ],
+    "react/jsx-no-duplicate-props": "warn",
     "react/jsx-no-undef": [
       "warn"
     ],
@@ -811,12 +798,7 @@
         "input[type=\"image\"]": []
       }
     ],
-    "jsx-a11y/anchor-has-content": [
-      "warn",
-      {
-        "components": []
-      }
-    ],
+    "jsx-a11y/anchor-has-content": "warn",
     "jsx-a11y/anchor-is-valid": [
       "warn",
       {

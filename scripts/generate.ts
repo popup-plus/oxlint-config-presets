@@ -14,6 +14,7 @@
  */
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
 import { createRequire } from 'node:module';
 import { dirname, resolve, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -226,7 +227,46 @@ for (const config of configs) {
 
   const outputPath = join(configsDir, config.output);
   mkdirSync(dirname(outputPath), { recursive: true });
-  writeFileSync(outputPath, JSON.stringify(oxlintResult, null, 2) + '\n');
+
+  // Write the config, then validate it by running oxlint against a dummy file.
+  // If oxlint rejects any rule options (e.g. "∞" as a u32, unknown fields, or
+  // rules that take no options), strip the options for those rules and retry.
+  // This loop is self-healing: it fixes whatever incompatibilities oxlint
+  // reports without requiring a hardcoded list of problematic rules.
+  const dummyFile = join(rootDir, 'tests/fixtures/sample.js');
+  const oxlintBin = join(rootDir, 'node_modules/.bin/oxlint');
+
+  for (let attempt = 1; ; attempt++) {
+    writeFileSync(outputPath, JSON.stringify(oxlintResult, null, 2) + '\n');
+
+    const validation = spawnSync(oxlintBin, ['--config', outputPath, dummyFile], {
+      encoding: 'utf-8',
+    });
+    const output = validation.stdout + validation.stderr;
+
+    if (!output.includes('Failed to parse oxlint configuration file')) break;
+
+    // Extract rule names reported as having invalid configuration.
+    // oxlint normalises plugin separators to underscores in output (jsx_a11y)
+    // but the config uses hyphens (jsx-a11y), so normalise back.
+    const badRules = [
+      ...output.matchAll(/Invalid configuration for rule `([^`]+)`/g),
+    ].map((m) => m[1].replace(/_/g, '-'));
+
+    if (badRules.length === 0 || attempt > 10) {
+      console.warn(`  [warn] Could not auto-fix config parse errors:\n${output}`);
+      break;
+    }
+
+    for (const ruleName of badRules) {
+      const value = oxlintResult.rules?.[ruleName];
+      if (Array.isArray(value) && value.length > 0) {
+        // Keep only the severity, dropping the incompatible options object.
+        (oxlintResult.rules as Record<string, unknown>)[ruleName] = value[0];
+        console.log(`  [fix] Stripped options from ${ruleName}`);
+      }
+    }
+  }
 
   const ruleCount = Object.keys(oxlintResult.rules ?? {}).length;
   console.log(`  Written to configs/${config.output} (${ruleCount} oxlint rules)`);
