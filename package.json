@@ -1,0 +1,29 @@
+{
+  "name": "oxlint-config",
+  "version": "0.1.0",
+  "description": "Oxlint configurations ported from popular ESLint styleguides",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./airbnb": "./airbnb/index.json",
+    "./airbnb/base": "./airbnb/base.json",
+    "./airbnb/hooks": "./airbnb/hooks.json",
+    "./airbnb/legacy": "./airbnb/legacy.json",
+    "./airbnb/whitespace": "./airbnb/whitespace.json"
+  },
+  "scripts": {
+    "generate": "tsx scripts/generate.ts"
+  },
+  "devDependencies": {
+    "@oxlint/migrate": "^1.57.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
