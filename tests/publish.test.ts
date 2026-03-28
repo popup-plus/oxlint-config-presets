@@ -38,6 +38,13 @@ const expectedConfigs = [
   'google/index.json',
   'eslint-js/recommended.json',
   'eslint-js/all.json',
+  'typescript-eslint/recommended.json',
+  'typescript-eslint/recommended-type-checked.json',
+  'typescript-eslint/strict.json',
+  'typescript-eslint/strict-type-checked.json',
+  'typescript-eslint/stylistic.json',
+  'typescript-eslint/stylistic-type-checked.json',
+  'typescript-eslint/all.json',
 ];
 
 for (const file of expectedConfigs) {

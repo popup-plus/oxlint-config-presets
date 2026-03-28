@@ -17,7 +17,14 @@
     "./standard": "./standard/index.json",
     "./google": "./google/index.json",
     "./eslint-js/recommended": "./eslint-js/recommended.json",
-    "./eslint-js/all": "./eslint-js/all.json"
+    "./eslint-js/all": "./eslint-js/all.json",
+    "./typescript-eslint/recommended": "./typescript-eslint/recommended.json",
+    "./typescript-eslint/recommended-type-checked": "./typescript-eslint/recommended-type-checked.json",
+    "./typescript-eslint/strict": "./typescript-eslint/strict.json",
+    "./typescript-eslint/strict-type-checked": "./typescript-eslint/strict-type-checked.json",
+    "./typescript-eslint/stylistic": "./typescript-eslint/stylistic.json",
+    "./typescript-eslint/stylistic-type-checked": "./typescript-eslint/stylistic-type-checked.json",
+    "./typescript-eslint/all": "./typescript-eslint/all.json"
   },
   "scripts": {
     "generate": "tsx scripts/generate.ts",
@@ -27,6 +34,8 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@oxlint/migrate": "^1.57.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.2",
+    "@typescript-eslint/parser": "^8.57.2",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",

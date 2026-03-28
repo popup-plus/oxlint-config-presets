@@ -169,6 +169,20 @@ const eslintJs = req('@eslint/js') as {
   configs: { recommended: { rules: EslintRules }; all: { rules: EslintRules } };
 };
 
+// @typescript-eslint uses flat config arrays. Merge all rules from each array
+// entry to get the full effective rule set for a given config.
+const tsEslint = req('@typescript-eslint/eslint-plugin') as {
+  configs: Record<string, Array<{ rules?: EslintRules }> | { rules?: EslintRules }>;
+};
+
+const fromTsEslint = (name: string) => () => {
+  const cfg = tsEslint.configs[name];
+  const entries = Array.isArray(cfg) ? cfg : [cfg];
+  const rules: EslintRules = {};
+  for (const entry of entries) Object.assign(rules, entry.rules ?? {});
+  return rules;
+};
+
 const configs: ConfigEntry[] = [
   // ── airbnb ────────────────────────────────────────────────────────────────
   {
@@ -223,6 +237,57 @@ const configs: ConfigEntry[] = [
     eslintEquivalent: 'eslint-config-google',
     output: 'google/index.json',
     resolveRules: fromPackage('eslint-config-google'),
+  },
+
+  // ── @typescript-eslint ────────────────────────────────────────────────────
+  {
+    label: 'typescript-eslint/recommended',
+    exportName: 'oxlint-config-presets/typescript-eslint/recommended',
+    eslintEquivalent: '@typescript-eslint/eslint-plugin — recommended',
+    output: 'typescript-eslint/recommended.json',
+    resolveRules: fromTsEslint('flat/recommended'),
+  },
+  {
+    label: 'typescript-eslint/recommended-type-checked',
+    exportName: 'oxlint-config-presets/typescript-eslint/recommended-type-checked',
+    eslintEquivalent: '@typescript-eslint/eslint-plugin — recommended-type-checked',
+    output: 'typescript-eslint/recommended-type-checked.json',
+    resolveRules: fromTsEslint('flat/recommended-type-checked'),
+  },
+  {
+    label: 'typescript-eslint/strict',
+    exportName: 'oxlint-config-presets/typescript-eslint/strict',
+    eslintEquivalent: '@typescript-eslint/eslint-plugin — strict',
+    output: 'typescript-eslint/strict.json',
+    resolveRules: fromTsEslint('flat/strict'),
+  },
+  {
+    label: 'typescript-eslint/strict-type-checked',
+    exportName: 'oxlint-config-presets/typescript-eslint/strict-type-checked',
+    eslintEquivalent: '@typescript-eslint/eslint-plugin — strict-type-checked',
+    output: 'typescript-eslint/strict-type-checked.json',
+    resolveRules: fromTsEslint('flat/strict-type-checked'),
+  },
+  {
+    label: 'typescript-eslint/stylistic',
+    exportName: 'oxlint-config-presets/typescript-eslint/stylistic',
+    eslintEquivalent: '@typescript-eslint/eslint-plugin — stylistic',
+    output: 'typescript-eslint/stylistic.json',
+    resolveRules: fromTsEslint('flat/stylistic'),
+  },
+  {
+    label: 'typescript-eslint/stylistic-type-checked',
+    exportName: 'oxlint-config-presets/typescript-eslint/stylistic-type-checked',
+    eslintEquivalent: '@typescript-eslint/eslint-plugin — stylistic-type-checked',
+    output: 'typescript-eslint/stylistic-type-checked.json',
+    resolveRules: fromTsEslint('flat/stylistic-type-checked'),
+  },
+  {
+    label: 'typescript-eslint/all',
+    exportName: 'oxlint-config-presets/typescript-eslint/all',
+    eslintEquivalent: '@typescript-eslint/eslint-plugin — all',
+    output: 'typescript-eslint/all.json',
+    resolveRules: fromTsEslint('flat/all'),
   },
 
   // ── @eslint/js ────────────────────────────────────────────────────────────
