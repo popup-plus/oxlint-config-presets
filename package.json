@@ -15,7 +15,9 @@
     "./airbnb/whitespace": "./airbnb/whitespace.json"
   },
   "scripts": {
-    "generate": "tsx scripts/generate.ts"
+    "generate": "tsx scripts/generate.ts",
+    "prepack": "tsx scripts/prepack.ts",
+    "test": "node --import tsx/esm --test tests/*.test.ts"
   },
   "devDependencies": {
     "@oxlint/migrate": "^1.57.0",
