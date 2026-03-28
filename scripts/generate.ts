@@ -440,25 +440,15 @@ const table =
   tableRows;
 
 function migratedSection(rules: OxlintConfig['rules'], strippedOptions: string[]): string {
-  const entries = Object.entries(rules ?? {}).filter(
-    ([name]) => !strippedOptions.includes(name),
-  );
-  if (entries.length === 0) return '';
+  const names = Object.keys(rules ?? {}).filter((name) => !strippedOptions.includes(name));
+  if (names.length === 0) return '';
 
-  const rows = entries
-    .map(([name, value]) => {
-      const severity = Array.isArray(value) ? String(value[0]) : String(value);
-      const hasOptions = Array.isArray(value) && value.length > 1;
-      return `| \`${name}\` | ${severity}${hasOptions ? ' *(with options)*' : ''} |`;
-    })
-    .join('\n');
+  const ruleList = names.map((r) => `\`${r}\``).join(', ');
 
   return (
     `<details>\n` +
-    `<summary>${entries.length} rules successfully migrated</summary>\n\n` +
-    `| Rule | Severity |\n` +
-    `|---|---|\n` +
-    `${rows}\n\n` +
+    `<summary>${names.length} rules successfully migrated</summary>\n\n` +
+    `${ruleList}\n\n` +
     `</details>`
   );
 }
