@@ -21,8 +21,6 @@ interface PackageJson {
   version: string;
   description?: string;
   license?: string;
-  type?: string;
-  exports?: Record<string, string>;
   [key: string]: unknown;
 }
 
@@ -35,7 +33,6 @@ const publishPkg: Partial<PackageJson> = {
   version: root.version,
   description: root.description,
   license: root.license,
-  exports: root.exports,
 };
 
 writeFileSync(

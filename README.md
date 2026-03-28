@@ -15,7 +15,7 @@ Then extend the config you want in your `.oxlintrc.json`:
 ```json
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "extends": ["oxlint-config-presets/airbnb/hooks"]
+  "extends": ["./node_modules/oxlint-config-presets/airbnb/hooks.json"]
 }
 ```
 
@@ -25,9 +25,11 @@ Multiple configs can be combined. Later entries take precedence:
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "extends": [
-    "oxlint-config-presets/airbnb/base",
-    "oxlint-config-presets/airbnb/hooks"
+    "./node_modules/oxlint-config-presets/airbnb/base.json",
+    "./node_modules/oxlint-config-presets/airbnb/hooks.json"
   ]
 }
 ```
+
+> **Note:** oxlint's `extends` field requires a `.json` file path relative to your config file. Use `./node_modules/oxlint-config-presets/<config>.json` to reference configs from this package.
 
