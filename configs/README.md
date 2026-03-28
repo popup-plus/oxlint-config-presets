@@ -57,6 +57,15 @@ Multiple configs can be combined. Later entries take precedence:
 ### `oxlint-config-presets/airbnb`
 
 <details>
+<summary>3 rules migrated without options (incompatible schema)</summary>
+
+These rules are enabled but their configuration options were dropped because oxlint's schema does not accept them. Only the severity level was kept.
+
+`import/no-cycle`, `jsx-a11y/anchor-has-content`, `react/jsx-no-duplicate-props`
+
+</details>
+
+<details>
 <summary>135 rules have no oxlint equivalent</summary>
 
 **Not portable to oxlint**
@@ -70,6 +79,15 @@ Multiple configs can be combined. Later entries take precedence:
 </details>
 
 ### `oxlint-config-presets/airbnb/base`
+
+<details>
+<summary>1 rules migrated without options (incompatible schema)</summary>
+
+These rules are enabled but their configuration options were dropped because oxlint's schema does not accept them. Only the severity level was kept.
+
+`import/no-cycle`
+
+</details>
 
 <details>
 <summary>92 rules have no oxlint equivalent</summary>
@@ -102,6 +120,15 @@ Multiple configs can be combined. Later entries take precedence:
 </details>
 
 ### `oxlint-config-presets/airbnb/whitespace`
+
+<details>
+<summary>3 rules migrated without options (incompatible schema)</summary>
+
+These rules are enabled but their configuration options were dropped because oxlint's schema does not accept them. Only the severity level was kept.
+
+`import/no-cycle`, `jsx-a11y/anchor-has-content`, `react/jsx-no-duplicate-props`
+
+</details>
 
 <details>
 <summary>135 rules have no oxlint equivalent</summary>

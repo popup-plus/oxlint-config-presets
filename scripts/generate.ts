@@ -311,6 +311,7 @@ interface GenerateResult {
   config: ConfigEntry;
   oxlintResult: OxlintConfig;
   skipped: Record<string, string[]>;
+  strippedOptions: string[];
   warnings: string[];
 }
 
@@ -344,6 +345,8 @@ for (const config of configs) {
   const dummyFile = join(rootDir, 'tests/fixtures/sample.js');
   const oxlintBin = join(rootDir, 'node_modules/.bin/oxlint');
 
+  const strippedOptions: string[] = [];
+
   for (let attempt = 1; ; attempt++) {
     writeFileSync(outputPath, JSON.stringify(oxlintResult, null, 2) + '\n');
 
@@ -371,6 +374,7 @@ for (const config of configs) {
       if (Array.isArray(value) && value.length > 0) {
         // Keep only the severity, dropping the incompatible options object.
         (oxlintResult.rules as Record<string, unknown>)[ruleName] = value[0];
+        if (!strippedOptions.includes(ruleName)) strippedOptions.push(ruleName);
         console.log(`  [fix] Stripped options from ${ruleName}`);
       }
     }
@@ -383,6 +387,7 @@ for (const config of configs) {
     config,
     oxlintResult,
     skipped: reporter.getSkippedRulesByCategory(),
+    strippedOptions,
     warnings: reporter.getWarnings(),
   });
 }
@@ -435,8 +440,19 @@ const table =
   tableRows;
 
 const configSections = results
-  .map(({ config, skipped, warnings }) => {
+  .map(({ config, skipped, strippedOptions, warnings }) => {
     const parts: string[] = [`### \`${config.exportName}\``];
+
+    if (strippedOptions.length > 0) {
+      const ruleList = strippedOptions.map((r) => `\`${r}\``).join(', ');
+      parts.push(
+        `<details>\n` +
+        `<summary>${strippedOptions.length} rules migrated without options (incompatible schema)</summary>\n\n` +
+        `These rules are enabled but their configuration options were dropped because oxlint's schema does not accept them. Only the severity level was kept.\n\n` +
+        `${ruleList}\n\n` +
+        `</details>`,
+      );
+    }
 
     const section = skippedSection(skipped);
     if (section) parts.push(section);
