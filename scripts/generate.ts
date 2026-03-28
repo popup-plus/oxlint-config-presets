@@ -439,9 +439,36 @@ const table =
   `|---|---|---|\n` +
   tableRows;
 
+function migratedSection(rules: OxlintConfig['rules'], strippedOptions: string[]): string {
+  const entries = Object.entries(rules ?? {}).filter(
+    ([name]) => !strippedOptions.includes(name),
+  );
+  if (entries.length === 0) return '';
+
+  const rows = entries
+    .map(([name, value]) => {
+      const severity = Array.isArray(value) ? String(value[0]) : String(value);
+      const hasOptions = Array.isArray(value) && value.length > 1;
+      return `| \`${name}\` | ${severity}${hasOptions ? ' *(with options)*' : ''} |`;
+    })
+    .join('\n');
+
+  return (
+    `<details>\n` +
+    `<summary>${entries.length} rules successfully migrated</summary>\n\n` +
+    `| Rule | Severity |\n` +
+    `|---|---|\n` +
+    `${rows}\n\n` +
+    `</details>`
+  );
+}
+
 const configSections = results
-  .map(({ config, skipped, strippedOptions, warnings }) => {
+  .map(({ config, oxlintResult, skipped, strippedOptions, warnings }) => {
     const parts: string[] = [`### \`${config.exportName}\``];
+
+    const migrated = migratedSection(oxlintResult.rules, strippedOptions);
+    if (migrated) parts.push(migrated);
 
     if (strippedOptions.length > 0) {
       const ruleList = strippedOptions.map((r) => `\`${r}\``).join(', ');
