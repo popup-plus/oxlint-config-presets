@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
-import { globSync, mkdtempSync, writeFileSync, rmSync } from 'node:fs';
+import { globSync, mkdtempSync, realpathSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -20,7 +20,10 @@ for (const configFile of configFiles) {
   const label = configFile;
 
   test(`oxlint runs without config errors using ${label}`, () => {
-    const tempDir = mkdtempSync(join(tmpdir(), 'oxlint-config-test-'));
+    // realpathSync resolves symlinks (e.g. /var -> /private/var on macOS) so
+    // that the relative path computed by relative() stays correct when oxlint
+    // resolves '..' segments against the real filesystem path.
+    const tempDir = realpathSync(mkdtempSync(join(tmpdir(), 'oxlint-config-test-')));
     try {
       // Simulate how a user would extend one of the package configs:
       // write a minimal .oxlintrc.json that extends the target config,
