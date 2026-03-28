@@ -4,6 +4,9 @@
   "description": "Oxlint configurations ported from popular ESLint styleguides",
   "license": "MIT",
   "type": "module",
+  "publishConfig": {
+    "directory": "configs"
+  },
   "exports": {
     "./airbnb": "./airbnb/index.json",
     "./airbnb/base": "./airbnb/base.json",

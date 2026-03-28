@@ -17,6 +17,7 @@ import migrate from '@oxlint/migrate';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, '..');
+const configsDir = join(rootDir, 'configs');
 
 // Use createRequire so we can require() CJS ESLint configs from ESM context
 const req = createRequire(join(rootDir, 'package.json'));
@@ -176,12 +177,12 @@ for (const config of configs) {
   // relative path to oxlint's schema would be wrong from that location.
   delete result.$schema;
 
-  const outputPath = join(rootDir, config.output);
+  const outputPath = join(configsDir, config.output);
   mkdirSync(dirname(outputPath), { recursive: true });
   writeFileSync(outputPath, JSON.stringify(result, null, 2) + '\n');
 
   const ruleCount = Object.keys(result.rules ?? {}).length;
-  console.log(`  Written to ${config.output} (${ruleCount} oxlint rules)`);
+  console.log(`  Written to configs/${config.output} (${ruleCount} oxlint rules)`);
 }
 
 console.log('\nDone.');
