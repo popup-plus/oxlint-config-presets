@@ -1,7 +1,43 @@
 {
-  "plugins": ["unicorn", "jsdoc", "typescript", "node"],
+  "plugins": ["unicorn", "jsdoc", "typescript"],
   "options": {
     "typeAware": true
+  },
+  "settings": {
+    "jsdoc": {
+      "mode": "typescript",
+      "tagNamePreference": {
+        "file": "fileoverview",
+        "augments": "extends",
+        "class": "constructor"
+      },
+      "preferredTypes": {
+        "*": {
+          "message": "Use a more precise type or if necessary use `any` or `ArbitraryCallbackResult`",
+          "replacement": "any"
+        },
+        "Any": {
+          "message": "Use a more precise type or if necessary use `any` or `ArbitraryCallbackResult`",
+          "replacement": "any"
+        },
+        "function": {
+          "message": "Point to a `@callback` namepath or `Function` if truly arbitrary in form",
+          "replacement": "Function"
+        },
+        "Promise": {
+          "message": "Specify the specific Promise type, including, if necessary, the type `any`"
+        },
+        ".<>": {
+          "message": "Prefer type form without dot",
+          "replacement": "<>"
+        },
+        "object": {
+          "message": "Use the specific object type or `Object` if truly arbitrary",
+          "replacement": "Object"
+        },
+        "array": "Array"
+      }
+    }
   },
   "rules": {
     "unicorn/prefer-array-find": "error",
@@ -193,10 +229,33 @@
       {
         "exceptRange": true
       }
-    ],
-    "node/no-exports-assign": "error",
-    "node/handle-callback-err": ["error", "err"],
-    "node/no-new-require": "error",
-    "node/no-path-concat": "error"
-  }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "rules": {
+        "node/no-exports-assign": "error",
+        "node/handle-callback-err": ["error", "err"]
+      },
+      "plugins": ["node"],
+      "env": {
+        "es2024": true
+      }
+    },
+    {
+      "files": ["**/*.cjs"],
+      "rules": {
+        "node/no-exports-assign": "error",
+        "node/handle-callback-err": ["error", "err"],
+        "node/no-new-require": "error",
+        "node/no-path-concat": "error"
+      },
+      "plugins": ["node"],
+      "env": {
+        "commonjs": true,
+        "es2024": true
+      }
+    }
+  ]
 }
