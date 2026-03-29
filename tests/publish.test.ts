@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
+import { globSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
@@ -25,35 +26,9 @@ test('package.json is included', () => {
   assert.ok(publishedFiles.includes('package.json'));
 });
 
-const expectedConfigs = [
-  'airbnb.json',
-  'airbnb/base.json',
-  'airbnb/hooks.json',
-  'airbnb/legacy.json',
-  'airbnb/whitespace.json',
-  'standard.json',
-  'google.json',
-  '@eslint/recommended.json',
-  '@eslint/all.json',
-  '@typescript-eslint/recommended.json',
-  '@typescript-eslint/recommended-type-checked.json',
-  '@typescript-eslint/strict.json',
-  '@typescript-eslint/strict-type-checked.json',
-  '@typescript-eslint/stylistic.json',
-  '@typescript-eslint/stylistic-type-checked.json',
-  '@typescript-eslint/all.json',
-  'xo.json',
-  'problems.json',
-  'hardcore.json',
-  'wikimedia.json',
-  'eslint.json',
-  'eslint/base.json',
-  'alloy.json',
-  'alloy/react.json',
-  'alloy/typescript.json',
-  'prettier.json',
-  '@antfu.json',
-];
+const expectedConfigs = globSync('configs/**/*.json', { cwd: rootDir })
+  .map((f) => f.replace(/^configs\//, ''))
+  .filter((f) => f !== 'package.json');
 
 for (const file of expectedConfigs) {
   test(`${file} is included`, () => {
