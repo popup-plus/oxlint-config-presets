@@ -130,15 +130,23 @@ function resolvePluginConfig(pluginRef: string, visited = new Set<string>()): Es
 
 function createReporter() {
   const warnings: string[] = [];
-  const skipped: Record<string, string[]> = {};
+  const skipped: Record<RuleSkippedCategory, string[]> = {
+    nursery: [],
+    'type-aware': [],
+    'not-implemented': [],
+    unsupported: [],
+    'js-plugins': [],
+  };
   return {
-    addWarning: (message: string) => warnings.push(message),
-    getWarnings: () => warnings,
-    markSkipped: (rule: string, category: string) => {
-      (skipped[category] ??= []).push(rule);
+    addWarning: (message: string) => {
+      warnings.push(message);
     },
-    removeSkipped: (rule: string, category: string) => {
-      skipped[category] = (skipped[category] ?? []).filter((r) => r !== rule);
+    getWarnings: () => warnings,
+    markSkipped: (rule: string, category: RuleSkippedCategory) => {
+      skipped[category].push(rule);
+    },
+    removeSkipped: (rule: string, category: RuleSkippedCategory) => {
+      skipped[category] = skipped[category].filter((r) => r !== rule);
     },
     getSkippedRulesByCategory: () => skipped,
   };
@@ -381,6 +389,13 @@ const configs: ConfigEntry[] = [
   { sourcePackage: '@antfu/eslint-config', sourceConfig: '', resolveRules: fromAntfu },
 ];
 
+type RuleSkippedCategory =
+  | 'nursery'
+  | 'type-aware'
+  | 'not-implemented'
+  | 'unsupported'
+  | 'js-plugins';
+
 interface GenerateResult {
   config: ConfigEntry;
   oxlintResult: OxlintConfig;
@@ -403,11 +418,15 @@ for (const config of configs) {
 
   // Pass the flattened rules as a single ESLint flat config object.
   // migrate() returns an oxlint-compatible config with supported rules only.
-  const oxlintResult = await migrate({ rules }, undefined, {
-    reporter,
-    withNursery: true,
-    typeAware: true,
-  });
+  const oxlintResult = await migrate(
+    { rules } as unknown as Parameters<typeof migrate>[0],
+    undefined,
+    {
+      reporter,
+      withNursery: true,
+      typeAware: true,
+    },
+  );
 
   // Remove fields that are identical in every generated config and add no value
   // when the config is used via extends.
