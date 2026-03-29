@@ -536,7 +536,8 @@ function migratedSection(rules: OxlintConfig['rules'], strippedOptions: string[]
 
 const configSections = results
   .map(({ config, oxlintResult, skipped, strippedOptions, warnings }) => {
-    const extendsExample = `"./node_modules/oxlint-config-presets/${outputFor(config)}"`;
+    const extendsExample =
+      `\`\`\`json\n` + `"./node_modules/oxlint-config-presets/${outputFor(config)}"\n` + `\`\`\``;
     const parts: string[] = [`### \`${outputFor(config)}\``, extendsExample];
 
     const migrated = migratedSection(oxlintResult.rules, strippedOptions);
