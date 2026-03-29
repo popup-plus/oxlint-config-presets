@@ -37,23 +37,12 @@ jobs:
           remote_dir=$(mktemp -d)
           local_dir=$(mktemp -d)
 
-          if (cd "$remote_dir" && npm pack "${PACKAGE_NAME}@latest" --silent >/dev/null 2>&1); then
-            REMOTE_VERSION=$(npm view "${PACKAGE_NAME}@latest" version)
-            echo "Local version: $LOCAL_VERSION"
-            echo "Remote version: $REMOTE_VERSION"
-
-            if [ "$LOCAL_VERSION" != "$REMOTE_VERSION" ]; then
-              echo "Version already differs; publish without bump."
-              echo "should_publish=true" >> "$GITHUB_OUTPUT"
-              echo "should_bump=false" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-
+          if (cd "$remote_dir" && npm pack "${PACKAGE_NAME}@${LOCAL_VERSION}" --silent >/dev/null 2>&1); then
             remote_tgz=$(find "$remote_dir" -maxdepth 1 -name '*.tgz' -print -quit)
             mkdir -p "$remote_dir/extracted"
             tar -xzf "$remote_tgz" -C "$remote_dir/extracted"
           else
-            echo "Package not found on npm yet; publishing required."
+            echo "Current version not found on npm; publishing required without bump."
             echo "should_publish=true" >> "$GITHUB_OUTPUT"
             echo "should_bump=false" >> "$GITHUB_OUTPUT"
             exit 0
@@ -89,13 +78,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: release $(node -p \"require('./package.json').version\")"
+          git commit -m "Release $(node -p \"require('./package.json').version\")"
 
       - name: Publish to npm
         if: steps.plan.outputs.should_publish == 'true'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: pnpm publish --no-git-checks
+        run: pnpm publish
 
       - name: Push version bump commit
         if: steps.plan.outputs.should_bump == 'true'
