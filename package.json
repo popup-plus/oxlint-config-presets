@@ -2,7 +2,22 @@
   "name": "oxlint-config-presets",
   "version": "0.1.0",
   "description": "Oxlint configurations ported from popular ESLint styleguides",
+  "keywords": [
+    "config",
+    "eslint",
+    "lint",
+    "oxlint",
+    "styleguide"
+  ],
+  "homepage": "https://github.com/bartlangelaan/oxlint-config-presets#readme",
+  "bugs": {
+    "url": "https://github.com/bartlangelaan/oxlint-config-presets/issues"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartlangelaan/oxlint-config-presets.git"
+  },
   "type": "module",
   "publishConfig": {
     "directory": "configs"
