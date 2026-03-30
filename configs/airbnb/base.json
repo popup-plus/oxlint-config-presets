@@ -388,6 +388,166 @@
     "import/no-webpack-loader-syntax": "error",
     "import/no-named-default": "error",
     "import/no-self-import": "error",
-    "import/no-cycle": "error"
+    "import/no-cycle": "error",
+    "accessor-pairs": "off",
+    "complexity": ["off", 20],
+    "no-div-regex": "off",
+    "no-eq-null": "off",
+    "no-implicit-coercion": [
+      "off",
+      {
+        "boolean": false,
+        "number": true,
+        "string": true,
+        "allow": []
+      }
+    ],
+    "no-magic-numbers": [
+      "off",
+      {
+        "ignore": [],
+        "ignoreArrayIndexes": true,
+        "enforceConst": true,
+        "detectObjects": false
+      }
+    ],
+    "no-unmodified-loop-condition": "off",
+    "no-warning-comments": [
+      "off",
+      {
+        "terms": ["todo", "fixme", "xxx"],
+        "location": "start"
+      }
+    ],
+    "require-await": "off",
+    "no-unused-private-class-members": "off",
+    "capitalized-comments": [
+      "off",
+      "never",
+      {
+        "line": {
+          "ignorePattern": ".*",
+          "ignoreInlineComments": true,
+          "ignoreConsecutiveComments": true
+        },
+        "block": {
+          "ignorePattern": ".*",
+          "ignoreInlineComments": true,
+          "ignoreConsecutiveComments": true
+        }
+      }
+    ],
+    "func-style": ["off", "expression"],
+    "id-length": "off",
+    "max-depth": ["off", 4],
+    "max-lines": [
+      "off",
+      {
+        "max": 300,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "max-lines-per-function": [
+      "off",
+      {
+        "max": 50,
+        "skipBlankLines": true,
+        "skipComments": true,
+        "IIFEs": true
+      }
+    ],
+    "max-nested-callbacks": "off",
+    "max-params": ["off", 3],
+    "max-statements": ["off", 10],
+    "no-inline-comments": "off",
+    "no-negated-condition": "off",
+    "no-ternary": "off",
+    "sort-keys": [
+      "off",
+      "asc",
+      {
+        "caseSensitive": false,
+        "natural": true
+      }
+    ],
+    "sort-vars": "off",
+    "init-declarations": "off",
+    "no-undefined": "off",
+    "no-duplicate-imports": "off",
+    "no-restricted-imports": [
+      "off",
+      {
+        "paths": [],
+        "patterns": []
+      }
+    ],
+    "import/default": "off",
+    "import/namespace": "off",
+    "import/no-commonjs": "off",
+    "import/no-nodejs-modules": "off",
+    "import/no-namespace": "off",
+    "import/max-dependencies": [
+      "off",
+      {
+        "max": 10
+      }
+    ],
+    "import/unambiguous": "off",
+    "import/no-unassigned-import": "off",
+    "import/no-anonymous-default-export": [
+      "off",
+      {
+        "allowArray": false,
+        "allowArrowFunction": false,
+        "allowAnonymousClass": false,
+        "allowAnonymousFunction": false,
+        "allowLiteral": false,
+        "allowObject": false
+      }
+    ],
+    "import/exports-last": "off",
+    "import/group-exports": "off",
+    "import/no-default-export": "off",
+    "import/no-named-export": "off",
+    "import/no-relative-parent-imports": "off",
+    "react/display-name": [
+      "off",
+      {
+        "ignoreTranspilerName": false
+      }
+    ],
+    "react/forbid-dom-props": [
+      "off",
+      {
+        "forbid": []
+      }
+    ],
+    "react/jsx-handler-names": [
+      "off",
+      {
+        "eventHandlerPrefix": "handle",
+        "eventHandlerPropPrefix": "on"
+      }
+    ],
+    "react/jsx-key": "off",
+    "react/no-did-mount-set-state": "off",
+    "react/no-direct-mutation-state": "off",
+    "react/no-multi-comp": "off",
+    "react/no-set-state": "off",
+    "react/forbid-elements": [
+      "off",
+      {
+        "forbid": []
+      }
+    ],
+    "react/jsx-max-depth": "off",
+    "react/no-unsafe": "off",
+    "jsx-a11y/autocomplete-valid": [
+      "off",
+      {
+        "inputComponents": []
+      }
+    ]
   }
 }

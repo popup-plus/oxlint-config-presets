@@ -511,6 +511,93 @@
       }
     ],
     "curly": "error",
-    "arrow-body-style": "error"
+    "arrow-body-style": "error",
+    "no-div-regex": "off",
+    "capitalized-comments": [
+      "off",
+      "never",
+      {
+        "line": {
+          "ignorePattern": ".*",
+          "ignoreInlineComments": true,
+          "ignoreConsecutiveComments": true
+        },
+        "block": {
+          "ignorePattern": ".*",
+          "ignoreInlineComments": true,
+          "ignoreConsecutiveComments": true
+        }
+      }
+    ],
+    "max-lines-per-function": [
+      "off",
+      {
+        "max": 50,
+        "skipBlankLines": true,
+        "skipComments": true,
+        "IIFEs": true
+      }
+    ],
+    "no-inline-comments": "off",
+    "no-negated-condition": "off",
+    "no-ternary": "off",
+    "sort-keys": [
+      "off",
+      "asc",
+      {
+        "caseSensitive": false,
+        "natural": true
+      }
+    ],
+    "sort-vars": "off",
+    "no-undefined": "off",
+    "import/no-nodejs-modules": "off",
+    "import/no-unassigned-import": "off",
+    "import/group-exports": "off",
+    "import/no-default-export": "off",
+    "import/no-named-export": "off",
+    "import/no-relative-parent-imports": "off",
+    "react/display-name": [
+      "off",
+      {
+        "ignoreTranspilerName": false
+      }
+    ],
+    "react/forbid-dom-props": [
+      "off",
+      {
+        "forbid": []
+      }
+    ],
+    "react/jsx-handler-names": [
+      "off",
+      {
+        "eventHandlerPrefix": "handle",
+        "eventHandlerPropPrefix": "on"
+      }
+    ],
+    "react/jsx-key": "off",
+    "react/no-did-mount-set-state": "off",
+    "react/no-direct-mutation-state": "off",
+    "react/no-multi-comp": "off",
+    "react/no-set-state": "off",
+    "react/forbid-elements": [
+      "off",
+      {
+        "forbid": []
+      }
+    ],
+    "react/jsx-max-depth": "off",
+    "react/no-unsafe": "off",
+    "jsx-a11y/autocomplete-valid": [
+      "off",
+      {
+        "inputComponents": []
+      }
+    ],
+    "no-unexpected-multiline": "off",
+    "unicorn/empty-brace-spaces": "off",
+    "unicorn/no-nested-ternary": "off",
+    "unicorn/number-literal-case": "off"
   }
 }

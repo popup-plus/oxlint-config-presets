@@ -720,6 +720,26 @@ interface GenerateResult {
   warnings: string[];
 }
 
+function isRuleDisabledInOxlint(ruleValue: unknown): boolean {
+  if (ruleValue === 0 || ruleValue === 'off') return true;
+  if (Array.isArray(ruleValue)) {
+    const severity: unknown = ruleValue[0];
+    return severity === 0 || severity === 'off';
+  }
+  return false;
+}
+
+const fullyEnabledOxlintConfig: OxlintConfig = {
+  categories: {
+    correctness: 'error',
+    suspicious: 'error',
+    pedantic: 'error',
+    style: 'error',
+    restriction: 'error',
+    nursery: 'error',
+  },
+};
+
 function sanitizeOxlintConfig(config: OxlintConfig): void {
   if (Array.isArray(config.overrides)) {
     config.overrides = config.overrides
@@ -755,6 +775,32 @@ for (const config of configs) {
     withNursery: true,
     typeAware: true,
   });
+  const disabledRulesResult = await migrate(eslintConfig, fullyEnabledOxlintConfig, {
+    reporter,
+    merge: true,
+    withNursery: true,
+    typeAware: true,
+  });
+
+  if (disabledRulesResult.rules) {
+    oxlintResult.rules ??= {};
+    for (const [ruleName, disabledRuleValue] of Object.entries(disabledRulesResult.rules)) {
+      if (!isRuleDisabledInOxlint(disabledRuleValue)) continue;
+      const existingValue = oxlintResult.rules[ruleName];
+      if (
+        existingValue !== undefined &&
+        JSON.stringify(existingValue) !== JSON.stringify(disabledRuleValue)
+      ) {
+        reporter.addWarning(
+          `Rule merge conflict for \`${ruleName}\`: keeping primary migration value ${JSON.stringify(existingValue)} over secondary migration value ${JSON.stringify(disabledRuleValue)}.`,
+        );
+        continue;
+      }
+      if (existingValue === undefined) {
+        oxlintResult.rules[ruleName] = disabledRuleValue;
+      }
+    }
+  }
 
   // Remove fields that are identical in every generated config and add no value
   // when the config is used via extends.
