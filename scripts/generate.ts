@@ -201,8 +201,6 @@ function createReporter() {
 interface ConfigEntry {
   /** npm package name of the source ESLint config, e.g. 'eslint-config-airbnb' */
   sourcePackage: string;
-  /** Optional package name used only for version reporting in README. */
-  sourceVersionPackage?: string;
   /** config variant within the package, e.g. 'base'; empty string for the main export */
   sourceConfig: string;
   /** Returns an ESLint flat config (or array) to migrate */
@@ -306,6 +304,33 @@ const fromPackage = (pkg: string) => () => {
   const configPath = req.resolve(pkg);
   const config = req(configPath) as OldStyleEslintConfig;
   return oldStyleToFlat(config, dirname(configPath));
+};
+
+/**
+ * Some shareable packages export old-style config objects (`extends` + `rules`)
+ * while others export flat config objects or arrays of flat config entries.
+ *
+ * We use this helper for packages like `eslint-config-next` that can expose
+ * either shape depending on version/entrypoint, and normalize them into a
+ * single `{ rules }` payload for migration.
+ */
+const fromPackageRulesOnly = (pkg: string) => () => {
+  const configPath = req.resolve(pkg);
+  const config = req(configPath) as OldStyleEslintConfig | MigrateConfig | MigrateConfig[];
+
+  if (Array.isArray(config)) {
+    const mergedRules: ResolvedRules = {};
+    for (const entry of config) {
+      Object.assign(mergedRules, entry.rules ?? {});
+    }
+    return [{ rules: mergedRules }];
+  }
+
+  if (isOldStyleConfig(config)) {
+    return [{ rules: mergeRulesFromConfigObject(config) }];
+  }
+
+  return [{ rules: config.rules ?? {} }];
 };
 
 // @typescript-eslint uses flat config arrays in `configs.flat/*`.
@@ -579,15 +604,13 @@ const configs: ConfigEntry[] = [
   // ── next / react-perf ─────────────────────────────────────────────────────
   {
     sourcePackage: 'eslint-config-next',
-    sourceVersionPackage: '@next/eslint-plugin-next',
     sourceConfig: 'recommended',
-    resolveConfig: fromPluginPackage('@next/eslint-plugin-next', 'recommended'),
+    resolveConfig: fromPackageRulesOnly('eslint-config-next'),
   },
   {
     sourcePackage: 'eslint-config-next',
-    sourceVersionPackage: '@next/eslint-plugin-next',
     sourceConfig: 'core-web-vitals',
-    resolveConfig: fromPluginPackage('@next/eslint-plugin-next', 'core-web-vitals'),
+    resolveConfig: fromPackageRulesOnly('eslint-config-next/core-web-vitals'),
   },
   {
     sourcePackage: 'eslint-plugin-react-perf',
@@ -817,9 +840,7 @@ for (const config of configs) {
   results.push({
     config: {
       ...config,
-      sourcePackageVersion: getInstalledPackageVersion(
-        config.sourceVersionPackage ?? config.sourcePackage,
-      ),
+      sourcePackageVersion: getInstalledPackageVersion(config.sourcePackage),
     },
     oxlintResult,
     skipped: reporter.getSkippedRulesByCategory(),
