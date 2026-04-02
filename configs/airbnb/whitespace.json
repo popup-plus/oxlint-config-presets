@@ -39,7 +39,6 @@
         "enforceForClassFields": true
       }
     ],
-    "@typescript-eslint/consistent-return": ["warn"],
     "curly": ["warn", "multi-line"],
     "default-case": [
       "warn",
@@ -49,13 +48,6 @@
     ],
     "default-case-last": ["warn"],
     "default-param-last": ["warn"],
-    "@typescript-eslint/dot-notation": [
-      "warn",
-      {
-        "allowKeywords": true,
-        "allowPattern": ""
-      }
-    ],
     "eqeqeq": [
       "warn",
       "always",
@@ -750,6 +742,14 @@
     "jsx-a11y/role-has-required-aria-props": ["warn"],
     "jsx-a11y/role-supports-aria-props": ["warn"],
     "jsx-a11y/scope": ["warn"],
-    "jsx-a11y/tabindex-no-positive": ["warn"]
+    "jsx-a11y/tabindex-no-positive": ["warn"],
+    "typescript/consistent-return": ["warn"],
+    "typescript/dot-notation": [
+      "warn",
+      {
+        "allowKeywords": true,
+        "allowPattern": ""
+      }
+    ]
   }
 }

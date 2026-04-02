@@ -19,7 +19,6 @@
         "exceptMethods": []
       }
     ],
-    "@typescript-eslint/consistent-return": "error",
     "curly": ["error", "multi-line"],
     "default-case": [
       "error",
@@ -29,12 +28,6 @@
     ],
     "default-case-last": "error",
     "default-param-last": "error",
-    "@typescript-eslint/dot-notation": [
-      "error",
-      {
-        "allowKeywords": true
-      }
-    ],
     "eqeqeq": [
       "error",
       "always",
@@ -511,6 +504,13 @@
     "import/no-named-export": "off",
     "import/no-self-import": "error",
     "import/no-cycle": "error",
-    "import/no-relative-parent-imports": "off"
+    "import/no-relative-parent-imports": "off",
+    "typescript/consistent-return": "error",
+    "typescript/dot-notation": [
+      "error",
+      {
+        "allowKeywords": true
+      }
+    ]
   }
 }

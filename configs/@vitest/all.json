@@ -29,6 +29,7 @@
     "vitest/no-test-prefixes": "warn",
     "vitest/no-test-return-statement": "warn",
     "vitest/no-unneeded-async-expect-function": "warn",
+    "vitest/prefer-called-exactly-once-with": "warn",
     "vitest/prefer-called-once": "off",
     "vitest/prefer-called-times": "warn",
     "vitest/prefer-called-with": "warn",
@@ -51,13 +52,18 @@
     "vitest/prefer-to-be-truthy": "off",
     "vitest/prefer-to-be": "warn",
     "vitest/prefer-to-contain": "warn",
+    "vitest/prefer-to-have-been-called-times": "warn",
     "vitest/prefer-to-have-length": "warn",
     "vitest/prefer-todo": "warn",
+    "vitest/require-awaited-expect-poll": "warn",
     "vitest/require-hook": "warn",
     "vitest/require-local-test-context-for-concurrent-snapshots": "warn",
+    "vitest/require-mock-type-parameters": "warn",
+    "vitest/require-test-timeout": "off",
     "vitest/require-to-throw-message": "warn",
     "vitest/require-top-level-describe": "warn",
     "vitest/valid-describe-callback": "warn",
-    "vitest/valid-expect": "warn"
+    "vitest/valid-expect": "warn",
+    "vitest/valid-title": "warn"
   }
 }

@@ -15,12 +15,6 @@
     "block-scoped-var": "error",
     "constructor-super": "error",
     "default-case-last": "error",
-    "@typescript-eslint/dot-notation": [
-      "error",
-      {
-        "allowKeywords": true
-      }
-    ],
     "eqeqeq": ["error", "smart"],
     "new-cap": [
       "error",
@@ -214,7 +208,13 @@
     "unicorn/prefer-number-properties": "error",
     "unicorn/prefer-string-starts-ends-with": "error",
     "unicorn/prefer-type-error": "error",
-    "unicorn/throw-new-error": "error"
+    "unicorn/throw-new-error": "error",
+    "typescript/dot-notation": [
+      "error",
+      {
+        "allowKeywords": true
+      }
+    ]
   },
   "overrides": [
     {

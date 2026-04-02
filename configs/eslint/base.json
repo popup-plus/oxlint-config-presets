@@ -151,17 +151,10 @@
     "array-callback-return": "error",
     "arrow-body-style": ["error", "as-needed"],
     "class-methods-use-this": "error",
-    "@typescript-eslint/consistent-return": "error",
     "curly": ["error", "all"],
     "default-case": "error",
     "default-case-last": "error",
     "default-param-last": "error",
-    "@typescript-eslint/dot-notation": [
-      "error",
-      {
-        "allowKeywords": true
-      }
-    ],
     "eqeqeq": "error",
     "func-style": ["error", "declaration"],
     "grouped-accessor-pairs": "error",
@@ -230,6 +223,13 @@
       "never",
       {
         "exceptRange": true
+      }
+    ],
+    "typescript/consistent-return": "error",
+    "typescript/dot-notation": [
+      "error",
+      {
+        "allowKeywords": true
       }
     ]
   }
