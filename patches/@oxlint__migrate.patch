@@ -1,12 +1,10 @@
-diff --git a/dist/src-DEzNNXJD.mjs b/dist/src-DEzNNXJD.mjs
-index f1d400fbcb32bc997f5e6eb4b457f3ff687cf014..93e0e973fbcd594724872fc7abfc69669200cb1c 100644
---- a/dist/src-DEzNNXJD.mjs
-+++ b/dist/src-DEzNNXJD.mjs
-@@ -1933,7 +1933,6 @@ const cleanUpOxlintConfig = (config) => {
+--- a/dist/src-BLIW50Ng.mjs
++++ b/dist/src-BLIW50Ng.mjs
+@@ -1942,7 +1942,6 @@
  	}
  	if (!("files" in config)) {
  		cleanUpUselessOverridesEntries(config);
 -		cleanUpDisabledRootRules(config);
+ 		cleanUpUnusedJsPlugins(config);
  	}
  };
- /**

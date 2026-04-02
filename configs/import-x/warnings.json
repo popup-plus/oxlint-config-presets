@@ -1,8 +1,8 @@
 {
   "plugins": ["import"],
   "rules": {
-    "import-x/no-named-as-default": "warn",
-    "import-x/no-named-as-default-member": "warn",
-    "import-x/no-duplicates": "warn"
+    "import/no-named-as-default": "warn",
+    "import/no-named-as-default-member": "warn",
+    "import/no-duplicates": "warn"
   }
 }

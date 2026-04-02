@@ -22,12 +22,6 @@
     "constructor-super": "error",
     "curly": ["error", "multi-line"],
     "default-case-last": "error",
-    "@typescript-eslint/dot-notation": [
-      "error",
-      {
-        "allowKeywords": true
-      }
-    ],
     "eqeqeq": [
       "error",
       "always",
@@ -208,6 +202,12 @@
     "node/handle-callback-err": ["error", "^(err|error)$"],
     "node/no-exports-assign": "error",
     "node/no-new-require": "error",
-    "node/no-path-concat": "error"
+    "node/no-path-concat": "error",
+    "typescript/dot-notation": [
+      "error",
+      {
+        "allowKeywords": true
+      }
+    ]
   }
 }

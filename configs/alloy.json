@@ -22,12 +22,10 @@
         "max": 20
       }
     ],
-    "@typescript-eslint/consistent-return": "off",
     "constructor-super": "error",
     "default-case": "off",
     "default-case-last": "error",
     "default-param-last": "off",
-    "@typescript-eslint/dot-notation": "off",
     "eqeqeq": ["error", "always"],
     "for-direction": "error",
     "func-names": "off",
@@ -229,6 +227,8 @@
       {
         "onlyEquality": true
       }
-    ]
+    ],
+    "typescript/consistent-return": "off",
+    "typescript/dot-notation": "off"
   }
 }

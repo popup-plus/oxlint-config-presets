@@ -93,7 +93,6 @@
       }
     ],
     "accessor-pairs": "error",
-    "@typescript-eslint/dot-notation": "error",
     "eqeqeq": ["error", "smart"],
     "no-array-constructor": "error",
     "no-caller": "error",
@@ -151,6 +150,7 @@
       {
         "onlyEquality": true
       }
-    ]
+    ],
+    "typescript/dot-notation": "error"
   }
 }

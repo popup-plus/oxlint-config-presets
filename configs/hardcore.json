@@ -65,7 +65,6 @@
     "block-scoped-var": "error",
     "constructor-super": "error",
     "default-case": "error",
-    "@typescript-eslint/dot-notation": "error",
     "eqeqeq": "error",
     "guard-for-in": "error",
     "id-length": "error",
@@ -130,7 +129,6 @@
     "no-promise-executor-return": "error",
     "no-nonoctal-decimal-escape": "error",
     "init-declarations": "error",
-    "@typescript-eslint/consistent-return": "error",
     "no-unused-private-class-members": "error",
     "no-constant-binary-expression": "error",
     "no-empty-static-block": "error",
@@ -515,6 +513,8 @@
     "unicorn/empty-brace-spaces": "off",
     "unicorn/no-nested-ternary": "off",
     "unicorn/number-literal-case": "off",
-    "arrow-body-style": "error"
+    "arrow-body-style": "error",
+    "typescript/dot-notation": "error",
+    "typescript/consistent-return": "error"
   }
 }

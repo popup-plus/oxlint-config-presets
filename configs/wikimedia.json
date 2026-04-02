@@ -138,7 +138,6 @@
     "array-callback-return": "error",
     "block-scoped-var": "error",
     "curly": ["error", "all"],
-    "@typescript-eslint/dot-notation": ["error"],
     "eqeqeq": "error",
     "new-cap": [
       "error",
@@ -197,6 +196,7 @@
     "yoda": ["error", "never"],
     "unicorn/prefer-date-now": "error",
     "unicorn/prefer-string-slice": "error",
-    "unicorn/throw-new-error": "error"
+    "unicorn/throw-new-error": "error",
+    "typescript/dot-notation": ["error"]
   }
 }
