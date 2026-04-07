@@ -93,6 +93,7 @@
         "unicorn/prefer-dom-node-text-content": "error",
         "unicorn/prefer-event-target": "error",
         "unicorn/prefer-global-this": "error",
+        "unicorn/prefer-import-meta-properties": "off",
         "unicorn/prefer-includes": "error",
         "unicorn/prefer-keyboard-event-key": "error",
         "unicorn/prefer-logical-operator-over-ternary": "error",
@@ -379,6 +380,13 @@
         "no-useless-constructor": "error",
         "no-useless-rename": "error",
         "no-var": "error",
+        "object-shorthand": [
+          "error",
+          "always",
+          {
+            "avoidExplicitReturnArrows": true
+          }
+        ],
         "prefer-const": [
           "error",
           {

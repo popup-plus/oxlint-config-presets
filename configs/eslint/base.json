@@ -141,6 +141,7 @@
         "caughtErrors": "all"
       }
     ],
+    "no-useless-assignment": "error",
     "no-useless-catch": "error",
     "no-useless-escape": "error",
     "no-with": "error",
@@ -206,6 +207,13 @@
     "no-useless-rename": "error",
     "no-useless-return": "error",
     "no-var": "error",
+    "object-shorthand": [
+      "error",
+      "always",
+      {
+        "avoidExplicitReturnArrows": true
+      }
+    ],
     "operator-assignment": "error",
     "prefer-const": "error",
     "prefer-exponentiation-operator": "error",

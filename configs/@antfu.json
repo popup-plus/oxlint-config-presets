@@ -160,6 +160,14 @@
     "no-useless-return": "error",
     "no-var": "error",
     "no-with": "error",
+    "object-shorthand": [
+      "error",
+      "always",
+      {
+        "avoidQuotes": true,
+        "ignoreConstructors": false
+      }
+    ],
     "prefer-const": [
       "error",
       {

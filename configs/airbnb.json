@@ -421,6 +421,12 @@
     "no-const-assign": "error",
     "no-dupe-class-members": "error",
     "no-duplicate-imports": "off",
+    "no-restricted-exports": [
+      "error",
+      {
+        "restrictedNamedExports": ["default", "then"]
+      }
+    ],
     "no-restricted-imports": [
       "off",
       {
@@ -440,6 +446,14 @@
       }
     ],
     "no-var": "error",
+    "object-shorthand": [
+      "error",
+      "always",
+      {
+        "ignoreConstructors": false,
+        "avoidQuotes": true
+      }
+    ],
     "prefer-const": [
       "error",
       {

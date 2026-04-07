@@ -73,6 +73,7 @@
     "max-params": "error",
     "max-statements": "error",
     "new-cap": "error",
+    "object-shorthand": "error",
     "operator-assignment": "error",
     "prefer-const": "error",
     "prefer-spread": "error",

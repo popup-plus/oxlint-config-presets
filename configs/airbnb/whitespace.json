@@ -426,6 +426,12 @@
     "no-const-assign": ["warn"],
     "no-dupe-class-members": ["warn"],
     "no-duplicate-imports": "off",
+    "no-restricted-exports": [
+      "warn",
+      {
+        "restrictedNamedExports": ["default", "then"]
+      }
+    ],
     "no-restricted-imports": [
       "off",
       {
@@ -445,6 +451,14 @@
       }
     ],
     "no-var": ["warn"],
+    "object-shorthand": [
+      "warn",
+      "always",
+      {
+        "ignoreConstructors": false,
+        "avoidQuotes": true
+      }
+    ],
     "prefer-const": [
       "warn",
       {
