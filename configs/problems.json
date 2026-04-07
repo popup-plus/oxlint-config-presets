@@ -92,6 +92,7 @@
         "functions": false
       }
     ],
+    "no-useless-assignment": "error",
     "accessor-pairs": "error",
     "eqeqeq": ["error", "smart"],
     "no-array-constructor": "error",
@@ -124,6 +125,7 @@
     "no-useless-rename": "error",
     "no-useless-return": "error",
     "no-var": "error",
+    "object-shorthand": "error",
     "prefer-const": "error",
     "prefer-destructuring": [
       "error",

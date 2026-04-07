@@ -5,6 +5,7 @@
   },
   "rules": {
     "no-var": "warn",
+    "object-shorthand": ["warn", "properties"],
     "accessor-pairs": [
       "error",
       {
