@@ -1,6 +1,6 @@
---- a/dist/src-DuN61x5i.mjs
-+++ b/dist/src-DuN61x5i.mjs
-@@ -1954,7 +1954,6 @@
+--- a/dist/src-CZcyZXzR.mjs
++++ b/dist/src-CZcyZXzR.mjs
+@@ -1969,7 +1969,6 @@
  	}
  	if (!("files" in config)) {
  		cleanUpUselessOverridesEntries(config);
