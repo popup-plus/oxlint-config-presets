@@ -16,6 +16,7 @@
     "vitest/require-local-test-context-for-concurrent-snapshots": "error",
     "vitest/valid-describe-callback": "error",
     "vitest/valid-expect": "error",
+    "vitest/valid-expect-in-promise": "error",
     "vitest/valid-title": "error"
   }
 }

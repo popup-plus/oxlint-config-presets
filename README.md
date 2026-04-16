@@ -160,7 +160,7 @@ export default defineConfig({
   - vue2-strongly-recommended `vue/vue2-strongly-recommended.json`
   - vue2-strongly-recommended-error `vue/vue2-strongly-recommended-error.json`
 
-Generated with `@oxlint/migrate@1.59.0`.
+Generated with `@oxlint/migrate@1.60.0`.
 
 ### `airbnb.json`
 
@@ -206,6 +206,7 @@ These rules are enabled but their configuration options were dropped because oxl
 > react.version "detect" is not supported. Specify an explicit version (e.g., "18.2.0") in your oxlint config.
 > `react.pragma`
 > `propWrapperFunctions`
+> Added 65 globals to the root config. This may happen when your ESLint config uses a different version of the `globals` package than @oxlint/migrate. Try updating `globals` and rerun the migration to get a simpler config.
 
 ### `airbnb/base.json`
 
@@ -248,6 +249,7 @@ These rules are enabled but their configuration options were dropped because oxl
 > `import/extensions`
 > `import/core-modules`
 > `import/ignore`
+> Added 65 globals to the root config. This may happen when your ESLint config uses a different version of the `globals` package than @oxlint/migrate. Try updating `globals` and rerun the migration to get a simpler config.
 
 ### `airbnb/hooks.json`
 
@@ -291,6 +293,8 @@ Extracted from `eslint-config-airbnb@19.0.4`.
 `dot-location`, `no-floating-decimal`, `no-multi-spaces`, `no-octal`, `no-octal-escape`, `no-return-await`, `wrap-iife`, `no-dupe-args`, `no-extra-semi`, `global-require`, `no-buffer-constructor`, `no-new-require`, `no-path-concat`, `array-bracket-spacing`, `block-spacing`, `brace-style`, `camelcase`, `comma-dangle`, `comma-spacing`, `comma-style`, `computed-property-spacing`, `eol-last`, `function-call-argument-newline`, `func-call-spacing`, `function-paren-newline`, `implicit-arrow-linebreak`, `indent`, `key-spacing`, `keyword-spacing`, `linebreak-style`, `lines-between-class-members`, `lines-around-directive`, `max-len`, `new-parens`, `newline-per-chained-call`, `no-mixed-operators`, `no-mixed-spaces-and-tabs`, `no-multiple-empty-lines`, `no-new-object`, `no-spaced-func`, `no-tabs`, `no-trailing-spaces`, `no-whitespace-before-property`, `nonblock-statement-body-position`, `object-curly-spacing`, `object-curly-newline`, `object-property-newline`, `one-var-declaration-per-line`, `operator-linebreak`, `padded-blocks`, `quote-props`, `quotes`, `semi`, `semi-spacing`, `semi-style`, `space-before-blocks`, `space-before-function-paren`, `space-in-parens`, `space-infix-ops`, `space-unary-ops`, `spaced-comment`, `switch-colon-spacing`, `template-tag-spacing`, `no-undef-init`, `comma-dangle`
 
 </details>
+
+> Added 768 globals to the root config. This may happen when your ESLint config uses a different version of the `globals` package than @oxlint/migrate. Try updating `globals` and rerun the migration to get a simpler config.
 
 ### `airbnb/whitespace.json`
 
@@ -336,6 +340,7 @@ These rules are enabled but their configuration options were dropped because oxl
 > react.version "detect" is not supported. Specify an explicit version (e.g., "18.2.0") in your oxlint config.
 > `react.pragma`
 > `propWrapperFunctions`
+> Added 65 globals to the root config. This may happen when your ESLint config uses a different version of the `globals` package than @oxlint/migrate. Try updating `globals` and rerun the migration to get a simpler config.
 
 ### `standard.json`
 
@@ -364,6 +369,8 @@ Extracted from `eslint-config-standard@17.1.0`.
 `array-bracket-spacing`, `arrow-spacing`, `block-spacing`, `brace-style`, `camelcase`, `comma-dangle`, `comma-spacing`, `comma-style`, `computed-property-spacing`, `dot-location`, `eol-last`, `func-call-spacing`, `generator-star-spacing`, `indent`, `key-spacing`, `keyword-spacing`, `lines-between-class-members`, `multiline-ternary`, `new-parens`, `no-dupe-args`, `no-extra-parens`, `no-floating-decimal`, `no-mixed-operators`, `no-mixed-spaces-and-tabs`, `no-multi-spaces`, `no-multiple-empty-lines`, `no-new-object`, `no-new-symbol`, `no-octal`, `no-octal-escape`, `no-tabs`, `no-trailing-spaces`, `no-undef-init`, `no-whitespace-before-property`, `object-curly-newline`, `object-curly-spacing`, `object-property-newline`, `operator-linebreak`, `padded-blocks`, `quote-props`, `quotes`, `rest-spread-spacing`, `semi`, `semi-spacing`, `space-before-blocks`, `space-before-function-paren`, `space-in-parens`, `space-infix-ops`, `space-unary-ops`, `spaced-comment`, `template-curly-spacing`, `template-tag-spacing`, `wrap-iife`, `yield-star-spacing`
 
 </details>
+
+> Added 68 globals to the root config. This may happen when your ESLint config uses a different version of the `globals` package than @oxlint/migrate. Try updating `globals` and rerun the migration to get a simpler config.
 
 ### `google.json`
 
@@ -816,6 +823,7 @@ These rules are enabled but their configuration options were dropped because oxl
 </details>
 
 > special parser detected: @babel/eslint-parser
+> Added 768 globals to the root config. This may happen when your ESLint config uses a different version of the `globals` package than @oxlint/migrate. Try updating `globals` and rerun the migration to get a simpler config.
 
 ### `alloy/react.json`
 
@@ -1675,18 +1683,9 @@ Extracted from `eslint-plugin-promise@7.2.1`.
 Extracted from `eslint-plugin-jest@28.14.0`.
 
 <details>
-<summary>18 rules successfully migrated</summary>
+<summary>19 rules successfully migrated</summary>
 
-`jest/expect-expect`, `jest/no-alias-methods`, `jest/no-commented-out-tests`, `jest/no-conditional-expect`, `jest/no-deprecated-functions`, `jest/no-disabled-tests`, `jest/no-done-callback`, `jest/no-export`, `jest/no-focused-tests`, `jest/no-identical-title`, `jest/no-interpolation-in-snapshots`, `jest/no-jasmine-globals`, `jest/no-mocks-import`, `jest/no-standalone-expect`, `jest/no-test-prefixes`, `jest/valid-describe-callback`, `jest/valid-expect`, `jest/valid-title`
-
-</details>
-
-<details>
-<summary>1 rules have no oxlint equivalent</summary>
-
-**Not yet implemented in oxlint**
-
-`jest/valid-expect-in-promise`
+`jest/expect-expect`, `jest/no-alias-methods`, `jest/no-commented-out-tests`, `jest/no-conditional-expect`, `jest/no-deprecated-functions`, `jest/no-disabled-tests`, `jest/no-done-callback`, `jest/no-export`, `jest/no-focused-tests`, `jest/no-identical-title`, `jest/no-interpolation-in-snapshots`, `jest/no-jasmine-globals`, `jest/no-mocks-import`, `jest/no-standalone-expect`, `jest/no-test-prefixes`, `jest/valid-describe-callback`, `jest/valid-expect`, `jest/valid-expect-in-promise`, `jest/valid-title`
 
 </details>
 
@@ -1699,18 +1698,18 @@ Extracted from `eslint-plugin-jest@28.14.0`.
 Extracted from `eslint-plugin-jest@28.14.0`.
 
 <details>
-<summary>52 rules successfully migrated</summary>
+<summary>55 rules successfully migrated</summary>
 
-`jest/consistent-test-it`, `jest/expect-expect`, `jest/max-expects`, `jest/max-nested-describe`, `jest/no-alias-methods`, `jest/no-commented-out-tests`, `jest/no-conditional-expect`, `jest/no-conditional-in-test`, `jest/no-confusing-set-timeout`, `jest/no-deprecated-functions`, `jest/no-disabled-tests`, `jest/no-done-callback`, `jest/no-duplicate-hooks`, `jest/no-export`, `jest/no-focused-tests`, `jest/no-hooks`, `jest/no-identical-title`, `jest/no-interpolation-in-snapshots`, `jest/no-jasmine-globals`, `jest/no-large-snapshots`, `jest/no-mocks-import`, `jest/no-restricted-jest-methods`, `jest/no-restricted-matchers`, `jest/no-standalone-expect`, `jest/no-test-prefixes`, `jest/no-test-return-statement`, `jest/no-untyped-mock-factory`, `jest/padding-around-after-all-blocks`, `jest/padding-around-test-blocks`, `jest/prefer-called-with`, `jest/prefer-comparison-matcher`, `jest/prefer-each`, `jest/prefer-equality-matcher`, `jest/prefer-expect-resolves`, `jest/prefer-hooks-in-order`, `jest/prefer-hooks-on-top`, `jest/prefer-jest-mocked`, `jest/prefer-lowercase-title`, `jest/prefer-mock-promise-shorthand`, `jest/prefer-snapshot-hint`, `jest/prefer-spy-on`, `jest/prefer-strict-equal`, `jest/prefer-to-be`, `jest/prefer-to-contain`, `jest/prefer-to-have-length`, `jest/prefer-todo`, `jest/require-hook`, `jest/require-to-throw-message`, `jest/require-top-level-describe`, `jest/valid-describe-callback`, `jest/valid-expect`, `jest/valid-title`
+`jest/consistent-test-it`, `jest/expect-expect`, `jest/max-expects`, `jest/max-nested-describe`, `jest/no-alias-methods`, `jest/no-commented-out-tests`, `jest/no-conditional-expect`, `jest/no-conditional-in-test`, `jest/no-confusing-set-timeout`, `jest/no-deprecated-functions`, `jest/no-disabled-tests`, `jest/no-done-callback`, `jest/no-duplicate-hooks`, `jest/no-export`, `jest/no-focused-tests`, `jest/no-hooks`, `jest/no-identical-title`, `jest/no-interpolation-in-snapshots`, `jest/no-jasmine-globals`, `jest/no-large-snapshots`, `jest/no-mocks-import`, `jest/no-restricted-jest-methods`, `jest/no-restricted-matchers`, `jest/no-standalone-expect`, `jest/no-test-prefixes`, `jest/no-test-return-statement`, `jest/no-untyped-mock-factory`, `jest/padding-around-after-all-blocks`, `jest/padding-around-test-blocks`, `jest/prefer-called-with`, `jest/prefer-comparison-matcher`, `jest/prefer-each`, `jest/prefer-ending-with-an-expect`, `jest/prefer-equality-matcher`, `jest/prefer-expect-resolves`, `jest/prefer-hooks-in-order`, `jest/prefer-hooks-on-top`, `jest/prefer-importing-jest-globals`, `jest/prefer-jest-mocked`, `jest/prefer-lowercase-title`, `jest/prefer-mock-promise-shorthand`, `jest/prefer-snapshot-hint`, `jest/prefer-spy-on`, `jest/prefer-strict-equal`, `jest/prefer-to-be`, `jest/prefer-to-contain`, `jest/prefer-to-have-length`, `jest/prefer-todo`, `jest/require-hook`, `jest/require-to-throw-message`, `jest/require-top-level-describe`, `jest/valid-describe-callback`, `jest/valid-expect-in-promise`, `jest/valid-expect`, `jest/valid-title`
 
 </details>
 
 <details>
-<summary>11 rules have no oxlint equivalent</summary>
+<summary>8 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`jest/padding-around-after-each-blocks`, `jest/padding-around-all`, `jest/padding-around-before-all-blocks`, `jest/padding-around-before-each-blocks`, `jest/padding-around-describe-blocks`, `jest/padding-around-expect-groups`, `jest/prefer-ending-with-an-expect`, `jest/prefer-expect-assertions`, `jest/prefer-importing-jest-globals`, `jest/valid-expect-in-promise`
+`jest/padding-around-after-each-blocks`, `jest/padding-around-all`, `jest/padding-around-before-all-blocks`, `jest/padding-around-before-each-blocks`, `jest/padding-around-describe-blocks`, `jest/padding-around-expect-groups`, `jest/prefer-expect-assertions`
 
 **Not portable to oxlint**
 
@@ -1742,18 +1741,9 @@ Extracted from `eslint-plugin-jest@28.14.0`.
 Extracted from `@vitest/eslint-plugin@1.6.13`.
 
 <details>
-<summary>16 rules successfully migrated</summary>
+<summary>17 rules successfully migrated</summary>
 
-`vitest/expect-expect`, `vitest/no-commented-out-tests`, `vitest/no-conditional-expect`, `vitest/no-disabled-tests`, `vitest/no-focused-tests`, `vitest/no-identical-title`, `vitest/no-import-node-test`, `vitest/no-interpolation-in-snapshots`, `vitest/no-mocks-import`, `vitest/no-standalone-expect`, `vitest/no-unneeded-async-expect-function`, `vitest/prefer-called-exactly-once-with`, `vitest/require-local-test-context-for-concurrent-snapshots`, `vitest/valid-describe-callback`, `vitest/valid-expect`, `vitest/valid-title`
-
-</details>
-
-<details>
-<summary>1 rules have no oxlint equivalent</summary>
-
-**Not yet implemented in oxlint**
-
-`vitest/valid-expect-in-promise`
+`vitest/expect-expect`, `vitest/no-commented-out-tests`, `vitest/no-conditional-expect`, `vitest/no-disabled-tests`, `vitest/no-focused-tests`, `vitest/no-identical-title`, `vitest/no-import-node-test`, `vitest/no-interpolation-in-snapshots`, `vitest/no-mocks-import`, `vitest/no-standalone-expect`, `vitest/no-unneeded-async-expect-function`, `vitest/prefer-called-exactly-once-with`, `vitest/require-local-test-context-for-concurrent-snapshots`, `vitest/valid-describe-callback`, `vitest/valid-expect`, `vitest/valid-expect-in-promise`, `vitest/valid-title`
 
 </details>
 
@@ -1766,18 +1756,18 @@ Extracted from `@vitest/eslint-plugin@1.6.13`.
 Extracted from `@vitest/eslint-plugin@1.6.13`.
 
 <details>
-<summary>66 rules successfully migrated</summary>
+<summary>67 rules successfully migrated</summary>
 
-`vitest/consistent-each-for`, `vitest/consistent-test-filename`, `vitest/consistent-test-it`, `vitest/consistent-vitest-vi`, `vitest/expect-expect`, `vitest/hoisted-apis-on-top`, `vitest/max-expects`, `vitest/max-nested-describe`, `vitest/no-alias-methods`, `vitest/no-commented-out-tests`, `vitest/no-conditional-expect`, `vitest/no-conditional-in-test`, `vitest/no-conditional-tests`, `vitest/no-disabled-tests`, `vitest/no-duplicate-hooks`, `vitest/no-focused-tests`, `vitest/no-hooks`, `vitest/no-identical-title`, `vitest/no-import-node-test`, `vitest/no-importing-vitest-globals`, `vitest/no-interpolation-in-snapshots`, `vitest/no-large-snapshots`, `vitest/no-mocks-import`, `vitest/no-restricted-matchers`, `vitest/no-standalone-expect`, `vitest/no-test-prefixes`, `vitest/no-test-return-statement`, `vitest/no-unneeded-async-expect-function`, `vitest/prefer-called-exactly-once-with`, `vitest/prefer-called-once`, `vitest/prefer-called-times`, `vitest/prefer-called-with`, `vitest/prefer-comparison-matcher`, `vitest/prefer-describe-function-title`, `vitest/prefer-each`, `vitest/prefer-equality-matcher`, `vitest/prefer-expect-resolves`, `vitest/prefer-expect-type-of`, `vitest/prefer-hooks-in-order`, `vitest/prefer-hooks-on-top`, `vitest/prefer-import-in-mock`, `vitest/prefer-importing-vitest-globals`, `vitest/prefer-lowercase-title`, `vitest/prefer-mock-promise-shorthand`, `vitest/prefer-snapshot-hint`, `vitest/prefer-spy-on`, `vitest/prefer-strict-boolean-matchers`, `vitest/prefer-strict-equal`, `vitest/prefer-to-be-falsy`, `vitest/prefer-to-be-object`, `vitest/prefer-to-be-truthy`, `vitest/prefer-to-be`, `vitest/prefer-to-contain`, `vitest/prefer-to-have-been-called-times`, `vitest/prefer-to-have-length`, `vitest/prefer-todo`, `vitest/require-awaited-expect-poll`, `vitest/require-hook`, `vitest/require-local-test-context-for-concurrent-snapshots`, `vitest/require-mock-type-parameters`, `vitest/require-test-timeout`, `vitest/require-to-throw-message`, `vitest/require-top-level-describe`, `vitest/valid-describe-callback`, `vitest/valid-expect`, `vitest/valid-title`
+`vitest/consistent-each-for`, `vitest/consistent-test-filename`, `vitest/consistent-test-it`, `vitest/consistent-vitest-vi`, `vitest/expect-expect`, `vitest/hoisted-apis-on-top`, `vitest/max-expects`, `vitest/max-nested-describe`, `vitest/no-alias-methods`, `vitest/no-commented-out-tests`, `vitest/no-conditional-expect`, `vitest/no-conditional-in-test`, `vitest/no-conditional-tests`, `vitest/no-disabled-tests`, `vitest/no-duplicate-hooks`, `vitest/no-focused-tests`, `vitest/no-hooks`, `vitest/no-identical-title`, `vitest/no-import-node-test`, `vitest/no-importing-vitest-globals`, `vitest/no-interpolation-in-snapshots`, `vitest/no-large-snapshots`, `vitest/no-mocks-import`, `vitest/no-restricted-matchers`, `vitest/no-standalone-expect`, `vitest/no-test-prefixes`, `vitest/no-test-return-statement`, `vitest/no-unneeded-async-expect-function`, `vitest/prefer-called-exactly-once-with`, `vitest/prefer-called-once`, `vitest/prefer-called-times`, `vitest/prefer-called-with`, `vitest/prefer-comparison-matcher`, `vitest/prefer-describe-function-title`, `vitest/prefer-each`, `vitest/prefer-equality-matcher`, `vitest/prefer-expect-resolves`, `vitest/prefer-expect-type-of`, `vitest/prefer-hooks-in-order`, `vitest/prefer-hooks-on-top`, `vitest/prefer-import-in-mock`, `vitest/prefer-importing-vitest-globals`, `vitest/prefer-lowercase-title`, `vitest/prefer-mock-promise-shorthand`, `vitest/prefer-snapshot-hint`, `vitest/prefer-spy-on`, `vitest/prefer-strict-boolean-matchers`, `vitest/prefer-strict-equal`, `vitest/prefer-to-be-falsy`, `vitest/prefer-to-be-object`, `vitest/prefer-to-be-truthy`, `vitest/prefer-to-be`, `vitest/prefer-to-contain`, `vitest/prefer-to-have-been-called-times`, `vitest/prefer-to-have-length`, `vitest/prefer-todo`, `vitest/require-awaited-expect-poll`, `vitest/require-hook`, `vitest/require-local-test-context-for-concurrent-snapshots`, `vitest/require-mock-type-parameters`, `vitest/require-test-timeout`, `vitest/require-to-throw-message`, `vitest/require-top-level-describe`, `vitest/valid-describe-callback`, `vitest/valid-expect-in-promise`, `vitest/valid-expect`, `vitest/valid-title`
 
 </details>
 
 <details>
-<summary>13 rules have no oxlint equivalent</summary>
+<summary>12 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`vitest/no-restricted-vi-methods`, `vitest/padding-around-after-all-blocks`, `vitest/padding-around-after-each-blocks`, `vitest/padding-around-all`, `vitest/padding-around-before-all-blocks`, `vitest/padding-around-before-each-blocks`, `vitest/padding-around-describe-blocks`, `vitest/padding-around-expect-groups`, `vitest/padding-around-test-blocks`, `vitest/prefer-expect-assertions`, `vitest/valid-expect-in-promise`
+`vitest/no-restricted-vi-methods`, `vitest/padding-around-after-all-blocks`, `vitest/padding-around-after-each-blocks`, `vitest/padding-around-all`, `vitest/padding-around-before-all-blocks`, `vitest/padding-around-before-each-blocks`, `vitest/padding-around-describe-blocks`, `vitest/padding-around-expect-groups`, `vitest/padding-around-test-blocks`, `vitest/prefer-expect-assertions`
 
 **Not portable to oxlint**
 

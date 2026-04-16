@@ -65,6 +65,7 @@
     "vitest/require-to-throw-message": "warn",
     "vitest/require-top-level-describe": "warn",
     "vitest/valid-describe-callback": "warn",
+    "vitest/valid-expect-in-promise": "warn",
     "vitest/valid-expect": "warn",
     "vitest/valid-title": "warn"
   }
