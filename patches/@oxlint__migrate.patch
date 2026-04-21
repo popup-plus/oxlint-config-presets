@@ -1,5 +1,5 @@
---- a/dist/src-CZcyZXzR.mjs
-+++ b/dist/src-CZcyZXzR.mjs
+--- a/dist/src-C6PykABn.mjs
++++ b/dist/src-C6PykABn.mjs
 @@ -1969,7 +1969,6 @@
  	}
  	if (!("files" in config)) {
