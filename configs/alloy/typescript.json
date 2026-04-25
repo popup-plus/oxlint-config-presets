@@ -51,6 +51,7 @@
     "typescript/consistent-type-imports": "error",
     "typescript/dot-notation": "off",
     "typescript/explicit-function-return-type": "off",
+    "typescript/explicit-member-accessibility": "error",
     "typescript/explicit-module-boundary-types": "off",
     "typescript/no-base-to-string": "off",
     "typescript/no-confusing-non-null-assertion": "off",
