@@ -111,7 +111,15 @@
     "no-inline-comments": "off",
     "no-inner-declarations": ["error", "both"],
     "no-invalid-regexp": "error",
-    "no-irregular-whitespace": "error",
+    "no-irregular-whitespace": [
+      "error",
+      {
+        "skipStrings": true,
+        "skipComments": false,
+        "skipRegExps": true,
+        "skipTemplates": true
+      }
+    ],
     "no-iterator": "error",
     "no-label-var": "off",
     "no-labels": "error",
