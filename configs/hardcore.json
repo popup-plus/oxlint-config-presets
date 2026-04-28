@@ -157,7 +157,12 @@
       }
     ],
     "no-cond-assign": ["error", "always"],
-    "no-irregular-whitespace": "error",
+    "no-irregular-whitespace": [
+      "error",
+      {
+        "skipStrings": false
+      }
+    ],
     "valid-typeof": [
       "error",
       {
