@@ -451,7 +451,7 @@ Extracted from `eslint-config-google@0.14.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/recommended.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>20 rules successfully migrated</summary>
@@ -466,7 +466,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/recommended-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>47 rules successfully migrated</summary>
@@ -481,7 +481,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/strict.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>28 rules successfully migrated</summary>
@@ -496,12 +496,21 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/strict-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>72 rules successfully migrated</summary>
 
 `no-array-constructor`, `no-implied-eval`, `no-unused-expressions`, `no-unused-vars`, `no-useless-constructor`, `no-throw-literal`, `prefer-promise-reject-errors`, `require-await`, `typescript/await-thenable`, `typescript/ban-ts-comment`, `typescript/no-array-delete`, `typescript/no-base-to-string`, `typescript/no-confusing-void-expression`, `typescript/no-deprecated`, `typescript/no-duplicate-enum-values`, `typescript/no-duplicate-type-constituents`, `typescript/no-dynamic-delete`, `typescript/no-empty-object-type`, `typescript/no-explicit-any`, `typescript/no-extra-non-null-assertion`, `typescript/no-extraneous-class`, `typescript/no-floating-promises`, `typescript/no-for-in-array`, `typescript/no-implied-eval`, `typescript/no-invalid-void-type`, `typescript/no-meaningless-void-operator`, `typescript/no-misused-new`, `typescript/no-misused-promises`, `typescript/no-misused-spread`, `typescript/no-mixed-enums`, `typescript/no-namespace`, `typescript/no-non-null-asserted-nullish-coalescing`, `typescript/no-non-null-asserted-optional-chain`, `typescript/no-non-null-assertion`, `typescript/no-redundant-type-constituents`, `typescript/no-require-imports`, `typescript/no-this-alias`, `typescript/no-unnecessary-boolean-literal-compare`, `typescript/no-unnecessary-condition`, `typescript/no-unnecessary-template-expression`, `typescript/no-unnecessary-type-arguments`, `typescript/no-unnecessary-type-assertion`, `typescript/no-unnecessary-type-constraint`, `typescript/no-unnecessary-type-conversion`, `typescript/no-unnecessary-type-parameters`, `typescript/no-unsafe-argument`, `typescript/no-unsafe-assignment`, `typescript/no-unsafe-call`, `typescript/no-unsafe-declaration-merging`, `typescript/no-unsafe-enum-comparison`, `typescript/no-unsafe-function-type`, `typescript/no-unsafe-member-access`, `typescript/no-unsafe-return`, `typescript/no-unsafe-unary-minus`, `typescript/no-useless-default-assignment`, `typescript/no-wrapper-object-types`, `typescript/only-throw-error`, `typescript/prefer-as-const`, `typescript/prefer-literal-enum-member`, `typescript/prefer-namespace-keyword`, `typescript/prefer-promise-reject-errors`, `typescript/prefer-reduce-type-parameter`, `typescript/prefer-return-this-type`, `typescript/related-getter-setter-pairs`, `typescript/require-await`, `typescript/restrict-plus-operands`, `typescript/restrict-template-expressions`, `typescript/return-await`, `typescript/triple-slash-reference`, `typescript/unbound-method`, `typescript/unified-signatures`, `typescript/use-unknown-in-catch-callback-variable`
+
+</details>
+
+<details>
+<summary>1 rules have no oxlint equivalent</summary>
+
+**Not yet implemented in oxlint**
+
+`@typescript-eslint/no-generated-empty-object-type`
 
 </details>
 
@@ -511,7 +520,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/stylistic.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>13 rules successfully migrated</summary>
@@ -526,7 +535,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/stylistic-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>21 rules successfully migrated</summary>
@@ -541,7 +550,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/all.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>126 rules successfully migrated</summary>
@@ -551,11 +560,11 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 </details>
 
 <details>
-<summary>5 rules have no oxlint equivalent</summary>
+<summary>6 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`@typescript-eslint/member-ordering`, `@typescript-eslint/naming-convention`, `@typescript-eslint/no-unused-private-class-members`, `@typescript-eslint/prefer-destructuring`
+`@typescript-eslint/member-ordering`, `@typescript-eslint/naming-convention`, `@typescript-eslint/no-generated-empty-object-type`, `@typescript-eslint/no-unused-private-class-members`, `@typescript-eslint/prefer-destructuring`
 
 **Not portable to oxlint**
 
@@ -742,7 +751,7 @@ These rules are enabled but their configuration options were dropped because oxl
 "./node_modules/oxlint-config-presets/wikimedia.json"
 ```
 
-Extracted from `eslint-config-wikimedia@0.32.5`.
+Extracted from `eslint-config-wikimedia@0.32.6`.
 
 <details>
 <summary>128 rules successfully migrated</summary>
@@ -1205,7 +1214,7 @@ Extracted from `eslint-plugin-import-x@4.17.1`.
 "./node_modules/oxlint-config-presets/next/recommended.json"
 ```
 
-Extracted from `eslint-config-next@16.3.4`.
+Extracted from `eslint-config-next@16.3.5`.
 
 <details>
 <summary>60 rules successfully migrated</summary>
@@ -1233,7 +1242,7 @@ Extracted from `eslint-config-next@16.3.4`.
 "./node_modules/oxlint-config-presets/next/core-web-vitals.json"
 ```
 
-Extracted from `eslint-config-next@16.3.4`.
+Extracted from `eslint-config-next@16.3.5`.
 
 <details>
 <summary>60 rules successfully migrated</summary>
@@ -1451,7 +1460,7 @@ Extracted from `eslint-plugin-react-perf@3.3.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1475,7 +1484,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1499,7 +1508,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-tsdoc.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1523,7 +1532,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-tsdoc-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1547,7 +1556,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1571,7 +1580,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1595,7 +1604,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-flavor.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1619,7 +1628,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-flavor-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1643,7 +1652,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/default-expressions.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>2 rules have no oxlint equivalent</summary>
@@ -1660,7 +1669,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/examples.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 ### `jsdoc/examples-and-default-expressions.json`
 
@@ -1668,7 +1677,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/examples-and-default-expressions.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.3.10`.
 
 <details>
 <summary>2 rules have no oxlint equivalent</summary>
