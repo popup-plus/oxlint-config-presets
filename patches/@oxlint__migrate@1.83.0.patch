@@ -1,7 +1,7 @@
-diff --git a/dist/src-BFQg_u9b.mjs b/dist/src-BFQg_u9b.mjs
-index f208b3d1e6520511d019079c7486eec385e027b5..abb8a29b2f0a6ad3008307b17e62eccdd2146c53 100644
---- a/dist/src-BFQg_u9b.mjs
-+++ b/dist/src-BFQg_u9b.mjs
+diff --git a/dist/src-CnFRrSqg.mjs b/dist/src-CnFRrSqg.mjs
+index d855bdff9151f4f8118acc8b0601d2bcef0b3680..e46afd8742dde15efe38bcfa56b77b92e8ad5044 100644
+--- a/dist/src-CnFRrSqg.mjs
++++ b/dist/src-CnFRrSqg.mjs
 @@ -1,4 +1,6 @@
  import globals from "globals";
 +import { readFileSync } from "node:fs";
