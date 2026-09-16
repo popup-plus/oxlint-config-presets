@@ -451,7 +451,7 @@ Extracted from `eslint-config-google@0.14.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/recommended.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>20 rules successfully migrated</summary>
@@ -466,7 +466,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/recommended-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>47 rules successfully migrated</summary>
@@ -481,7 +481,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/strict.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>28 rules successfully migrated</summary>
@@ -496,12 +496,21 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/strict-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>72 rules successfully migrated</summary>
 
 `no-array-constructor`, `no-implied-eval`, `no-unused-expressions`, `no-unused-vars`, `no-useless-constructor`, `no-throw-literal`, `prefer-promise-reject-errors`, `require-await`, `typescript/await-thenable`, `typescript/ban-ts-comment`, `typescript/no-array-delete`, `typescript/no-base-to-string`, `typescript/no-confusing-void-expression`, `typescript/no-deprecated`, `typescript/no-duplicate-enum-values`, `typescript/no-duplicate-type-constituents`, `typescript/no-dynamic-delete`, `typescript/no-empty-object-type`, `typescript/no-explicit-any`, `typescript/no-extra-non-null-assertion`, `typescript/no-extraneous-class`, `typescript/no-floating-promises`, `typescript/no-for-in-array`, `typescript/no-implied-eval`, `typescript/no-invalid-void-type`, `typescript/no-meaningless-void-operator`, `typescript/no-misused-new`, `typescript/no-misused-promises`, `typescript/no-misused-spread`, `typescript/no-mixed-enums`, `typescript/no-namespace`, `typescript/no-non-null-asserted-nullish-coalescing`, `typescript/no-non-null-asserted-optional-chain`, `typescript/no-non-null-assertion`, `typescript/no-redundant-type-constituents`, `typescript/no-require-imports`, `typescript/no-this-alias`, `typescript/no-unnecessary-boolean-literal-compare`, `typescript/no-unnecessary-condition`, `typescript/no-unnecessary-template-expression`, `typescript/no-unnecessary-type-arguments`, `typescript/no-unnecessary-type-assertion`, `typescript/no-unnecessary-type-constraint`, `typescript/no-unnecessary-type-conversion`, `typescript/no-unnecessary-type-parameters`, `typescript/no-unsafe-argument`, `typescript/no-unsafe-assignment`, `typescript/no-unsafe-call`, `typescript/no-unsafe-declaration-merging`, `typescript/no-unsafe-enum-comparison`, `typescript/no-unsafe-function-type`, `typescript/no-unsafe-member-access`, `typescript/no-unsafe-return`, `typescript/no-unsafe-unary-minus`, `typescript/no-useless-default-assignment`, `typescript/no-wrapper-object-types`, `typescript/only-throw-error`, `typescript/prefer-as-const`, `typescript/prefer-literal-enum-member`, `typescript/prefer-namespace-keyword`, `typescript/prefer-promise-reject-errors`, `typescript/prefer-reduce-type-parameter`, `typescript/prefer-return-this-type`, `typescript/related-getter-setter-pairs`, `typescript/require-await`, `typescript/restrict-plus-operands`, `typescript/restrict-template-expressions`, `typescript/return-await`, `typescript/triple-slash-reference`, `typescript/unbound-method`, `typescript/unified-signatures`, `typescript/use-unknown-in-catch-callback-variable`
+
+</details>
+
+<details>
+<summary>1 rules have no oxlint equivalent</summary>
+
+**Not yet implemented in oxlint**
+
+`@typescript-eslint/no-generated-empty-object-type`
 
 </details>
 
@@ -511,7 +520,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/stylistic.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>13 rules successfully migrated</summary>
@@ -526,7 +535,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/stylistic-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>21 rules successfully migrated</summary>
@@ -541,7 +550,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/all.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
+Extracted from `@typescript-eslint/eslint-plugin@8.70.0`.
 
 <details>
 <summary>126 rules successfully migrated</summary>
@@ -551,11 +560,11 @@ Extracted from `@typescript-eslint/eslint-plugin@8.69.0`.
 </details>
 
 <details>
-<summary>5 rules have no oxlint equivalent</summary>
+<summary>6 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`@typescript-eslint/member-ordering`, `@typescript-eslint/naming-convention`, `@typescript-eslint/no-unused-private-class-members`, `@typescript-eslint/prefer-destructuring`
+`@typescript-eslint/member-ordering`, `@typescript-eslint/naming-convention`, `@typescript-eslint/no-generated-empty-object-type`, `@typescript-eslint/no-unused-private-class-members`, `@typescript-eslint/prefer-destructuring`
 
 **Not portable to oxlint**
 
@@ -621,14 +630,14 @@ Extracted from `@eslint/js@10.0.1`.
 "./node_modules/oxlint-config-presets/xo.json"
 ```
 
-Extracted from `eslint-config-xo@2.0.0`.
+Extracted from `eslint-config-xo@3.0.1`.
 
 <details>
-<summary>633 rules have no oxlint equivalent</summary>
+<summary>640 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`unicorn/better-dom-traversing`, `unicorn/class-reference-in-static-methods`, `unicorn/consistent-boolean-name`, `unicorn/consistent-compound-words`, `unicorn/consistent-conditional-object-spread`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-json-file-read`, `unicorn/consistent-optional-chaining`, `unicorn/consistent-tuple-labels`, `unicorn/default-export-style`, `unicorn/expiring-todo-comments`, `unicorn/isolated-functions`, `unicorn/logical-assignment-operators`, `unicorn/name-replacements`, `unicorn/no-array-concat-in-loop`, `unicorn/no-array-from-fill`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-array-splice`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-break-in-nested-loop`, `unicorn/no-canvas-to-image`, `unicorn/no-computed-property-existence-check`, `unicorn/no-confusing-array-splice`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-if-branches`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-duplicate-loops`, `unicorn/no-duplicate-set-values`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-incorrect-query-selector`, `unicorn/no-incorrect-template-string-interpolation`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-late-current-target-access`, `unicorn/no-late-event-control`, `unicorn/no-loop-iterable-mutation`, `unicorn/no-mismatched-map-key`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-object-methods-with-collections`, `unicorn/no-optional-chaining-on-undeclared-variable`, `unicorn/no-redundant-comparison`, `unicorn/no-return-array-push`, `unicorn/no-selector-as-dom-name`, `unicorn/no-subtraction-comparison`, `unicorn/no-top-level-side-effects`, `unicorn/no-uncalled-method`, `unicorn/no-unnecessary-array-flat-map`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-splice`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-property-key`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unsafe-string-replacement`, `unicorn/no-unused-array-method-return`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-else`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-recursion`, `unicorn/no-xor-as-exponentiation`, `unicorn/operator-assignment`, `unicorn/prefer-abort-signal-any`, `unicorn/prefer-abort-signal-timeout`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-async`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-iterable-methods`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-array-slice`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-continue`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dom-node-html-methods`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-else-if`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-get-or-insert-computed`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-group-by`, `unicorn/prefer-has-check`, `unicorn/prefer-hoisting-branch-code`, `unicorn/prefer-https`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-includes-over-repeated-comparisons`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-location-assign`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-number-is-safe-integer`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-destructuring-defaults`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-observer-apis`, `unicorn/prefer-path2d`, `unicorn/prefer-private-class-fields`, `unicorn/prefer-promise-try`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-scoped-selector`, `unicorn/prefer-set-methods`, `unicorn/prefer-simple-condition-first`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-object-destructuring`, `unicorn/prefer-single-replace`, `unicorn/prefer-smaller-scope`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-then-catch`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-type-literal-last`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`, `unicorn/single-line-block-comment-style`, `import-x/no-useless-path-segments`, `import-x/no-extraneous-dependencies`, `n/no-extraneous-import`, `n/no-unpublished-bin`, `n/file-extension-in-import`, `n/process-exit-as-throw`, `n/no-deprecated-api`, `n/prefer-global/buffer`, `n/prefer-global/console`, `n/prefer-global/process`, `n/prefer-global/text-decoder`, `n/prefer-global/text-encoder`, `n/prefer-global/url-search-params`, `n/prefer-global/url`, `n/prefer-process-get-builtin-module`, `n/prefer-promises/dns`, `n/prefer-promises/fs`, `jsdoc/check-indentation`, `jsdoc/check-line-alignment`, `jsdoc/check-param-names`, `jsdoc/check-syntax`, `jsdoc/check-template-names`, `jsdoc/check-types`, `jsdoc/check-values`, `jsdoc/escape-inline-tags`, `jsdoc/multiline-blocks`, `jsdoc/no-bad-blocks`, `jsdoc/no-blank-block-descriptions`, `jsdoc/no-multi-asterisks`, `jsdoc/require-asterisk-prefix`, `jsdoc/tag-lines`, `jsdoc/imports-as-dependencies`, `jsdoc/informative-docs`, `jsdoc/reject-any-type`, `jsdoc/reject-function-type`, `jsdoc/valid-types`, `jsdoc/require-description`, `jsdoc/require-next-type`, `jsdoc/require-returns-check`, `jsdoc/require-yields-check`, `jsdoc/ts-no-empty-object-type`, `jsdoc/no-types`, `@typescript-eslint/naming-convention`, `@typescript-eslint/no-unused-private-class-members`, `@typescript-eslint/naming-convention`
+`unicorn/better-dom-traversing`, `unicorn/class-reference-in-static-methods`, `unicorn/consistent-boolean-name`, `unicorn/consistent-compound-words`, `unicorn/consistent-conditional-object-spread`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-json-file-read`, `unicorn/consistent-optional-chaining`, `unicorn/consistent-tuple-labels`, `unicorn/default-export-style`, `unicorn/expiring-todo-comments`, `unicorn/isolated-functions`, `unicorn/logical-assignment-operators`, `unicorn/name-replacements`, `unicorn/no-array-concat-in-loop`, `unicorn/no-array-from-fill`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-array-splice`, `unicorn/no-async-iterator-callback`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-break-in-nested-loop`, `unicorn/no-canvas-to-image`, `unicorn/no-computed-property-existence-check`, `unicorn/no-confusing-array-splice`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-if-branches`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-duplicate-loops`, `unicorn/no-duplicate-set-values`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-incorrect-query-selector`, `unicorn/no-incorrect-template-string-interpolation`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-late-current-target-access`, `unicorn/no-late-event-control`, `unicorn/no-loop-iterable-mutation`, `unicorn/no-mismatched-map-key`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-object-methods-with-collections`, `unicorn/no-optional-chaining-on-undeclared-variable`, `unicorn/no-redundant-comparison`, `unicorn/no-return-array-push`, `unicorn/no-selector-as-dom-name`, `unicorn/no-subtraction-comparison`, `unicorn/no-top-level-side-effects`, `unicorn/no-uncalled-method`, `unicorn/no-unnecessary-array-flat-map`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-splice`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-property-key`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unsafe-string-replacement`, `unicorn/no-unused-builtin-method-return`, `unicorn/no-unused-iterator-helper`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-else`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-recursion`, `unicorn/no-useless-set-construction`, `unicorn/no-using-resource-escape`, `unicorn/no-xor-as-exponentiation`, `unicorn/operator-assignment`, `unicorn/prefer-abort-signal-any`, `unicorn/prefer-abort-signal-timeout`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-async`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-iterable-methods`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-array-slice`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-combined-guards`, `unicorn/prefer-continue`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dom-node-html-methods`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-else-if`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-get-or-insert-computed`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-group-by`, `unicorn/prefer-has-check`, `unicorn/prefer-hoisting-branch-code`, `unicorn/prefer-https`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-includes-over-repeated-comparisons`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-iterator-zip`, `unicorn/prefer-location-assign`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-number-is-safe-integer`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-destructuring-defaults`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-observer-apis`, `unicorn/prefer-path2d`, `unicorn/prefer-private-class-fields`, `unicorn/prefer-promise-try`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-scoped-selector`, `unicorn/prefer-set-methods`, `unicorn/prefer-simple-condition-first`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-object-destructuring`, `unicorn/prefer-single-replace`, `unicorn/prefer-smaller-scope`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-temporal-conversion`, `unicorn/prefer-then-catch`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-type-literal-last`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`, `unicorn/single-line-block-comment-style`, `import-x/no-useless-path-segments`, `import-x/no-extraneous-dependencies`, `n/no-extraneous-import`, `n/no-unpublished-bin`, `n/file-extension-in-import`, `n/process-exit-as-throw`, `n/no-deprecated-api`, `n/prefer-global/buffer`, `n/prefer-global/console`, `n/prefer-global/process`, `n/prefer-global/text-decoder`, `n/prefer-global/text-encoder`, `n/prefer-global/url-search-params`, `n/prefer-global/url`, `n/prefer-process-get-builtin-module`, `n/prefer-promises/dns`, `n/prefer-promises/fs`, `jsdoc/check-indentation`, `jsdoc/check-line-alignment`, `jsdoc/check-param-names`, `jsdoc/check-syntax`, `jsdoc/check-template-names`, `jsdoc/check-types`, `jsdoc/check-values`, `jsdoc/escape-inline-tags`, `jsdoc/multiline-blocks`, `jsdoc/no-bad-blocks`, `jsdoc/no-blank-block-descriptions`, `jsdoc/no-multi-asterisks`, `jsdoc/require-asterisk-prefix`, `jsdoc/tag-lines`, `jsdoc/imports-as-dependencies`, `jsdoc/informative-docs`, `jsdoc/reject-any-type`, `jsdoc/reject-function-type`, `jsdoc/valid-types`, `jsdoc/require-description`, `jsdoc/require-next-type`, `jsdoc/require-returns-check`, `jsdoc/require-yields-check`, `jsdoc/ts-no-empty-object-type`, `jsdoc/no-types`, `@typescript-eslint/naming-convention`, `@typescript-eslint/no-unused-private-class-members`, `@typescript-eslint/naming-convention`
 
 **Not portable to oxlint**
 
@@ -742,7 +751,7 @@ These rules are enabled but their configuration options were dropped because oxl
 "./node_modules/oxlint-config-presets/wikimedia.json"
 ```
 
-Extracted from `eslint-config-wikimedia@0.32.5`.
+Extracted from `eslint-config-wikimedia@0.32.6`.
 
 <details>
 <summary>128 rules successfully migrated</summary>
@@ -1205,7 +1214,7 @@ Extracted from `eslint-plugin-import-x@4.17.1`.
 "./node_modules/oxlint-config-presets/next/recommended.json"
 ```
 
-Extracted from `eslint-config-next@16.3.4`.
+Extracted from `eslint-config-next@16.3.5`.
 
 <details>
 <summary>60 rules successfully migrated</summary>
@@ -1233,7 +1242,7 @@ Extracted from `eslint-config-next@16.3.4`.
 "./node_modules/oxlint-config-presets/next/core-web-vitals.json"
 ```
 
-Extracted from `eslint-config-next@16.3.4`.
+Extracted from `eslint-config-next@16.3.5`.
 
 <details>
 <summary>60 rules successfully migrated</summary>
@@ -1376,7 +1385,7 @@ Extracted from `eslint-plugin-react-hooks@7.1.1`.
 "./node_modules/oxlint-config-presets/react-refresh/recommended.json"
 ```
 
-Extracted from `eslint-plugin-react-refresh@0.5.6`.
+Extracted from `eslint-plugin-react-refresh@0.5.7`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1391,7 +1400,7 @@ Extracted from `eslint-plugin-react-refresh@0.5.6`.
 "./node_modules/oxlint-config-presets/react-refresh/next.json"
 ```
 
-Extracted from `eslint-plugin-react-refresh@0.5.6`.
+Extracted from `eslint-plugin-react-refresh@0.5.7`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1406,10 +1415,12 @@ Extracted from `eslint-plugin-react-refresh@0.5.6`.
 "./node_modules/oxlint-config-presets/react-refresh/vite.json"
 ```
 
-Extracted from `eslint-plugin-react-refresh@0.5.6`.
+Extracted from `eslint-plugin-react-refresh@0.5.7`.
 
 <details>
-<summary>1 rule successfully migrated</summary>
+<summary>1 rules migrated without options (incompatible schema)</summary>
+
+These rules are enabled but their configuration options were dropped because oxlint's schema does not accept them. Only the severity level was kept.
 
 `react/only-export-components`
 
@@ -1451,7 +1462,7 @@ Extracted from `eslint-plugin-react-perf@3.3.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1475,7 +1486,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1499,7 +1510,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-tsdoc.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1523,7 +1534,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-tsdoc-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1547,7 +1558,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1571,7 +1582,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1595,7 +1606,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-flavor.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1605,11 +1616,11 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 </details>
 
 <details>
-<summary>16 rules have no oxlint equivalent</summary>
+<summary>17 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`jsdoc/check-alignment`, `jsdoc/check-param-names`, `jsdoc/check-types`, `jsdoc/check-values`, `jsdoc/escape-inline-tags`, `jsdoc/multiline-blocks`, `jsdoc/no-multi-asterisks`, `jsdoc/reject-any-type`, `jsdoc/reject-function-type`, `jsdoc/require-jsdoc`, `jsdoc/require-next-type`, `jsdoc/require-returns-check`, `jsdoc/require-yields-check`, `jsdoc/tag-lines`, `jsdoc/ts-no-empty-object-type`, `jsdoc/valid-types`
+`jsdoc/check-alignment`, `jsdoc/check-param-names`, `jsdoc/check-types`, `jsdoc/check-values`, `jsdoc/escape-inline-tags`, `jsdoc/multiline-blocks`, `jsdoc/no-multi-asterisks`, `jsdoc/reject-any-type`, `jsdoc/reject-function-type`, `jsdoc/require-jsdoc`, `jsdoc/require-next-type`, `jsdoc/require-returns-check`, `jsdoc/require-yields-check`, `jsdoc/tag-lines`, `jsdoc/ts-ban-ts-comment`, `jsdoc/ts-no-empty-object-type`, `jsdoc/valid-types`
 
 </details>
 
@@ -1619,7 +1630,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-flavor-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1629,11 +1640,11 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 </details>
 
 <details>
-<summary>16 rules have no oxlint equivalent</summary>
+<summary>17 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`jsdoc/check-alignment`, `jsdoc/check-param-names`, `jsdoc/check-types`, `jsdoc/check-values`, `jsdoc/escape-inline-tags`, `jsdoc/multiline-blocks`, `jsdoc/no-multi-asterisks`, `jsdoc/reject-any-type`, `jsdoc/reject-function-type`, `jsdoc/require-jsdoc`, `jsdoc/require-next-type`, `jsdoc/require-returns-check`, `jsdoc/require-yields-check`, `jsdoc/tag-lines`, `jsdoc/ts-no-empty-object-type`, `jsdoc/valid-types`
+`jsdoc/check-alignment`, `jsdoc/check-param-names`, `jsdoc/check-types`, `jsdoc/check-values`, `jsdoc/escape-inline-tags`, `jsdoc/multiline-blocks`, `jsdoc/no-multi-asterisks`, `jsdoc/reject-any-type`, `jsdoc/reject-function-type`, `jsdoc/require-jsdoc`, `jsdoc/require-next-type`, `jsdoc/require-returns-check`, `jsdoc/require-yields-check`, `jsdoc/tag-lines`, `jsdoc/ts-ban-ts-comment`, `jsdoc/ts-no-empty-object-type`, `jsdoc/valid-types`
 
 </details>
 
@@ -1643,7 +1654,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/default-expressions.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>2 rules have no oxlint equivalent</summary>
@@ -1660,7 +1671,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/examples.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 ### `jsdoc/examples-and-default-expressions.json`
 
@@ -1668,7 +1679,7 @@ Extracted from `eslint-plugin-jsdoc@64.3.6`.
 "./node_modules/oxlint-config-presets/jsdoc/examples-and-default-expressions.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.3.6`.
+Extracted from `eslint-plugin-jsdoc@64.5.2`.
 
 <details>
 <summary>2 rules have no oxlint equivalent</summary>
@@ -2201,7 +2212,7 @@ Extracted from `eslint-plugin-vue@10.11.0`.
 "./node_modules/oxlint-config-presets/unicorn/recommended.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@74.0.0`.
+Extracted from `eslint-plugin-unicorn@75.0.0`.
 
 <details>
 <summary>139 rules successfully migrated</summary>
@@ -2211,11 +2222,11 @@ Extracted from `eslint-plugin-unicorn@74.0.0`.
 </details>
 
 <details>
-<summary>175 rules have no oxlint equivalent</summary>
+<summary>182 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`unicorn/better-dom-traversing`, `unicorn/class-reference-in-static-methods`, `unicorn/consistent-boolean-name`, `unicorn/consistent-compound-words`, `unicorn/consistent-conditional-object-spread`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-json-file-read`, `unicorn/consistent-optional-chaining`, `unicorn/consistent-tuple-labels`, `unicorn/default-export-style`, `unicorn/expiring-todo-comments`, `unicorn/isolated-functions`, `unicorn/logical-assignment-operators`, `unicorn/name-replacements`, `unicorn/no-array-concat-in-loop`, `unicorn/no-array-from-fill`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-array-splice`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-break-in-nested-loop`, `unicorn/no-canvas-to-image`, `unicorn/no-computed-property-existence-check`, `unicorn/no-confusing-array-splice`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-if-branches`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-duplicate-loops`, `unicorn/no-duplicate-set-values`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-incorrect-query-selector`, `unicorn/no-incorrect-template-string-interpolation`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-late-current-target-access`, `unicorn/no-late-event-control`, `unicorn/no-loop-iterable-mutation`, `unicorn/no-mismatched-map-key`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-object-methods-with-collections`, `unicorn/no-optional-chaining-on-undeclared-variable`, `unicorn/no-redundant-comparison`, `unicorn/no-return-array-push`, `unicorn/no-selector-as-dom-name`, `unicorn/no-subtraction-comparison`, `unicorn/no-this-outside-of-class`, `unicorn/no-top-level-assignment-in-function`, `unicorn/no-top-level-side-effects`, `unicorn/no-uncalled-method`, `unicorn/no-unnecessary-array-flat-map`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-splice`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-for-of-expression`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-property-key`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unsafe-string-replacement`, `unicorn/no-unused-array-method-return`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-else`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-recursion`, `unicorn/no-xor-as-exponentiation`, `unicorn/operator-assignment`, `unicorn/prefer-abort-signal-any`, `unicorn/prefer-abort-signal-timeout`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-async`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-iterable-methods`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-array-slice`, `unicorn/prefer-await`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-continue`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dom-node-html-methods`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-else-if`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-get-or-insert-computed`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-group-by`, `unicorn/prefer-has-check`, `unicorn/prefer-hoisting-branch-code`, `unicorn/prefer-https`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-includes-over-repeated-comparisons`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-location-assign`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-number-is-safe-integer`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-destructuring-defaults`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-observer-apis`, `unicorn/prefer-path2d`, `unicorn/prefer-private-class-fields`, `unicorn/prefer-promise-try`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-scoped-selector`, `unicorn/prefer-set-methods`, `unicorn/prefer-simple-condition-first`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-object-destructuring`, `unicorn/prefer-single-replace`, `unicorn/prefer-smaller-scope`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-then-catch`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-type-literal-last`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`, `unicorn/single-line-block-comment-style`
+`unicorn/better-dom-traversing`, `unicorn/class-reference-in-static-methods`, `unicorn/consistent-boolean-name`, `unicorn/consistent-compound-words`, `unicorn/consistent-conditional-object-spread`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-json-file-read`, `unicorn/consistent-optional-chaining`, `unicorn/consistent-tuple-labels`, `unicorn/default-export-style`, `unicorn/expiring-todo-comments`, `unicorn/isolated-functions`, `unicorn/logical-assignment-operators`, `unicorn/name-replacements`, `unicorn/no-array-concat-in-loop`, `unicorn/no-array-from-fill`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-array-splice`, `unicorn/no-async-iterator-callback`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-break-in-nested-loop`, `unicorn/no-canvas-to-image`, `unicorn/no-computed-property-existence-check`, `unicorn/no-confusing-array-splice`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-if-branches`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-duplicate-loops`, `unicorn/no-duplicate-set-values`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-incorrect-query-selector`, `unicorn/no-incorrect-template-string-interpolation`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-late-current-target-access`, `unicorn/no-late-event-control`, `unicorn/no-loop-iterable-mutation`, `unicorn/no-mismatched-map-key`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-object-methods-with-collections`, `unicorn/no-optional-chaining-on-undeclared-variable`, `unicorn/no-redundant-comparison`, `unicorn/no-return-array-push`, `unicorn/no-selector-as-dom-name`, `unicorn/no-subtraction-comparison`, `unicorn/no-this-outside-of-class`, `unicorn/no-top-level-assignment-in-function`, `unicorn/no-top-level-side-effects`, `unicorn/no-uncalled-method`, `unicorn/no-unnecessary-array-flat-map`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-splice`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-for-of-expression`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-property-key`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unsafe-string-replacement`, `unicorn/no-unused-builtin-method-return`, `unicorn/no-unused-iterator-helper`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-else`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-recursion`, `unicorn/no-useless-set-construction`, `unicorn/no-using-resource-escape`, `unicorn/no-xor-as-exponentiation`, `unicorn/operator-assignment`, `unicorn/prefer-abort-signal-any`, `unicorn/prefer-abort-signal-timeout`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-async`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-iterable-methods`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-array-slice`, `unicorn/prefer-await`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-combined-guards`, `unicorn/prefer-continue`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dom-node-html-methods`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-else-if`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-get-or-insert-computed`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-group-by`, `unicorn/prefer-has-check`, `unicorn/prefer-hoisting-branch-code`, `unicorn/prefer-https`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-includes-over-repeated-comparisons`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-iterator-zip`, `unicorn/prefer-location-assign`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-number-is-safe-integer`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-destructuring-defaults`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-observer-apis`, `unicorn/prefer-path2d`, `unicorn/prefer-private-class-fields`, `unicorn/prefer-promise-try`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-scoped-selector`, `unicorn/prefer-set-methods`, `unicorn/prefer-simple-condition-first`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-object-destructuring`, `unicorn/prefer-single-replace`, `unicorn/prefer-smaller-scope`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-temporal-conversion`, `unicorn/prefer-then-catch`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-type-literal-last`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`, `unicorn/single-line-block-comment-style`
 
 **Not portable to oxlint**
 
@@ -2229,7 +2240,7 @@ Extracted from `eslint-plugin-unicorn@74.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/all.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@74.0.0`.
+Extracted from `eslint-plugin-unicorn@75.0.0`.
 
 <details>
 <summary>140 rules successfully migrated</summary>
@@ -2239,11 +2250,11 @@ Extracted from `eslint-plugin-unicorn@74.0.0`.
 </details>
 
 <details>
-<summary>201 rules have no oxlint equivalent</summary>
+<summary>210 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`unicorn/better-dom-traversing`, `unicorn/class-reference-in-static-methods`, `unicorn/comment-content`, `unicorn/consistent-arrow-return-style`, `unicorn/consistent-boolean-name`, `unicorn/consistent-compound-words`, `unicorn/consistent-conditional-object-spread`, `unicorn/consistent-destructuring`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-function-style`, `unicorn/consistent-json-file-read`, `unicorn/consistent-optional-chaining`, `unicorn/consistent-tuple-labels`, `unicorn/default-export-style`, `unicorn/expiring-todo-comments`, `unicorn/id-match`, `unicorn/isolated-functions`, `unicorn/iteration-fallback-style`, `unicorn/logical-assignment-operators`, `unicorn/name-replacements`, `unicorn/no-array-concat-in-loop`, `unicorn/no-array-from-fill`, `unicorn/no-array-front-mutation`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-array-splice`, `unicorn/no-asterisk-prefix-in-documentation-comments`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-break-in-nested-loop`, `unicorn/no-canvas-to-image`, `unicorn/no-computed-property-existence-check`, `unicorn/no-confusing-array-splice`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-if-branches`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-duplicate-loops`, `unicorn/no-duplicate-set-values`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-incorrect-query-selector`, `unicorn/no-incorrect-template-string-interpolation`, `unicorn/no-invalid-file-input-accept`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-keyword-prefix`, `unicorn/no-late-current-target-access`, `unicorn/no-late-event-control`, `unicorn/no-loop-iterable-mutation`, `unicorn/no-manually-wrapped-comments`, `unicorn/no-mismatched-map-key`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-object-methods-with-collections`, `unicorn/no-optional-chaining-on-undeclared-variable`, `unicorn/no-redundant-comparison`, `unicorn/no-return-array-push`, `unicorn/no-selector-as-dom-name`, `unicorn/no-subtraction-comparison`, `unicorn/no-this-outside-of-class`, `unicorn/no-top-level-assignment-in-function`, `unicorn/no-top-level-side-effects`, `unicorn/no-uncalled-method`, `unicorn/no-unnecessary-array-flat-map`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-splice`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-for-of-expression`, `unicorn/no-unreadable-new-expression`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-dom-html`, `unicorn/no-unsafe-property-key`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unsafe-string-replacement`, `unicorn/no-unused-array-method-return`, `unicorn/no-unused-properties`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-else`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-recursion`, `unicorn/no-xor-as-exponentiation`, `unicorn/operator-assignment`, `unicorn/prefer-abort-signal-any`, `unicorn/prefer-abort-signal-timeout`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-async`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-iterable-methods`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-array-slice`, `unicorn/prefer-await`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-continue`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dispose`, `unicorn/prefer-dom-node-html-methods`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-else-if`, `unicorn/prefer-error-is-error`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-get-or-insert-computed`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-group-by`, `unicorn/prefer-has-check`, `unicorn/prefer-hoisting-branch-code`, `unicorn/prefer-https`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-includes-over-repeated-comparisons`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-concat`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-location-assign`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-number-is-safe-integer`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-destructuring-defaults`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-observer-apis`, `unicorn/prefer-path2d`, `unicorn/prefer-private-class-fields`, `unicorn/prefer-promise-try`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-regexp-escape`, `unicorn/prefer-scoped-selector`, `unicorn/prefer-set-methods`, `unicorn/prefer-short-arrow-method`, `unicorn/prefer-simple-condition-first`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-object-destructuring`, `unicorn/prefer-single-replace`, `unicorn/prefer-smaller-scope`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-temporal`, `unicorn/prefer-then-catch`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-type-literal-last`, `unicorn/prefer-uint8array-base64`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`, `unicorn/single-line-block-comment-style`, `unicorn/string-content`, `unicorn/try-complexity`
+`unicorn/better-dom-traversing`, `unicorn/class-reference-in-static-methods`, `unicorn/comment-content`, `unicorn/consistent-arrow-return-style`, `unicorn/consistent-boolean-name`, `unicorn/consistent-compound-words`, `unicorn/consistent-conditional-object-spread`, `unicorn/consistent-destructuring`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-function-style`, `unicorn/consistent-json-file-read`, `unicorn/consistent-optional-chaining`, `unicorn/consistent-tuple-labels`, `unicorn/default-export-style`, `unicorn/expiring-todo-comments`, `unicorn/id-match`, `unicorn/isolated-functions`, `unicorn/iteration-fallback-style`, `unicorn/logical-assignment-operators`, `unicorn/name-replacements`, `unicorn/no-array-concat-in-loop`, `unicorn/no-array-from-fill`, `unicorn/no-array-front-mutation`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-array-splice`, `unicorn/no-asterisk-prefix-in-documentation-comments`, `unicorn/no-async-iterator-callback`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-break-in-nested-loop`, `unicorn/no-canvas-to-image`, `unicorn/no-computed-property-existence-check`, `unicorn/no-confusing-array-splice`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-if-branches`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-duplicate-loops`, `unicorn/no-duplicate-set-values`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-incorrect-query-selector`, `unicorn/no-incorrect-template-string-interpolation`, `unicorn/no-invalid-file-input-accept`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-keyword-prefix`, `unicorn/no-late-current-target-access`, `unicorn/no-late-event-control`, `unicorn/no-loop-iterable-mutation`, `unicorn/no-manually-wrapped-comments`, `unicorn/no-mismatched-map-key`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-object-methods-with-collections`, `unicorn/no-optional-chaining-on-undeclared-variable`, `unicorn/no-redundant-comparison`, `unicorn/no-return-array-push`, `unicorn/no-selector-as-dom-name`, `unicorn/no-subtraction-comparison`, `unicorn/no-this-outside-of-class`, `unicorn/no-top-level-assignment-in-function`, `unicorn/no-top-level-side-effects`, `unicorn/no-uncalled-method`, `unicorn/no-unnecessary-array-flat-map`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-splice`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-for-of-expression`, `unicorn/no-unreadable-new-expression`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-dom-html`, `unicorn/no-unsafe-property-key`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unsafe-string-replacement`, `unicorn/no-unused-builtin-method-return`, `unicorn/no-unused-iterator-helper`, `unicorn/no-unused-properties`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-else`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-recursion`, `unicorn/no-useless-set-construction`, `unicorn/no-using-resource-escape`, `unicorn/no-xor-as-exponentiation`, `unicorn/operator-assignment`, `unicorn/prefer-abort-signal-any`, `unicorn/prefer-abort-signal-timeout`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-async`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-iterable-methods`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-array-slice`, `unicorn/prefer-await`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-combined-guards`, `unicorn/prefer-continue`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dispose`, `unicorn/prefer-dom-node-html-methods`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-else-if`, `unicorn/prefer-error-is-error`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-get-or-insert-computed`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-group-by`, `unicorn/prefer-has-check`, `unicorn/prefer-hoisting-branch-code`, `unicorn/prefer-https`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-includes-over-repeated-comparisons`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-concat`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-iterator-zip`, `unicorn/prefer-json-import`, `unicorn/prefer-location-assign`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-number-is-safe-integer`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-destructuring-defaults`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-observer-apis`, `unicorn/prefer-path2d`, `unicorn/prefer-private-class-fields`, `unicorn/prefer-promise-try`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-regexp-escape`, `unicorn/prefer-scoped-selector`, `unicorn/prefer-set-methods`, `unicorn/prefer-short-arrow-method`, `unicorn/prefer-simple-condition-first`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-object-destructuring`, `unicorn/prefer-single-replace`, `unicorn/prefer-smaller-scope`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-temporal`, `unicorn/prefer-temporal-conversion`, `unicorn/prefer-then-catch`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-type-literal-last`, `unicorn/prefer-uint8array-base64`, `unicorn/prefer-uint8array-hex`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`, `unicorn/single-line-block-comment-style`, `unicorn/string-content`, `unicorn/try-complexity`
 
 **Not portable to oxlint**
 
@@ -2257,7 +2268,7 @@ Extracted from `eslint-plugin-unicorn@74.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/unopinionated.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@74.0.0`.
+Extracted from `eslint-plugin-unicorn@75.0.0`.
 
 <details>
 <summary>137 rules successfully migrated</summary>
@@ -2267,11 +2278,11 @@ Extracted from `eslint-plugin-unicorn@74.0.0`.
 </details>
 
 <details>
-<summary>103 rules have no oxlint equivalent</summary>
+<summary>108 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`unicorn/better-dom-traversing`, `unicorn/consistent-compound-words`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-optional-chaining`, `unicorn/expiring-todo-comments`, `unicorn/no-array-from-fill`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-canvas-to-image`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-redundant-comparison`, `unicorn/no-subtraction-comparison`, `unicorn/no-top-level-side-effects`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unused-array-method-return`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-xor-as-exponentiation`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-await`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-has-check`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-path2d`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-replace`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`
+`unicorn/better-dom-traversing`, `unicorn/consistent-compound-words`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-optional-chaining`, `unicorn/expiring-todo-comments`, `unicorn/no-array-from-fill`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-async-iterator-callback`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-canvas-to-image`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-redundant-comparison`, `unicorn/no-subtraction-comparison`, `unicorn/no-top-level-side-effects`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unused-builtin-method-return`, `unicorn/no-unused-iterator-helper`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-set-construction`, `unicorn/no-using-resource-escape`, `unicorn/no-xor-as-exponentiation`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-await`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-has-check`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-path2d`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-replace`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-temporal-conversion`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`
 
 **Not portable to oxlint**
 
