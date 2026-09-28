@@ -1,5 +1,5 @@
---- a/dist/src-C1T_R1Yi.mjs
-+++ b/dist/src-C1T_R1Yi.mjs
+--- a/dist/src-yV7UJ5KA.mjs
++++ b/dist/src-yV7UJ5KA.mjs
 @@ -1,4 +1,6 @@
  import globals from "globals";
 +import { readFileSync } from "node:fs";
@@ -25,7 +25,7 @@
  	for (const [prefix, plugin] of Object.entries(rulesPrefixesForPlugins)) if (prefix !== plugin && rule.startsWith(`${prefix}/`)) return `${plugin}/${rule.slice(prefix.length + 1)}`;
  	return rule;
  }
-@@ -2057,6 +2062,12 @@
+@@ -2059,6 +2064,12 @@
  * extend core ESLint rules have already been stripped of their prefix.
  */
  const replaceCanonicalPluginPrefixes = (config) => {
@@ -38,7 +38,7 @@
  	for (const [prefix, plugin] of Object.entries(rulesPrefixesForPlugins)) if (prefix !== plugin) replaceRulePrefix(config, prefix, plugin);
  };
  //#endregion
-@@ -2122,7 +2133,6 @@
+@@ -2124,7 +2135,6 @@
  	}
  	if (!("files" in config)) {
  		cleanUpUselessOverridesEntries(config);
