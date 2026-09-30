@@ -1083,7 +1083,14 @@
           {
             "checkThenables": true,
             "ignoreVoid": true,
-            "ignoreIIFE": true
+            "ignoreIIFE": true,
+            "allowForKnownSafeCalls": [
+              {
+                "from": "package",
+                "package": "node:test",
+                "name": ["test", "it", "describe", "suite", "skip", "todo", "only"]
+              }
+            ]
           }
         ],
         "typescript/no-for-in-array": "error",
