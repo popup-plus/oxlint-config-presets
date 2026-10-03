@@ -4,7 +4,8 @@
     "react/only-export-components": [
       "error",
       {
-        "allowConstantExport": true
+        "allowConstantExport": true,
+        "allowCompoundComponents": true
       }
     ]
   }

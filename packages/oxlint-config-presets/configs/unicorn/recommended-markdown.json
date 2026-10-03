@@ -1,0 +1,9 @@
+{
+  "plugins": ["unicorn"],
+  "rules": {
+    "unicorn/filename-case": "error",
+    "unicorn/no-abusive-eslint-disable": "error",
+    "unicorn/no-empty-file": "error",
+    "unicorn/relative-url-style": "error"
+  }
+}
