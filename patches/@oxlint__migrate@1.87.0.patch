@@ -1,5 +1,5 @@
 diff --git a/dist/src-yV7UJ5KA.mjs b/dist/src-yV7UJ5KA.mjs
-index 3aa6a9767067b5e864cdcb30e4570c53b9996614..4c8ea53107f4fd890b0caac6ce35391b954902af 100644
+index 3aa6a9767067b5e864cdcb30e4570c53b9996614..e3ea48ddff41c290766b3c9f1b95173354882f3d 100644
 --- a/dist/src-yV7UJ5KA.mjs
 +++ b/dist/src-yV7UJ5KA.mjs
 @@ -1,4 +1,6 @@
@@ -9,19 +9,13 @@ index 3aa6a9767067b5e864cdcb30e4570c53b9996614..4c8ea53107f4fd890b0caac6ce35391b
  //#region \0rolldown/runtime.js
  var __defProp = Object.defineProperty;
  var __exportAll = (all, no_symbols) => {
-@@ -197,14 +199,17 @@ const rulesPrefixesForPlugins = {
- 	vitest: "vitest",
- 	vue: "vue"
- };
-+const ruleRenames = JSON.parse(readFileSync(join(process.cwd(), "scripts/rule-renames.json"), "utf-8"));
- /**
- * Normalizes an ESLint-style rule name to its canonical Oxlint form.
- * e.g. "@typescript-eslint/no-floating-promises" → "typescript/no-floating-promises"
+@@ -203,8 +205,11 @@ const rulesPrefixesForPlugins = {
  *      "react-hooks/exhaustive-deps" → "react/exhaustive-deps"
  *      "@next/next/inline-script-id" → "nextjs/inline-script-id"
  *      "no-unused-vars" → "no-unused-vars" (unchanged for unprefixed rules)
 +*      "unicorn/no-for-each" → "unicorn/no-array-for-each" (rules known under a different name in oxlint, see scripts/rule-renames.json)
  */
++const ruleRenames = JSON.parse(readFileSync(join(process.cwd(), "scripts/rule-renames.json"), "utf-8"));
  function normalizeRuleToCanonical(rule) {
 +	if (rule in ruleRenames) return ruleRenames[rule];
  	for (const [prefix, plugin] of Object.entries(rulesPrefixesForPlugins)) if (prefix !== plugin && rule.startsWith(`${prefix}/`)) return `${plugin}/${rule.slice(prefix.length + 1)}`;
