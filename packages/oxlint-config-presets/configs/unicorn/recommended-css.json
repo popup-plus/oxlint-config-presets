@@ -1,0 +1,14 @@
+{
+  "plugins": ["unicorn"],
+  "rules": {
+    "unicorn/empty-brace-spaces": "error",
+    "unicorn/escape-case": "error",
+    "unicorn/filename-case": "error",
+    "unicorn/no-abusive-eslint-disable": "error",
+    "unicorn/no-empty-file": "error",
+    "unicorn/no-zero-fractions": "error",
+    "unicorn/number-literal-case": "error",
+    "unicorn/relative-url-style": "error",
+    "unicorn/text-encoding-identifier-case": "error"
+  }
+}
