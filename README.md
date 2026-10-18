@@ -637,7 +637,7 @@ Extracted from `@eslint/js@10.0.1`.
 "./node_modules/oxlint-config-presets/xo.json"
 ```
 
-Extracted from `eslint-config-xo@6.0.0`.
+Extracted from `eslint-config-xo@6.0.1`.
 
 <details>
 <summary>683 rules have no oxlint equivalent</summary>
@@ -1749,7 +1749,7 @@ These rules are enabled but their configuration options were dropped because oxl
 "./node_modules/oxlint-config-presets/n/recommended.json"
 ```
 
-Extracted from `eslint-plugin-n@18.4.1`.
+Extracted from `eslint-plugin-n@18.5.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1773,7 +1773,7 @@ Extracted from `eslint-plugin-n@18.4.1`.
 "./node_modules/oxlint-config-presets/n/recommended-module.json"
 ```
 
-Extracted from `eslint-plugin-n@18.4.1`.
+Extracted from `eslint-plugin-n@18.5.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1797,7 +1797,7 @@ Extracted from `eslint-plugin-n@18.4.1`.
 "./node_modules/oxlint-config-presets/n/recommended-script.json"
 ```
 
-Extracted from `eslint-plugin-n@18.4.1`.
+Extracted from `eslint-plugin-n@18.5.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
