@@ -1022,7 +1022,7 @@
               },
               "null": {
                 "message": "Use `undefined` instead. See: https://github.com/sindresorhus/meta/issues/7",
-                "fixWith": "undefined"
+                "suggest": ["undefined"]
               },
               "Buffer": {
                 "message": "Use Uint8Array instead. See: https://sindresorhus.com/blog/goodbye-nodejs-buffer",
