@@ -178,7 +178,7 @@ export default defineConfig({
   - all `unicorn/all.json`
   - unopinionated `unicorn/unopinionated.json`
 
-Generated with `@oxlint/migrate@1.88.0`.
+Generated with `@oxlint/migrate@1.89.0`.
 
 ### `airbnb.json`
 
