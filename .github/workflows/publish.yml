@@ -100,6 +100,19 @@ jobs:
           git commit -m "Release $VERSION"
           git push origin HEAD:main
 
+      # The run triggered by the version commit can start before npm shows the
+      # version published by the previous run (it stays "staged" for a while).
+      # npm then rejects the publish with E409; that version is already out.
       - name: Publish to npm
         if: steps.plan.outputs.should_publish == 'true'
-        run: pnpm --filter oxlint-config-presets publish --no-git-checks
+        shell: bash
+        run: |
+          set +e
+          output=$(pnpm --filter oxlint-config-presets publish --no-git-checks 2>&1)
+          status=$?
+          echo "$output"
+          if [ "$status" -ne 0 ] && grep -q "Cannot publish over previously" <<<"$output"; then
+            echo "::notice::This version was already published by an earlier run."
+            exit 0
+          fi
+          exit "$status"
