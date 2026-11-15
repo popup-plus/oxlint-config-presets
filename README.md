@@ -178,7 +178,7 @@ export default defineConfig({
   - all `unicorn/all.json`
   - unopinionated `unicorn/unopinionated.json`
 
-Generated with `@oxlint/migrate@1.88.0`.
+Generated with `@oxlint/migrate@1.93.0`.
 
 ### `airbnb.json`
 
@@ -458,7 +458,7 @@ Extracted from `eslint-config-google@0.14.0`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/recommended.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
+Extracted from `@typescript-eslint/eslint-plugin@8.72.2`.
 
 <details>
 <summary>20 rules successfully migrated</summary>
@@ -473,7 +473,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/recommended-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
+Extracted from `@typescript-eslint/eslint-plugin@8.72.2`.
 
 <details>
 <summary>47 rules successfully migrated</summary>
@@ -488,7 +488,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/strict.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
+Extracted from `@typescript-eslint/eslint-plugin@8.72.2`.
 
 <details>
 <summary>28 rules successfully migrated</summary>
@@ -503,21 +503,12 @@ Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/strict-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
+Extracted from `@typescript-eslint/eslint-plugin@8.72.2`.
 
 <details>
-<summary>73 rules successfully migrated</summary>
+<summary>74 rules successfully migrated</summary>
 
-`no-array-constructor`, `no-implied-eval`, `no-unused-expressions`, `no-unused-vars`, `no-useless-constructor`, `no-throw-literal`, `prefer-promise-reject-errors`, `require-await`, `typescript/await-thenable`, `typescript/ban-ts-comment`, `typescript/no-array-delete`, `typescript/no-base-to-string`, `typescript/no-confusing-void-expression`, `typescript/no-deprecated`, `typescript/no-duplicate-enum-values`, `typescript/no-duplicate-type-constituents`, `typescript/no-dynamic-delete`, `typescript/no-empty-object-type`, `typescript/no-explicit-any`, `typescript/no-extra-non-null-assertion`, `typescript/no-extraneous-class`, `typescript/no-floating-promises`, `typescript/no-for-in-array`, `typescript/no-generated-empty-object-type`, `typescript/no-implied-eval`, `typescript/no-invalid-void-type`, `typescript/no-meaningless-void-operator`, `typescript/no-misused-new`, `typescript/no-misused-promises`, `typescript/no-misused-spread`, `typescript/no-mixed-enums`, `typescript/no-namespace`, `typescript/no-non-null-asserted-nullish-coalescing`, `typescript/no-non-null-asserted-optional-chain`, `typescript/no-non-null-assertion`, `typescript/no-redundant-type-constituents`, `typescript/no-require-imports`, `typescript/no-this-alias`, `typescript/no-unnecessary-boolean-literal-compare`, `typescript/no-unnecessary-condition`, `typescript/no-unnecessary-template-expression`, `typescript/no-unnecessary-type-arguments`, `typescript/no-unnecessary-type-assertion`, `typescript/no-unnecessary-type-constraint`, `typescript/no-unnecessary-type-conversion`, `typescript/no-unnecessary-type-parameters`, `typescript/no-unsafe-argument`, `typescript/no-unsafe-assignment`, `typescript/no-unsafe-call`, `typescript/no-unsafe-declaration-merging`, `typescript/no-unsafe-enum-comparison`, `typescript/no-unsafe-function-type`, `typescript/no-unsafe-member-access`, `typescript/no-unsafe-return`, `typescript/no-unsafe-unary-minus`, `typescript/no-useless-default-assignment`, `typescript/no-wrapper-object-types`, `typescript/only-throw-error`, `typescript/prefer-as-const`, `typescript/prefer-literal-enum-member`, `typescript/prefer-namespace-keyword`, `typescript/prefer-promise-reject-errors`, `typescript/prefer-reduce-type-parameter`, `typescript/prefer-return-this-type`, `typescript/related-getter-setter-pairs`, `typescript/require-await`, `typescript/restrict-plus-operands`, `typescript/restrict-template-expressions`, `typescript/return-await`, `typescript/triple-slash-reference`, `typescript/unbound-method`, `typescript/unified-signatures`, `typescript/use-unknown-in-catch-callback-variable`
-
-</details>
-
-<details>
-<summary>1 rules have no oxlint equivalent</summary>
-
-**Not yet implemented in oxlint**
-
-`@typescript-eslint/no-unsafe-enum-assignment`
+`no-array-constructor`, `no-implied-eval`, `no-unused-expressions`, `no-unused-vars`, `no-useless-constructor`, `no-throw-literal`, `prefer-promise-reject-errors`, `require-await`, `typescript/await-thenable`, `typescript/ban-ts-comment`, `typescript/no-array-delete`, `typescript/no-base-to-string`, `typescript/no-confusing-void-expression`, `typescript/no-deprecated`, `typescript/no-duplicate-enum-values`, `typescript/no-duplicate-type-constituents`, `typescript/no-dynamic-delete`, `typescript/no-empty-object-type`, `typescript/no-explicit-any`, `typescript/no-extra-non-null-assertion`, `typescript/no-extraneous-class`, `typescript/no-floating-promises`, `typescript/no-for-in-array`, `typescript/no-generated-empty-object-type`, `typescript/no-implied-eval`, `typescript/no-invalid-void-type`, `typescript/no-meaningless-void-operator`, `typescript/no-misused-new`, `typescript/no-misused-promises`, `typescript/no-misused-spread`, `typescript/no-mixed-enums`, `typescript/no-namespace`, `typescript/no-non-null-asserted-nullish-coalescing`, `typescript/no-non-null-asserted-optional-chain`, `typescript/no-non-null-assertion`, `typescript/no-redundant-type-constituents`, `typescript/no-require-imports`, `typescript/no-this-alias`, `typescript/no-unnecessary-boolean-literal-compare`, `typescript/no-unnecessary-condition`, `typescript/no-unnecessary-template-expression`, `typescript/no-unnecessary-type-arguments`, `typescript/no-unnecessary-type-assertion`, `typescript/no-unnecessary-type-constraint`, `typescript/no-unnecessary-type-conversion`, `typescript/no-unnecessary-type-parameters`, `typescript/no-unsafe-argument`, `typescript/no-unsafe-assignment`, `typescript/no-unsafe-call`, `typescript/no-unsafe-declaration-merging`, `typescript/no-unsafe-enum-assignment`, `typescript/no-unsafe-enum-comparison`, `typescript/no-unsafe-function-type`, `typescript/no-unsafe-member-access`, `typescript/no-unsafe-return`, `typescript/no-unsafe-unary-minus`, `typescript/no-useless-default-assignment`, `typescript/no-wrapper-object-types`, `typescript/only-throw-error`, `typescript/prefer-as-const`, `typescript/prefer-literal-enum-member`, `typescript/prefer-namespace-keyword`, `typescript/prefer-promise-reject-errors`, `typescript/prefer-reduce-type-parameter`, `typescript/prefer-return-this-type`, `typescript/related-getter-setter-pairs`, `typescript/require-await`, `typescript/restrict-plus-operands`, `typescript/restrict-template-expressions`, `typescript/return-await`, `typescript/triple-slash-reference`, `typescript/unbound-method`, `typescript/unified-signatures`, `typescript/use-unknown-in-catch-callback-variable`
 
 </details>
 
@@ -527,7 +518,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/stylistic.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
+Extracted from `@typescript-eslint/eslint-plugin@8.72.2`.
 
 <details>
 <summary>13 rules successfully migrated</summary>
@@ -542,7 +533,7 @@ Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/stylistic-type-checked.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
+Extracted from `@typescript-eslint/eslint-plugin@8.72.2`.
 
 <details>
 <summary>21 rules successfully migrated</summary>
@@ -557,21 +548,21 @@ Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
 "./node_modules/oxlint-config-presets/@typescript-eslint/all.json"
 ```
 
-Extracted from `@typescript-eslint/eslint-plugin@8.71.2`.
+Extracted from `@typescript-eslint/eslint-plugin@8.72.2`.
 
 <details>
-<summary>127 rules successfully migrated</summary>
+<summary>128 rules successfully migrated</summary>
 
-`class-methods-use-this`, `default-param-last`, `init-declarations`, `max-params`, `no-array-constructor`, `no-dupe-class-members`, `no-empty-function`, `no-implied-eval`, `no-magic-numbers`, `no-redeclare`, `no-shadow`, `no-unused-expressions`, `no-unused-private-class-members`, `no-unused-vars`, `no-use-before-define`, `no-useless-constructor`, `no-throw-literal`, `prefer-destructuring`, `prefer-promise-reject-errors`, `require-await`, `typescript/adjacent-overload-signatures`, `typescript/array-type`, `typescript/await-thenable`, `typescript/ban-ts-comment`, `typescript/ban-tslint-comment`, `typescript/class-literal-property-style`, `typescript/consistent-generic-constructors`, `typescript/consistent-indexed-object-style`, `typescript/consistent-return`, `typescript/consistent-type-assertions`, `typescript/consistent-type-definitions`, `typescript/consistent-type-exports`, `typescript/consistent-type-imports`, `typescript/dot-notation`, `typescript/explicit-function-return-type`, `typescript/explicit-member-accessibility`, `typescript/explicit-module-boundary-types`, `typescript/method-signature-style`, `typescript/no-array-delete`, `typescript/no-base-to-string`, `typescript/no-confusing-non-null-assertion`, `typescript/no-confusing-void-expression`, `typescript/no-deprecated`, `typescript/no-duplicate-enum-values`, `typescript/no-duplicate-type-constituents`, `typescript/no-dynamic-delete`, `typescript/no-empty-object-type`, `typescript/no-explicit-any`, `typescript/no-extra-non-null-assertion`, `typescript/no-extraneous-class`, `typescript/no-floating-promises`, `typescript/no-for-in-array`, `typescript/no-generated-empty-object-type`, `typescript/no-implied-eval`, `typescript/no-import-type-side-effects`, `typescript/no-inferrable-types`, `typescript/no-invalid-void-type`, `typescript/no-meaningless-void-operator`, `typescript/no-misused-new`, `typescript/no-misused-promises`, `typescript/no-misused-spread`, `typescript/no-mixed-enums`, `typescript/no-namespace`, `typescript/no-non-null-asserted-nullish-coalescing`, `typescript/no-non-null-asserted-optional-chain`, `typescript/no-non-null-assertion`, `typescript/no-redundant-type-constituents`, `typescript/no-require-imports`, `typescript/no-restricted-types`, `typescript/no-this-alias`, `typescript/no-unnecessary-boolean-literal-compare`, `typescript/no-unnecessary-condition`, `typescript/no-unnecessary-parameter-property-assignment`, `typescript/no-unnecessary-qualifier`, `typescript/no-unnecessary-template-expression`, `typescript/no-unnecessary-type-arguments`, `typescript/no-unnecessary-type-assertion`, `typescript/no-unnecessary-type-constraint`, `typescript/no-unnecessary-type-conversion`, `typescript/no-unnecessary-type-parameters`, `typescript/no-unsafe-argument`, `typescript/no-unsafe-assignment`, `typescript/no-unsafe-call`, `typescript/no-unsafe-declaration-merging`, `typescript/no-unsafe-enum-comparison`, `typescript/no-unsafe-function-type`, `typescript/no-unsafe-member-access`, `typescript/no-unsafe-return`, `typescript/no-unsafe-type-assertion`, `typescript/no-unsafe-unary-minus`, `typescript/no-useless-default-assignment`, `typescript/no-useless-empty-export`, `typescript/no-wrapper-object-types`, `typescript/non-nullable-type-assertion-style`, `typescript/only-throw-error`, `typescript/parameter-properties`, `typescript/prefer-as-const`, `typescript/prefer-enum-initializers`, `typescript/prefer-find`, `typescript/prefer-for-of`, `typescript/prefer-function-type`, `typescript/prefer-includes`, `typescript/prefer-literal-enum-member`, `typescript/prefer-namespace-keyword`, `typescript/prefer-nullish-coalescing`, `typescript/prefer-optional-chain`, `typescript/prefer-promise-reject-errors`, `typescript/prefer-readonly`, `typescript/prefer-readonly-parameter-types`, `typescript/prefer-reduce-type-parameter`, `typescript/prefer-regexp-exec`, `typescript/prefer-return-this-type`, `typescript/prefer-string-starts-ends-with`, `typescript/promise-function-async`, `typescript/related-getter-setter-pairs`, `typescript/require-array-sort-compare`, `typescript/require-await`, `typescript/restrict-plus-operands`, `typescript/restrict-template-expressions`, `typescript/return-await`, `typescript/strict-boolean-expressions`, `typescript/strict-void-return`, `typescript/switch-exhaustiveness-check`, `typescript/triple-slash-reference`, `typescript/unbound-method`, `typescript/unified-signatures`, `typescript/use-unknown-in-catch-callback-variable`
+`class-methods-use-this`, `default-param-last`, `init-declarations`, `max-params`, `no-array-constructor`, `no-dupe-class-members`, `no-empty-function`, `no-implied-eval`, `no-magic-numbers`, `no-redeclare`, `no-shadow`, `no-unused-expressions`, `no-unused-private-class-members`, `no-unused-vars`, `no-use-before-define`, `no-useless-constructor`, `no-throw-literal`, `prefer-destructuring`, `prefer-promise-reject-errors`, `require-await`, `typescript/adjacent-overload-signatures`, `typescript/array-type`, `typescript/await-thenable`, `typescript/ban-ts-comment`, `typescript/ban-tslint-comment`, `typescript/class-literal-property-style`, `typescript/consistent-generic-constructors`, `typescript/consistent-indexed-object-style`, `typescript/consistent-return`, `typescript/consistent-type-assertions`, `typescript/consistent-type-definitions`, `typescript/consistent-type-exports`, `typescript/consistent-type-imports`, `typescript/dot-notation`, `typescript/explicit-function-return-type`, `typescript/explicit-member-accessibility`, `typescript/explicit-module-boundary-types`, `typescript/method-signature-style`, `typescript/no-array-delete`, `typescript/no-base-to-string`, `typescript/no-confusing-non-null-assertion`, `typescript/no-confusing-void-expression`, `typescript/no-deprecated`, `typescript/no-duplicate-enum-values`, `typescript/no-duplicate-type-constituents`, `typescript/no-dynamic-delete`, `typescript/no-empty-object-type`, `typescript/no-explicit-any`, `typescript/no-extra-non-null-assertion`, `typescript/no-extraneous-class`, `typescript/no-floating-promises`, `typescript/no-for-in-array`, `typescript/no-generated-empty-object-type`, `typescript/no-implied-eval`, `typescript/no-import-type-side-effects`, `typescript/no-inferrable-types`, `typescript/no-invalid-void-type`, `typescript/no-meaningless-void-operator`, `typescript/no-misused-new`, `typescript/no-misused-promises`, `typescript/no-misused-spread`, `typescript/no-mixed-enums`, `typescript/no-namespace`, `typescript/no-non-null-asserted-nullish-coalescing`, `typescript/no-non-null-asserted-optional-chain`, `typescript/no-non-null-assertion`, `typescript/no-redundant-type-constituents`, `typescript/no-require-imports`, `typescript/no-restricted-types`, `typescript/no-this-alias`, `typescript/no-unnecessary-boolean-literal-compare`, `typescript/no-unnecessary-condition`, `typescript/no-unnecessary-parameter-property-assignment`, `typescript/no-unnecessary-qualifier`, `typescript/no-unnecessary-template-expression`, `typescript/no-unnecessary-type-arguments`, `typescript/no-unnecessary-type-assertion`, `typescript/no-unnecessary-type-constraint`, `typescript/no-unnecessary-type-conversion`, `typescript/no-unnecessary-type-parameters`, `typescript/no-unsafe-argument`, `typescript/no-unsafe-assignment`, `typescript/no-unsafe-call`, `typescript/no-unsafe-declaration-merging`, `typescript/no-unsafe-enum-assignment`, `typescript/no-unsafe-enum-comparison`, `typescript/no-unsafe-function-type`, `typescript/no-unsafe-member-access`, `typescript/no-unsafe-return`, `typescript/no-unsafe-type-assertion`, `typescript/no-unsafe-unary-minus`, `typescript/no-useless-default-assignment`, `typescript/no-useless-empty-export`, `typescript/no-wrapper-object-types`, `typescript/non-nullable-type-assertion-style`, `typescript/only-throw-error`, `typescript/parameter-properties`, `typescript/prefer-as-const`, `typescript/prefer-enum-initializers`, `typescript/prefer-find`, `typescript/prefer-for-of`, `typescript/prefer-function-type`, `typescript/prefer-includes`, `typescript/prefer-literal-enum-member`, `typescript/prefer-namespace-keyword`, `typescript/prefer-nullish-coalescing`, `typescript/prefer-optional-chain`, `typescript/prefer-promise-reject-errors`, `typescript/prefer-readonly`, `typescript/prefer-readonly-parameter-types`, `typescript/prefer-reduce-type-parameter`, `typescript/prefer-regexp-exec`, `typescript/prefer-return-this-type`, `typescript/prefer-string-starts-ends-with`, `typescript/promise-function-async`, `typescript/related-getter-setter-pairs`, `typescript/require-array-sort-compare`, `typescript/require-await`, `typescript/restrict-plus-operands`, `typescript/restrict-template-expressions`, `typescript/return-await`, `typescript/strict-boolean-expressions`, `typescript/strict-void-return`, `typescript/switch-exhaustiveness-check`, `typescript/triple-slash-reference`, `typescript/unbound-method`, `typescript/unified-signatures`, `typescript/use-unknown-in-catch-callback-variable`
 
 </details>
 
 <details>
-<summary>6 rules have no oxlint equivalent</summary>
+<summary>5 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`@typescript-eslint/member-ordering`, `@typescript-eslint/naming-convention`, `@typescript-eslint/no-unsafe-enum-assignment`, `@typescript-eslint/no-unused-private-class-members`, `@typescript-eslint/prefer-destructuring`
+`@typescript-eslint/member-ordering`, `@typescript-eslint/naming-convention`, `@typescript-eslint/no-unused-private-class-members`, `@typescript-eslint/prefer-destructuring`
 
 **Not portable to oxlint**
 
@@ -637,10 +628,10 @@ Extracted from `@eslint/js@10.0.1`.
 "./node_modules/oxlint-config-presets/xo.json"
 ```
 
-Extracted from `eslint-config-xo@6.0.0`.
+Extracted from `eslint-config-xo@7.0.0`.
 
 <details>
-<summary>683 rules have no oxlint equivalent</summary>
+<summary>688 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
@@ -652,7 +643,7 @@ Extracted from `eslint-config-xo@6.0.0`.
 
 **Require JS plugin support**
 
-`node-test/assertion-arguments`, `node-test/consistent-assert-style`, `node-test/consistent-test-context-name`, `node-test/hooks-order`, `node-test/max-nested-describe`, `node-test/no-assert-in-describe`, `node-test/no-assert-match-string`, `node-test/no-assert-throws-async`, `node-test/no-assert-throws-call`, `node-test/no-assert-throws-multiple-statements`, `node-test/no-assert-throws-string`, `node-test/no-async-describe`, `node-test/no-async-fn-without-await`, `node-test/no-callback-and-promise`, `node-test/no-compound-assertion`, `node-test/no-conditional-assertion`, `node-test/no-conditional-tests`, `node-test/no-conflicting-modifiers`, `node-test/no-constant-assertion`, `node-test/no-duplicate-assertions`, `node-test/no-duplicate-hooks`, `node-test/no-duplicate-mock-timers-enable`, `node-test/no-duplicate-plan`, `node-test/no-expect-failure-without-reason`, `node-test/no-export`, `node-test/no-identical-assertion-arguments`, `node-test/no-identical-title`, `node-test/no-import-test-files`, `node-test/no-incorrect-deep-equal`, `node-test/no-incorrect-strict-equal`, `node-test/no-late-test-activity`, `node-test/no-loop-static-title`, `node-test/no-misused-concurrency`, `node-test/no-misused-context-hook`, `node-test/no-mock-module-after-import`, `node-test/no-mock-timers-destructured-import`, `node-test/no-nested-tests`, `node-test/no-only-test`, `node-test/no-parent-test-context`, `node-test/no-process-chdir-in-test`, `node-test/no-process-env-mutation`, `node-test/no-process-exit-in-test`, `node-test/no-skip-test`, `node-test/no-skip-without-return`, `node-test/no-standalone-assert`, `node-test/no-test-global-configuration`, `node-test/no-test-inside-hook`, `node-test/no-test-return-statement`, `node-test/no-unawaited-promise-assertion`, `node-test/no-unawaited-rejects`, `node-test/no-unawaited-subtest`, `node-test/no-unknown-test-options`, `node-test/no-useless-assertion`, `node-test/prefer-assert-match`, `node-test/prefer-assert-throws`, `node-test/prefer-async-await`, `node-test/prefer-context-mock`, `node-test/prefer-equality-assertion`, `node-test/prefer-hooks-on-top`, `node-test/prefer-mock-accessor`, `node-test/prefer-mock-call-count`, `node-test/prefer-mock-method`, `node-test/prefer-strict-assert`, `node-test/prefer-test-context-assert`, `node-test/prefer-todo`, `node-test/require-assertion`, `node-test/require-await-concurrent-subtests`, `node-test/require-context-assert-with-plan`, `node-test/require-mock-timers-advance`, `node-test/require-mock-timers-apis`, `node-test/require-throws-expectation`, `node-test/require-throws-validator-return-true`, `node-test/test-title`, `node-test/valid-describe-callback`, `node-test/valid-test-tags`, `no-use-extend-native/no-use-extend-native`, `xo/import-specifier-newline`, `@eslint-community/eslint-comments/disable-enable-pair`, `@eslint-community/eslint-comments/no-aggregating-enable`, `@eslint-community/eslint-comments/no-duplicate-disable`, `@eslint-community/eslint-comments/no-unused-disable`, `@eslint-community/eslint-comments/no-unused-enable`, `@eslint-community/eslint-comments/require-description`, `@stylistic/comma-dangle`, `@stylistic/no-extra-semi`, `@stylistic/curly-newline`, `@stylistic/dot-location`, `@stylistic/no-floating-decimal`, `@stylistic/no-multi-spaces`, `@stylistic/wrap-iife`, `@stylistic/array-bracket-newline`, `@stylistic/array-bracket-spacing`, `@stylistic/array-element-newline`, `@stylistic/brace-style`, `@stylistic/comma-spacing`, `@stylistic/comma-style`, `@stylistic/computed-property-spacing`, `@stylistic/eol-last`, `@stylistic/function-call-spacing`, `@stylistic/function-call-argument-newline`, `@stylistic/indent`, `@stylistic/jsx-quotes`, `@stylistic/key-spacing`, `@stylistic/keyword-spacing`, `@stylistic/linebreak-style`, `@stylistic/lines-between-class-members`, `@stylistic/max-len`, `@stylistic/max-statements-per-line`, `@stylistic/multiline-ternary`, `@stylistic/new-parens`, `@stylistic/no-mixed-operators`, `@stylistic/no-mixed-spaces-and-tabs`, `@stylistic/no-multiple-empty-lines`, `@stylistic/no-whitespace-before-property`, `@stylistic/no-trailing-spaces`, `@stylistic/object-curly-spacing`, `@stylistic/object-curly-newline`, `@stylistic/one-var-declaration-per-line`, `@stylistic/operator-linebreak`, `@stylistic/padded-blocks`, `@stylistic/padding-line-between-statements`, `@stylistic/quote-props`, `@stylistic/quotes`, `@stylistic/semi-spacing`, `@stylistic/semi-style`, `@stylistic/semi`, `@stylistic/space-before-blocks`, `@stylistic/space-before-function-paren`, `@stylistic/space-in-parens`, `@stylistic/space-infix-ops`, `@stylistic/space-unary-ops`, `@stylistic/spaced-comment`, `@stylistic/switch-colon-spacing`, `@stylistic/template-tag-spacing`, `@stylistic/arrow-parens`, `@stylistic/arrow-spacing`, `@stylistic/block-spacing`, `@stylistic/generator-star-spacing`, `@stylistic/rest-spread-spacing`, `@stylistic/template-curly-spacing`, `@stylistic/yield-star-spacing`, `@stylistic/indent-binary-ops`, `json/no-duplicate-keys`, `json/no-empty-keys`, `json/no-unsafe-values`, `json/no-unnormalized-keys`, `json/no-duplicate-keys`, `json/no-empty-keys`, `json/no-unsafe-values`, `json/no-unnormalized-keys`, `json/no-duplicate-keys`, `json/no-empty-keys`, `json/no-unsafe-values`, `json/no-unnormalized-keys`, `package-json/consistent-path-prefix`, `package-json/dependency-version-range`, `package-json/no-absolute-paths`, `package-json/no-absolute-paths-in-scripts`, `package-json/no-backslash-paths`, `package-json/no-core-module-dependencies`, `package-json/no-deprecated-fields`, `package-json/no-dist-tag-dependencies`, `package-json/no-duplicate-dependencies`, `package-json/no-empty-fields`, `package-json/no-exports-trailing-slash`, `package-json/no-fallback-export-arrays`, `package-json/no-http-dependencies`, `package-json/no-incompatible-peer-dependency-ranges`, `package-json/no-install-scripts`, `package-json/no-invalid-direct-overrides`, `package-json/no-manual-maintainers`, `package-json/no-nested-exports`, `package-json/no-node-modules-bin-paths`, `package-json/no-orphan-script-hooks`, `package-json/no-orphan-types`, `package-json/no-overrides-in-published-package`, `package-json/no-package-manager-engines`, `package-json/no-redundant-files`, `package-json/no-self-dependency`, `package-json/no-short-flags-in-scripts`, `package-json/no-typo-fields`, `package-json/no-wildcard-dependencies`, `package-json/no-workspace-protocol-in-published-package`, `package-json/peer-dependencies-as-dev-dependencies`, `package-json/prefer-engines-range`, `package-json/prefer-exports`, `package-json/prefer-files-field`, `package-json/prefer-https-urls`, `package-json/prefer-shorthand`, `package-json/prefer-side-effects-field`, `package-json/prefer-type-module`, `package-json/require-bin-executable`, `package-json/require-bin-shebang`, `package-json/require-default-condition`, `package-json/require-engines`, `package-json/require-entry-point`, `package-json/require-fields`, `package-json/require-private-when-workspaces`, `package-json/require-types-in-exports`, `package-json/sort-dependencies`, `package-json/sort-files`, `package-json/sort-properties`, `package-json/valid-fields`, `regexp/no-contradiction-with-assertion`, `regexp/no-control-character`, `regexp/no-dupe-disjunctions`, `regexp/no-empty-alternative`, `regexp/no-empty-capturing-group`, `regexp/no-empty-character-class`, `regexp/no-empty-group`, `regexp/no-empty-lookarounds-assertion`, `regexp/no-escape-backspace`, `regexp/no-invalid-regexp`, `regexp/no-lazy-ends`, `regexp/no-misleading-capturing-group`, `regexp/no-misleading-unicode-character`, `regexp/no-missing-g-flag`, `regexp/no-optional-assertion`, `regexp/no-potentially-useless-backreference`, `regexp/no-super-linear-backtracking`, `regexp/no-super-linear-move`, `regexp/no-useless-assertions`, `regexp/no-useless-backreference`, `regexp/no-useless-dollar-replacements`, `regexp/strict`, `regexp/confusing-quantifier`, `regexp/control-character-escape`, `regexp/negation`, `regexp/no-dupe-characters-character-class`, `regexp/no-empty-string-literal`, `regexp/no-extra-lookaround-assertions`, `regexp/no-invisible-character`, `regexp/no-legacy-features`, `regexp/no-non-standard-flag`, `regexp/no-obscure-range`, `regexp/no-octal`, `regexp/no-standalone-backslash`, `regexp/no-trivially-nested-assertion`, `regexp/no-trivially-nested-quantifier`, `regexp/no-unused-capturing-group`, `regexp/no-useless-character-class`, `regexp/no-useless-flag`, `regexp/no-useless-lazy`, `regexp/no-useless-quantifier`, `regexp/no-useless-range`, `regexp/no-useless-set-operand`, `regexp/no-useless-string-literal`, `regexp/no-useless-two-nums-quantifier`, `regexp/no-zero-quantifier`, `regexp/optimal-lookaround-quantifier`, `regexp/optimal-quantifier-concatenation`, `regexp/prefer-escape-replacement-dollar-char`, `regexp/prefer-predefined-assertion`, `regexp/prefer-range`, `regexp/prefer-regexp-exec`, `regexp/prefer-regexp-test`, `regexp/prefer-set-operation`, `regexp/simplify-set-operations`, `regexp/use-ignore-case`, `regexp/grapheme-string-literal`, `regexp/hexadecimal-escape`, `regexp/letter-case`, `regexp/match-any`, `regexp/no-useless-escape`, `regexp/no-useless-non-capturing-group`, `regexp/prefer-character-class`, `regexp/prefer-d`, `regexp/prefer-lookaround`, `regexp/prefer-named-backreference`, `regexp/prefer-named-capture-group`, `regexp/prefer-named-replacement`, `regexp/prefer-plus-quantifier`, `regexp/prefer-question-quantifier`, `regexp/prefer-result-array-groups`, `regexp/prefer-star-quantifier`, `regexp/prefer-unicode-codepoint-escapes`, `regexp/prefer-w`, `regexp/sort-character-class-elements`, `regexp/sort-flags`, `regexp/unicode-escape`, `regexp/unicode-property`, `@html-eslint/css-no-empty-blocks`, `@html-eslint/head-order`, `@html-eslint/no-duplicate-attrs`, `@html-eslint/no-duplicate-class`, `@html-eslint/no-duplicate-id`, `@html-eslint/no-duplicate-in-head`, `@html-eslint/no-ineffective-attrs`, `@html-eslint/no-inline-styles`, `@html-eslint/no-invalid-attr-value`, `@html-eslint/no-invalid-entity`, `@html-eslint/no-nested-interactive`, `@html-eslint/no-obsolete-attrs`, `@html-eslint/no-obsolete-tags`, `@html-eslint/no-script-style-type`, `@html-eslint/no-target-blank`, `@html-eslint/no-whitespace-only-children`, `@html-eslint/prefer-https`, `@html-eslint/require-button-type`, `@html-eslint/require-closing-tags`, `@html-eslint/require-content`, `@html-eslint/require-details-summary`, `@html-eslint/require-doctype`, `@html-eslint/require-explicit-size`, `@html-eslint/require-li-container`, `@html-eslint/require-meta-charset`, `@html-eslint/svg-require-viewbox`, `@html-eslint/use-baseline`, `@html-eslint/no-multiple-h1`, `@html-eslint/require-lang`, `@html-eslint/require-meta-description`, `@html-eslint/require-open-graph-protocol`, `@html-eslint/require-title`, `@html-eslint/no-abstract-roles`, `@html-eslint/no-accesskey-attrs`, `@html-eslint/no-aria-hidden-body`, `@html-eslint/no-aria-hidden-on-focusable`, `@html-eslint/no-empty-headings`, `@html-eslint/no-heading-inside-button`, `@html-eslint/no-invalid-role`, `@html-eslint/no-non-scalable-viewport`, `@html-eslint/no-positive-tabindex`, `@html-eslint/no-redundant-role`, `@html-eslint/no-skip-heading-levels`, `@html-eslint/require-form-method`, `@html-eslint/require-frame-title`, `@html-eslint/require-img-alt`, `@html-eslint/require-input-label`, `@html-eslint/require-meta-viewport`, `@html-eslint/attrs-newline`, `@html-eslint/class-spacing`, `@html-eslint/element-newline`, `@html-eslint/indent`, `@html-eslint/lowercase`, `@html-eslint/no-extra-spacing-tags`, `@html-eslint/no-extra-spacing-text`, `@html-eslint/no-multiple-empty-lines`, `@html-eslint/no-trailing-spaces`, `@html-eslint/quotes`, `@html-eslint/sort-attrs`, `markdown/fenced-code-language`, `markdown/no-duplicate-definitions`, `markdown/no-duplicate-headings`, `markdown/no-empty-definitions`, `markdown/no-empty-images`, `markdown/no-empty-links`, `markdown/no-invalid-label-refs`, `markdown/no-missing-atx-heading-space`, `markdown/no-missing-label-refs`, `markdown/no-missing-link-fragments`, `markdown/no-multiple-h1`, `markdown/no-reference-like-urls`, `markdown/no-reversed-media-syntax`, `markdown/no-space-in-emphasis`, `markdown/no-unused-definitions`, `markdown/table-column-count`, `css/font-family-fallbacks`, `css/no-duplicate-imports`, `css/no-duplicate-keyframe-selectors`, `css/no-empty-blocks`, `css/no-invalid-at-rule-placement`, `css/no-invalid-at-rules`, `css/no-invalid-named-grid-areas`, `css/no-unmatchable-selectors`, `cssicorn/consistent-compound-selector-order`, `cssicorn/consistent-layer-order`, `cssicorn/consistent-value-order`, `cssicorn/lowercase`, `cssicorn/no-clamped-values`, `cssicorn/no-declarations-after-nested-rules`, `cssicorn/no-deprecated-features`, `cssicorn/no-disabled-pinch-zoom`, `cssicorn/no-duplicate-at-rule-definitions`, `cssicorn/no-duplicate-font-family-names`, `cssicorn/no-duplicate-properties`, `cssicorn/no-duplicate-selectors`, `cssicorn/no-ineffective-keyframe-declarations`, `cssicorn/no-ineffective-overrides`, `cssicorn/no-ineffective-properties`, `cssicorn/no-ineffective-selector-properties`, `cssicorn/no-ineffective-supports-conditions`, `cssicorn/no-ineffective-transitions`, `cssicorn/no-invalid-media-features`, `cssicorn/no-invalid-property-references`, `cssicorn/no-nesting-with-mixed-specificity`, `cssicorn/no-overflow-axis-coercion`, `cssicorn/no-redundant-functions`, `cssicorn/no-redundant-longhand-properties`, `cssicorn/no-redundant-nested-style-rules`, `cssicorn/no-redundant-nesting-selector`, `cssicorn/no-redundant-shorthand-values`, `cssicorn/no-self-referencing-custom-properties`, `cssicorn/no-unknown-annotations`, `cssicorn/no-unknown-pseudo-selectors`, `cssicorn/no-unscoped-nesting-selector`, `cssicorn/no-useless-is`, `cssicorn/no-zero-length-unit`, `cssicorn/prefer-aspect-ratio`, `cssicorn/prefer-clamp`, `cssicorn/prefer-current-color`, `cssicorn/prefer-existing-custom-properties`, `cssicorn/prefer-explicit-viewport-units`, `cssicorn/prefer-individual-transform-properties`, `cssicorn/prefer-light-dark`, `cssicorn/prefer-media-feature-range-syntax`, `cssicorn/prefer-merged-rules`, `cssicorn/prefer-modern-syntax`, `cssicorn/prefer-nesting`, `cssicorn/prefer-relative-colors`, `cssicorn/prefer-short-hex-color`, `cssicorn/require-property-descriptors`, `@stylistic/brace-style`, `@stylistic/comma-dangle`, `@stylistic/comma-spacing`, `@stylistic/function-call-spacing`, `@stylistic/indent`, `@stylistic/keyword-spacing`, `@stylistic/lines-between-class-members`, `@stylistic/member-delimiter-style`, `@stylistic/no-extra-semi`, `@stylistic/object-curly-spacing`, `@stylistic/padding-line-between-statements`, `@stylistic/quotes`, `@stylistic/space-before-function-paren`, `@stylistic/space-infix-ops`, `@stylistic/semi`, `@stylistic/space-before-blocks`, `@stylistic/type-annotation-spacing`, `@stylistic/type-generic-spacing`, `@stylistic/type-named-tuple-spacing`, `@stylistic/operator-linebreak`, `@stylistic/indent-binary-ops`
+`node-test/assertion-arguments`, `node-test/consistent-assert-style`, `node-test/consistent-test-context-name`, `node-test/hooks-order`, `node-test/max-nested-describe`, `node-test/no-assert-in-describe`, `node-test/no-assert-match-string`, `node-test/no-assert-throws-async`, `node-test/no-assert-throws-call`, `node-test/no-assert-throws-multiple-statements`, `node-test/no-assert-throws-string`, `node-test/no-async-describe`, `node-test/no-async-fn-without-await`, `node-test/no-callback-and-promise`, `node-test/no-compound-assertion`, `node-test/no-conditional-assertion`, `node-test/no-conditional-tests`, `node-test/no-conflicting-modifiers`, `node-test/no-constant-assertion`, `node-test/no-duplicate-assertions`, `node-test/no-duplicate-hooks`, `node-test/no-duplicate-mock-timers-enable`, `node-test/no-duplicate-plan`, `node-test/no-expect-failure-without-reason`, `node-test/no-export`, `node-test/no-identical-assertion-arguments`, `node-test/no-identical-title`, `node-test/no-import-test-files`, `node-test/no-incorrect-deep-equal`, `node-test/no-incorrect-strict-equal`, `node-test/no-late-test-activity`, `node-test/no-loop-static-title`, `node-test/no-misused-concurrency`, `node-test/no-misused-context-hook`, `node-test/no-mock-module-after-import`, `node-test/no-mock-timers-destructured-import`, `node-test/no-nested-tests`, `node-test/no-only-test`, `node-test/no-parent-test-context`, `node-test/no-process-chdir-in-test`, `node-test/no-process-env-mutation`, `node-test/no-process-exit-in-test`, `node-test/no-skip-test`, `node-test/no-skip-without-return`, `node-test/no-standalone-assert`, `node-test/no-test-global-configuration`, `node-test/no-test-inside-hook`, `node-test/no-test-return-statement`, `node-test/no-unawaited-promise-assertion`, `node-test/no-unawaited-rejects`, `node-test/no-unawaited-subtest`, `node-test/no-unknown-test-options`, `node-test/no-useless-assertion`, `node-test/prefer-assert-match`, `node-test/prefer-assert-throws`, `node-test/prefer-async-await`, `node-test/prefer-context-mock`, `node-test/prefer-equality-assertion`, `node-test/prefer-hooks-on-top`, `node-test/prefer-mock-accessor`, `node-test/prefer-mock-call-count`, `node-test/prefer-mock-method`, `node-test/prefer-strict-assert`, `node-test/prefer-test-context-assert`, `node-test/prefer-todo`, `node-test/require-assertion`, `node-test/require-await-concurrent-subtests`, `node-test/require-context-assert-with-plan`, `node-test/require-mock-timers-advance`, `node-test/require-mock-timers-apis`, `node-test/require-throws-expectation`, `node-test/require-throws-validator-return-true`, `node-test/test-title`, `node-test/valid-describe-callback`, `node-test/valid-test-tags`, `no-use-extend-native/no-use-extend-native`, `xo/import-specifier-newline`, `@eslint-community/eslint-comments/disable-enable-pair`, `@eslint-community/eslint-comments/no-aggregating-enable`, `@eslint-community/eslint-comments/no-duplicate-disable`, `@eslint-community/eslint-comments/no-unused-disable`, `@eslint-community/eslint-comments/no-unused-enable`, `@eslint-community/eslint-comments/require-description`, `@stylistic/comma-dangle`, `@stylistic/no-extra-semi`, `@stylistic/curly-newline`, `@stylistic/dot-location`, `@stylistic/no-floating-decimal`, `@stylistic/no-multi-spaces`, `@stylistic/wrap-iife`, `@stylistic/array-bracket-newline`, `@stylistic/array-bracket-spacing`, `@stylistic/array-element-newline`, `@stylistic/brace-style`, `@stylistic/comma-spacing`, `@stylistic/comma-style`, `@stylistic/computed-property-spacing`, `@stylistic/eol-last`, `@stylistic/function-call-spacing`, `@stylistic/function-call-argument-newline`, `@stylistic/indent`, `@stylistic/jsx-quotes`, `@stylistic/key-spacing`, `@stylistic/keyword-spacing`, `@stylistic/linebreak-style`, `@stylistic/lines-between-class-members`, `@stylistic/max-len`, `@stylistic/max-statements-per-line`, `@stylistic/multiline-ternary`, `@stylistic/new-parens`, `@stylistic/no-mixed-operators`, `@stylistic/no-mixed-spaces-and-tabs`, `@stylistic/no-multiple-empty-lines`, `@stylistic/no-whitespace-before-property`, `@stylistic/no-trailing-spaces`, `@stylistic/object-curly-spacing`, `@stylistic/object-curly-newline`, `@stylistic/one-var-declaration-per-line`, `@stylistic/operator-linebreak`, `@stylistic/padded-blocks`, `@stylistic/padding-line-between-statements`, `@stylistic/quote-props`, `@stylistic/quotes`, `@stylistic/semi-spacing`, `@stylistic/semi-style`, `@stylistic/semi`, `@stylistic/space-before-blocks`, `@stylistic/space-before-function-paren`, `@stylistic/space-in-parens`, `@stylistic/space-infix-ops`, `@stylistic/space-unary-ops`, `@stylistic/spaced-comment`, `@stylistic/switch-colon-spacing`, `@stylistic/template-tag-spacing`, `@stylistic/arrow-parens`, `@stylistic/arrow-spacing`, `@stylistic/block-spacing`, `@stylistic/generator-star-spacing`, `@stylistic/rest-spread-spacing`, `@stylistic/template-curly-spacing`, `@stylistic/yield-star-spacing`, `@stylistic/indent-binary-ops`, `json/no-duplicate-keys`, `json/no-empty-keys`, `json/no-unsafe-values`, `json/no-unnormalized-keys`, `json/no-duplicate-keys`, `json/no-empty-keys`, `json/no-unsafe-values`, `json/no-unnormalized-keys`, `json/no-duplicate-keys`, `json/no-empty-keys`, `json/no-unsafe-values`, `json/no-unnormalized-keys`, `package-json/consistent-path-prefix`, `package-json/dependency-version-range`, `package-json/no-absolute-paths`, `package-json/no-absolute-paths-in-scripts`, `package-json/no-backslash-paths`, `package-json/no-core-module-dependencies`, `package-json/no-deprecated-fields`, `package-json/no-dist-tag-dependencies`, `package-json/no-duplicate-dependencies`, `package-json/no-empty-fields`, `package-json/no-exports-trailing-slash`, `package-json/no-fallback-export-arrays`, `package-json/no-http-dependencies`, `package-json/no-incompatible-peer-dependency-ranges`, `package-json/no-install-scripts`, `package-json/no-invalid-direct-overrides`, `package-json/no-manual-maintainers`, `package-json/no-nested-exports`, `package-json/no-node-modules-bin-paths`, `package-json/no-orphan-script-hooks`, `package-json/no-orphan-types`, `package-json/no-overrides-in-published-package`, `package-json/no-package-manager-engines`, `package-json/no-redundant-files`, `package-json/no-self-dependency`, `package-json/no-short-flags-in-scripts`, `package-json/no-typo-fields`, `package-json/no-wildcard-dependencies`, `package-json/no-workspace-protocol-in-published-package`, `package-json/peer-dependencies-as-dev-dependencies`, `package-json/prefer-engines-range`, `package-json/prefer-exports`, `package-json/prefer-files-field`, `package-json/prefer-https-urls`, `package-json/prefer-shorthand`, `package-json/prefer-side-effects-field`, `package-json/prefer-type-module`, `package-json/require-bin-executable`, `package-json/require-bin-shebang`, `package-json/require-default-condition`, `package-json/require-engines`, `package-json/require-entry-point`, `package-json/require-fields`, `package-json/require-private-when-workspaces`, `package-json/require-types-in-exports`, `package-json/sort-dependencies`, `package-json/sort-files`, `package-json/sort-properties`, `package-json/valid-fields`, `regexp/no-contradiction-with-assertion`, `regexp/no-control-character`, `regexp/no-dupe-disjunctions`, `regexp/no-empty-alternative`, `regexp/no-empty-capturing-group`, `regexp/no-empty-character-class`, `regexp/no-empty-group`, `regexp/no-empty-lookarounds-assertion`, `regexp/no-escape-backspace`, `regexp/no-invalid-regexp`, `regexp/no-lazy-ends`, `regexp/no-misleading-capturing-group`, `regexp/no-misleading-unicode-character`, `regexp/no-missing-g-flag`, `regexp/no-optional-assertion`, `regexp/no-potentially-useless-backreference`, `regexp/no-super-linear-backtracking`, `regexp/no-super-linear-move`, `regexp/no-useless-assertions`, `regexp/no-useless-backreference`, `regexp/no-useless-dollar-replacements`, `regexp/strict`, `regexp/confusing-quantifier`, `regexp/control-character-escape`, `regexp/negation`, `regexp/no-dupe-characters-character-class`, `regexp/no-empty-string-literal`, `regexp/no-extra-lookaround-assertions`, `regexp/no-invisible-character`, `regexp/no-legacy-features`, `regexp/no-non-standard-flag`, `regexp/no-obscure-range`, `regexp/no-octal`, `regexp/no-standalone-backslash`, `regexp/no-trivially-nested-assertion`, `regexp/no-trivially-nested-quantifier`, `regexp/no-unused-capturing-group`, `regexp/no-useless-character-class`, `regexp/no-useless-flag`, `regexp/no-useless-lazy`, `regexp/no-useless-quantifier`, `regexp/no-useless-range`, `regexp/no-useless-set-operand`, `regexp/no-useless-string-literal`, `regexp/no-useless-two-nums-quantifier`, `regexp/no-zero-quantifier`, `regexp/optimal-lookaround-quantifier`, `regexp/optimal-quantifier-concatenation`, `regexp/prefer-escape-replacement-dollar-char`, `regexp/prefer-predefined-assertion`, `regexp/prefer-range`, `regexp/prefer-regexp-exec`, `regexp/prefer-regexp-test`, `regexp/prefer-set-operation`, `regexp/simplify-set-operations`, `regexp/use-ignore-case`, `regexp/grapheme-string-literal`, `regexp/hexadecimal-escape`, `regexp/letter-case`, `regexp/match-any`, `regexp/no-useless-escape`, `regexp/no-useless-non-capturing-group`, `regexp/prefer-character-class`, `regexp/prefer-d`, `regexp/prefer-lookaround`, `regexp/prefer-named-backreference`, `regexp/prefer-named-capture-group`, `regexp/prefer-named-replacement`, `regexp/prefer-plus-quantifier`, `regexp/prefer-question-quantifier`, `regexp/prefer-result-array-groups`, `regexp/prefer-star-quantifier`, `regexp/prefer-unicode-codepoint-escapes`, `regexp/prefer-w`, `regexp/sort-character-class-elements`, `regexp/sort-flags`, `regexp/unicode-escape`, `regexp/unicode-property`, `@html-eslint/css-no-empty-blocks`, `@html-eslint/head-order`, `@html-eslint/no-duplicate-attrs`, `@html-eslint/no-duplicate-class`, `@html-eslint/no-duplicate-id`, `@html-eslint/no-duplicate-in-head`, `@html-eslint/no-ineffective-attrs`, `@html-eslint/no-inline-styles`, `@html-eslint/no-invalid-attr-value`, `@html-eslint/no-invalid-entity`, `@html-eslint/no-nested-interactive`, `@html-eslint/no-obsolete-attrs`, `@html-eslint/no-obsolete-tags`, `@html-eslint/no-script-style-type`, `@html-eslint/no-target-blank`, `@html-eslint/no-whitespace-only-children`, `@html-eslint/prefer-https`, `@html-eslint/require-button-type`, `@html-eslint/require-closing-tags`, `@html-eslint/require-content`, `@html-eslint/require-details-summary`, `@html-eslint/require-doctype`, `@html-eslint/require-explicit-size`, `@html-eslint/require-li-container`, `@html-eslint/require-meta-charset`, `@html-eslint/svg-require-viewbox`, `@html-eslint/use-baseline`, `@html-eslint/no-multiple-h1`, `@html-eslint/require-lang`, `@html-eslint/require-meta-description`, `@html-eslint/require-open-graph-protocol`, `@html-eslint/require-title`, `@html-eslint/no-abstract-roles`, `@html-eslint/no-accesskey-attrs`, `@html-eslint/no-aria-hidden-body`, `@html-eslint/no-aria-hidden-on-focusable`, `@html-eslint/no-empty-headings`, `@html-eslint/no-heading-inside-button`, `@html-eslint/no-invalid-role`, `@html-eslint/no-non-scalable-viewport`, `@html-eslint/no-positive-tabindex`, `@html-eslint/no-redundant-role`, `@html-eslint/no-skip-heading-levels`, `@html-eslint/require-form-method`, `@html-eslint/require-frame-title`, `@html-eslint/require-img-alt`, `@html-eslint/require-input-label`, `@html-eslint/require-meta-viewport`, `@html-eslint/attrs-newline`, `@html-eslint/class-spacing`, `@html-eslint/element-newline`, `@html-eslint/indent`, `@html-eslint/lowercase`, `@html-eslint/no-extra-spacing-tags`, `@html-eslint/no-extra-spacing-text`, `@html-eslint/no-multiple-empty-lines`, `@html-eslint/no-trailing-spaces`, `@html-eslint/quotes`, `@html-eslint/sort-attrs`, `markdown/fenced-code-language`, `markdown/no-duplicate-definitions`, `markdown/no-duplicate-headings`, `markdown/no-empty-definitions`, `markdown/no-empty-images`, `markdown/no-empty-links`, `markdown/no-invalid-label-refs`, `markdown/no-missing-atx-heading-space`, `markdown/no-missing-label-refs`, `markdown/no-missing-link-fragments`, `markdown/no-multiple-h1`, `markdown/no-reference-like-urls`, `markdown/no-reversed-media-syntax`, `markdown/no-space-in-emphasis`, `markdown/no-unused-definitions`, `markdown/table-column-count`, `css/font-family-fallbacks`, `css/no-duplicate-imports`, `css/no-duplicate-keyframe-selectors`, `css/no-empty-blocks`, `css/no-invalid-at-rule-placement`, `css/no-invalid-at-rules`, `css/no-invalid-named-grid-areas`, `css/no-unmatchable-selectors`, `cssicorn/consistent-compound-selector-order`, `cssicorn/consistent-custom-property-fallbacks`, `cssicorn/consistent-layer-order`, `cssicorn/consistent-value-order`, `cssicorn/lowercase`, `cssicorn/no-clamped-values`, `cssicorn/no-declarations-after-nested-rules`, `cssicorn/no-deprecated-features`, `cssicorn/no-disabled-pinch-zoom`, `cssicorn/no-duplicate-at-rule-definitions`, `cssicorn/no-duplicate-font-family-names`, `cssicorn/no-duplicate-properties`, `cssicorn/no-duplicate-selectors`, `cssicorn/no-ineffective-keyframe-declarations`, `cssicorn/no-ineffective-overrides`, `cssicorn/no-ineffective-properties`, `cssicorn/no-ineffective-selector-properties`, `cssicorn/no-ineffective-supports-conditions`, `cssicorn/no-ineffective-transitions`, `cssicorn/no-invalid-media-features`, `cssicorn/no-invalid-property-references`, `cssicorn/no-nesting-with-mixed-specificity`, `cssicorn/no-overflow-axis-coercion`, `cssicorn/no-overridden-animation-properties`, `cssicorn/no-redundant-functions`, `cssicorn/no-redundant-longhand-properties`, `cssicorn/no-redundant-nested-style-rules`, `cssicorn/no-redundant-nesting-selector`, `cssicorn/no-redundant-shorthand-values`, `cssicorn/no-self-referencing-custom-properties`, `cssicorn/no-unknown-annotations`, `cssicorn/no-unknown-pseudo-selectors`, `cssicorn/no-unknown-type-selectors`, `cssicorn/no-unscoped-nesting-selector`, `cssicorn/no-useless-is`, `cssicorn/no-zero-length-unit`, `cssicorn/prefer-aspect-ratio`, `cssicorn/prefer-clamp`, `cssicorn/prefer-current-color`, `cssicorn/prefer-existing-custom-properties`, `cssicorn/prefer-explicit-viewport-units`, `cssicorn/prefer-individual-transform-properties`, `cssicorn/prefer-light-dark`, `cssicorn/prefer-longhand-overrides`, `cssicorn/prefer-media-feature-range-syntax`, `cssicorn/prefer-merged-rules`, `cssicorn/prefer-modern-syntax`, `cssicorn/prefer-nesting`, `cssicorn/prefer-relative-colors`, `cssicorn/prefer-short-hex-color`, `cssicorn/prefer-subgrid`, `cssicorn/require-property-descriptors`, `@stylistic/brace-style`, `@stylistic/comma-dangle`, `@stylistic/comma-spacing`, `@stylistic/function-call-spacing`, `@stylistic/indent`, `@stylistic/keyword-spacing`, `@stylistic/lines-between-class-members`, `@stylistic/member-delimiter-style`, `@stylistic/no-extra-semi`, `@stylistic/object-curly-spacing`, `@stylistic/padding-line-between-statements`, `@stylistic/quotes`, `@stylistic/space-before-function-paren`, `@stylistic/space-infix-ops`, `@stylistic/semi`, `@stylistic/space-before-blocks`, `@stylistic/type-annotation-spacing`, `@stylistic/type-generic-spacing`, `@stylistic/type-named-tuple-spacing`, `@stylistic/operator-linebreak`, `@stylistic/indent-binary-ops`
 
 </details>
 
@@ -758,12 +749,12 @@ These rules are enabled but their configuration options were dropped because oxl
 "./node_modules/oxlint-config-presets/wikimedia.json"
 ```
 
-Extracted from `eslint-config-wikimedia@0.32.6`.
+Extracted from `eslint-config-wikimedia@0.33.1`.
 
 <details>
-<summary>128 rules successfully migrated</summary>
+<summary>129 rules successfully migrated</summary>
 
-`constructor-super`, `for-direction`, `getter-return`, `no-async-promise-executor`, `no-case-declarations`, `no-class-assign`, `no-compare-neg-zero`, `no-cond-assign`, `no-const-assign`, `no-constant-binary-expression`, `no-constant-condition`, `no-control-regex`, `no-debugger`, `no-delete-var`, `no-dupe-class-members`, `no-dupe-else-if`, `no-dupe-keys`, `no-duplicate-case`, `no-empty`, `no-empty-character-class`, `no-empty-pattern`, `no-empty-static-block`, `no-ex-assign`, `no-extra-boolean-cast`, `no-fallthrough`, `no-func-assign`, `no-global-assign`, `no-import-assign`, `no-invalid-regexp`, `no-irregular-whitespace`, `no-loss-of-precision`, `no-misleading-character-class`, `no-new-native-nonconstructor`, `no-nonoctal-decimal-escape`, `no-obj-calls`, `no-prototype-builtins`, `no-redeclare`, `no-regex-spaces`, `no-self-assign`, `no-setter-return`, `no-shadow-restricted-names`, `no-sparse-arrays`, `no-this-before-super`, `no-unassigned-vars`, `no-undef`, `no-unexpected-multiline`, `no-unreachable`, `no-unsafe-finally`, `no-unsafe-negation`, `no-unsafe-optional-chaining`, `no-unused-labels`, `no-unused-private-class-members`, `no-unused-vars`, `no-useless-assignment`, `no-useless-backreference`, `no-useless-catch`, `no-useless-escape`, `no-with`, `preserve-caught-error`, `require-yield`, `use-isnan`, `valid-typeof`, `jsdoc/check-access`, `jsdoc/check-property-names`, `jsdoc/check-tag-names`, `jsdoc/empty-tags`, `jsdoc/implements-on-classes`, `jsdoc/no-blank-blocks`, `jsdoc/no-defaults`, `jsdoc/require-param`, `jsdoc/require-param-description`, `jsdoc/require-param-name`, `jsdoc/require-param-type`, `jsdoc/require-property`, `jsdoc/require-property-description`, `jsdoc/require-property-name`, `jsdoc/require-property-type`, `jsdoc/require-returns`, `jsdoc/require-returns-description`, `jsdoc/require-returns-type`, `jsdoc/require-throws-description`, `jsdoc/require-throws-type`, `jsdoc/require-yields`, `jsdoc/require-yields-description`, `jsdoc/require-yields-type`, `array-callback-return`, `block-scoped-var`, `curly`, `eqeqeq`, `new-cap`, `no-array-constructor`, `no-bitwise`, `no-caller`, `no-eval`, `no-extend-native`, `no-extra-bind`, `no-extra-label`, `no-implicit-coercion`, `no-implicit-globals`, `no-label-var`, `no-loop-func`, `no-new`, `no-new-func`, `no-new-wrappers`, `no-proto`, `no-return-assign`, `no-script-url`, `no-self-compare`, `no-sequences`, `no-shadow`, `no-throw-literal`, `no-underscore-dangle`, `no-unmodified-loop-condition`, `no-unneeded-ternary`, `no-unreachable-loop`, `no-unused-expressions`, `no-use-before-define`, `no-useless-call`, `no-useless-concat`, `no-void`, `prefer-numeric-literals`, `prefer-regex-literals`, `unicode-bom`, `yoda`, `unicorn/prefer-date-now`, `unicorn/prefer-string-slice`, `unicorn/throw-new-error`, `typescript/dot-notation`
+`constructor-super`, `for-direction`, `getter-return`, `no-async-promise-executor`, `no-case-declarations`, `no-class-assign`, `no-compare-neg-zero`, `no-cond-assign`, `no-const-assign`, `no-constant-binary-expression`, `no-constant-condition`, `no-control-regex`, `no-debugger`, `no-delete-var`, `no-dupe-class-members`, `no-dupe-else-if`, `no-dupe-keys`, `no-duplicate-case`, `no-empty`, `no-empty-character-class`, `no-empty-pattern`, `no-empty-static-block`, `no-ex-assign`, `no-extra-boolean-cast`, `no-fallthrough`, `no-func-assign`, `no-global-assign`, `no-import-assign`, `no-invalid-regexp`, `no-irregular-whitespace`, `no-loss-of-precision`, `no-misleading-character-class`, `no-new-native-nonconstructor`, `no-nonoctal-decimal-escape`, `no-obj-calls`, `no-prototype-builtins`, `no-redeclare`, `no-regex-spaces`, `no-self-assign`, `no-setter-return`, `no-shadow-restricted-names`, `no-sparse-arrays`, `no-this-before-super`, `no-unassigned-vars`, `no-undef`, `no-unexpected-multiline`, `no-unreachable`, `no-unsafe-finally`, `no-unsafe-negation`, `no-unsafe-optional-chaining`, `no-unused-labels`, `no-unused-private-class-members`, `no-unused-vars`, `no-useless-assignment`, `no-useless-backreference`, `no-useless-catch`, `no-useless-escape`, `no-with`, `preserve-caught-error`, `require-yield`, `use-isnan`, `valid-typeof`, `jsdoc/check-access`, `jsdoc/check-property-names`, `jsdoc/check-tag-names`, `jsdoc/empty-tags`, `jsdoc/implements-on-classes`, `jsdoc/no-blank-blocks`, `jsdoc/no-defaults`, `jsdoc/require-param`, `jsdoc/require-param-description`, `jsdoc/require-param-name`, `jsdoc/require-param-type`, `jsdoc/require-property`, `jsdoc/require-property-description`, `jsdoc/require-property-name`, `jsdoc/require-property-type`, `jsdoc/require-returns`, `jsdoc/require-returns-description`, `jsdoc/require-returns-type`, `jsdoc/require-throws-description`, `jsdoc/require-throws-type`, `jsdoc/require-yields`, `jsdoc/require-yields-description`, `jsdoc/require-yields-type`, `array-callback-return`, `block-scoped-var`, `curly`, `eqeqeq`, `new-cap`, `no-array-constructor`, `no-bitwise`, `no-caller`, `no-eval`, `no-extend-native`, `no-extra-bind`, `no-extra-label`, `no-implicit-coercion`, `no-implicit-globals`, `no-inner-declarations`, `no-label-var`, `no-loop-func`, `no-new`, `no-new-func`, `no-new-wrappers`, `no-proto`, `no-return-assign`, `no-script-url`, `no-self-compare`, `no-sequences`, `no-shadow`, `no-throw-literal`, `no-underscore-dangle`, `no-unmodified-loop-condition`, `no-unneeded-ternary`, `no-unreachable-loop`, `no-unused-expressions`, `no-use-before-define`, `no-useless-call`, `no-useless-concat`, `no-void`, `prefer-numeric-literals`, `prefer-regex-literals`, `unicode-bom`, `yoda`, `unicorn/prefer-date-now`, `unicorn/prefer-string-slice`, `unicorn/throw-new-error`, `typescript/dot-notation`
 
 </details>
 
@@ -972,7 +963,7 @@ Extracted from `eslint-config-prettier@10.1.8`.
 "./node_modules/oxlint-config-presets/@antfu.json"
 ```
 
-Extracted from `@antfu/eslint-config@9.5.1`.
+Extracted from `@antfu/eslint-config@10.0.0`.
 
 <details>
 <summary>105 rules successfully migrated</summary>
@@ -991,7 +982,7 @@ These rules are enabled but their configuration options were dropped because oxl
 </details>
 
 <details>
-<summary>301 rules have no oxlint equivalent</summary>
+<summary>302 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
@@ -1003,7 +994,7 @@ These rules are enabled but their configuration options were dropped because oxl
 
 **Require JS plugin support**
 
-`antfu/no-top-level-await`, `unused-imports/no-unused-imports`, `unused-imports/no-unused-vars`, `eslint-comments/no-aggregating-enable`, `eslint-comments/no-duplicate-disable`, `eslint-comments/no-unlimited-disable`, `eslint-comments/no-unused-enable`, `command/command`, `perfectionist/sort-exports`, `perfectionist/sort-named-exports`, `perfectionist/sort-named-imports`, `antfu/import-dedupe`, `antfu/no-import-dist`, `antfu/no-import-node-modules-by-path`, `e18e/prefer-array-fill`, `e18e/prefer-includes`, `e18e/prefer-nullish-coalescing`, `e18e/prefer-object-has-own`, `e18e/prefer-url-canparse`, `e18e/prefer-timer-args`, `e18e/prefer-date-now`, `e18e/prefer-regex-test`, `e18e/prefer-array-some`, `e18e/prefer-string-fromcharcode`, `ts/ban-ts-comment`, `ts/no-array-constructor`, `ts/no-duplicate-enum-values`, `ts/no-empty-object-type`, `ts/no-extra-non-null-assertion`, `ts/no-misused-new`, `ts/no-namespace`, `ts/no-non-null-asserted-nullish-coalescing`, `ts/no-non-null-asserted-optional-chain`, `ts/no-require-imports`, `ts/no-this-alias`, `ts/no-unnecessary-type-constraint`, `ts/no-unsafe-declaration-merging`, `ts/no-unsafe-function-type`, `ts/no-unused-expressions`, `ts/no-wrapper-object-types`, `ts/prefer-as-const`, `ts/prefer-literal-enum-member`, `ts/prefer-namespace-keyword`, `ts/consistent-type-definitions`, `ts/consistent-type-imports`, `ts/method-signature-style`, `ts/no-dupe-class-members`, `ts/no-import-type-side-effects`, `ts/no-redeclare`, `ts/no-use-before-define`, `style/array-bracket-spacing`, `style/arrow-parens`, `style/arrow-spacing`, `style/block-spacing`, `style/brace-style`, `style/comma-dangle`, `style/comma-spacing`, `style/comma-style`, `style/computed-property-spacing`, `style/dot-location`, `style/eol-last`, `style/generator-star-spacing`, `style/indent`, `style/indent-binary-ops`, `style/key-spacing`, `style/keyword-spacing`, `style/lines-between-class-members`, `style/max-statements-per-line`, `style/member-delimiter-style`, `style/multiline-ternary`, `style/new-parens`, `style/no-extra-parens`, `style/no-floating-decimal`, `style/no-mixed-operators`, `style/no-mixed-spaces-and-tabs`, `style/no-multi-spaces`, `style/no-multiple-empty-lines`, `style/no-tabs`, `style/no-trailing-spaces`, `style/no-whitespace-before-property`, `style/object-curly-spacing`, `style/operator-linebreak`, `style/padded-blocks`, `style/quote-props`, `style/quotes`, `style/rest-spread-spacing`, `style/semi`, `style/semi-spacing`, `style/space-before-blocks`, `style/space-before-function-paren`, `style/space-in-parens`, `style/space-infix-ops`, `style/space-unary-ops`, `style/spaced-comment`, `style/template-curly-spacing`, `style/template-tag-spacing`, `style/type-annotation-spacing`, `style/type-generic-spacing`, `style/type-named-tuple-spacing`, `style/wrap-iife`, `style/yield-star-spacing`, `style/jsx-closing-bracket-location`, `style/jsx-closing-tag-location`, `style/jsx-curly-brace-presence`, `style/jsx-curly-newline`, `style/jsx-curly-spacing`, `style/jsx-equals-spacing`, `style/jsx-first-prop-new-line`, `style/jsx-function-call-newline`, `style/jsx-indent-props`, `style/jsx-max-props-per-line`, `style/jsx-one-expression-per-line`, `style/jsx-quotes`, `style/jsx-tag-spacing`, `style/jsx-wrap-multilines`, `antfu/consistent-list-newline`, `antfu/consistent-chaining`, `antfu/curly`, `antfu/if-newline`, `antfu/top-level-function`, `regexp/confusing-quantifier`, `regexp/control-character-escape`, `regexp/match-any`, `regexp/negation`, `regexp/no-contradiction-with-assertion`, `regexp/no-dupe-characters-character-class`, `regexp/no-dupe-disjunctions`, `regexp/no-empty-alternative`, `regexp/no-empty-capturing-group`, `regexp/no-empty-character-class`, `regexp/no-empty-group`, `regexp/no-empty-lookarounds-assertion`, `regexp/no-empty-string-literal`, `regexp/no-escape-backspace`, `regexp/no-extra-lookaround-assertions`, `regexp/no-invalid-regexp`, `regexp/no-invisible-character`, `regexp/no-lazy-ends`, `regexp/no-legacy-features`, `regexp/no-misleading-capturing-group`, `regexp/no-misleading-unicode-character`, `regexp/no-missing-g-flag`, `regexp/no-non-standard-flag`, `regexp/no-obscure-range`, `regexp/no-optional-assertion`, `regexp/no-potentially-useless-backreference`, `regexp/no-super-linear-backtracking`, `regexp/no-trivially-nested-assertion`, `regexp/no-trivially-nested-quantifier`, `regexp/no-unused-capturing-group`, `regexp/no-useless-assertions`, `regexp/no-useless-backreference`, `regexp/no-useless-character-class`, `regexp/no-useless-dollar-replacements`, `regexp/no-useless-escape`, `regexp/no-useless-flag`, `regexp/no-useless-lazy`, `regexp/no-useless-non-capturing-group`, `regexp/no-useless-quantifier`, `regexp/no-useless-range`, `regexp/no-useless-set-operand`, `regexp/no-useless-string-literal`, `regexp/no-useless-two-nums-quantifier`, `regexp/no-zero-quantifier`, `regexp/optimal-lookaround-quantifier`, `regexp/optimal-quantifier-concatenation`, `regexp/prefer-character-class`, `regexp/prefer-d`, `regexp/prefer-plus-quantifier`, `regexp/prefer-predefined-assertion`, `regexp/prefer-question-quantifier`, `regexp/prefer-range`, `regexp/prefer-set-operation`, `regexp/prefer-star-quantifier`, `regexp/prefer-unicode-codepoint-escapes`, `regexp/prefer-w`, `regexp/simplify-set-operations`, `regexp/sort-flags`, `regexp/strict`, `regexp/use-ignore-case`, `test/consistent-test-it`, `test/no-identical-title`, `test/no-import-node-test`, `test/no-only-tests`, `test/prefer-hooks-in-order`, `test/prefer-lowercase-title`, `jsonc/no-bigint-literals`, `jsonc/no-binary-expression`, `jsonc/no-binary-numeric-literals`, `jsonc/no-dupe-keys`, `jsonc/no-escape-sequence-in-identifier`, `jsonc/no-floating-decimal`, `jsonc/no-hexadecimal-numeric-literals`, `jsonc/no-infinity`, `jsonc/no-multi-str`, `jsonc/no-nan`, `jsonc/no-number-props`, `jsonc/no-numeric-separators`, `jsonc/no-octal`, `jsonc/no-octal-escape`, `jsonc/no-octal-numeric-literals`, `jsonc/no-parenthesized`, `jsonc/no-plus-sign`, `jsonc/no-regexp-literals`, `jsonc/no-sparse-arrays`, `jsonc/no-template-literals`, `jsonc/no-undefined-value`, `jsonc/no-unicode-codepoint-escapes`, `jsonc/no-useless-escape`, `jsonc/space-unary-ops`, `jsonc/valid-json-number`, `jsonc/vue-custom-block/no-parsing-error`, `jsonc/array-bracket-spacing`, `jsonc/comma-dangle`, `jsonc/comma-style`, `jsonc/indent`, `jsonc/key-spacing`, `jsonc/object-curly-newline`, `jsonc/object-curly-spacing`, `jsonc/object-property-newline`, `jsonc/quote-props`, `jsonc/quotes`, `jsonc/sort-array-values`, `jsonc/sort-keys`, `jsonc/sort-keys`, `pnpm/json-prefer-workspace-settings`, `pnpm/json-valid-catalog`, `pnpm/yaml-enforce-settings`, `pnpm/yaml-no-duplicate-catalog-item`, `pnpm/yaml-no-unused-catalog-item`, `pnpm/yaml-blank-lines`, `yaml/sort-keys`, `yaml/block-mapping`, `yaml/block-sequence`, `yaml/no-empty-key`, `yaml/no-empty-sequence-entry`, `yaml/no-irregular-whitespace`, `yaml/plain-scalar`, `yaml/vue-custom-block/no-parsing-error`, `yaml/block-mapping-question-indicator-newline`, `yaml/block-sequence-hyphen-indicator-newline`, `yaml/flow-mapping-curly-newline`, `yaml/flow-mapping-curly-spacing`, `yaml/flow-sequence-bracket-newline`, `yaml/flow-sequence-bracket-spacing`, `yaml/indent`, `yaml/key-spacing`, `yaml/no-multiple-empty-lines`, `yaml/no-tab-indent`, `yaml/quotes`, `yaml/spaced-comment`, `toml/comma-style`, `toml/keys-order`, `toml/no-space-dots`, `toml/no-unreadable-number-separator`, `toml/precision-of-fractional-seconds`, `toml/precision-of-integer`, `toml/tables-order`, `toml/vue-custom-block/no-parsing-error`, `toml/array-bracket-newline`, `toml/array-bracket-spacing`, `toml/array-element-newline`, `toml/indent`, `toml/inline-table-curly-spacing`, `toml/key-spacing`, `toml/padding-line-between-pairs`, `toml/padding-line-between-tables`, `toml/quoted-keys`, `toml/spaced-comment`, `toml/table-bracket-spacing`, `markdown/heading-increment`, `markdown/no-duplicate-definitions`, `markdown/no-empty-definitions`, `markdown/no-empty-images`, `markdown/no-empty-links`, `markdown/no-invalid-label-refs`, `markdown/no-missing-atx-heading-space`, `markdown/no-missing-link-fragments`, `markdown/no-multiple-h1`, `markdown/no-reference-like-urls`, `markdown/no-reversed-media-syntax`, `markdown/no-space-in-emphasis`, `markdown/no-unused-definitions`, `markdown/require-alt-text`, `markdown/table-column-count`
+`antfu/no-top-level-await`, `unused-imports/no-unused-imports`, `unused-imports/no-unused-vars`, `eslint-comments/no-aggregating-enable`, `eslint-comments/no-duplicate-disable`, `eslint-comments/no-unlimited-disable`, `eslint-comments/no-unused-enable`, `command/command`, `perfectionist/sort-exports`, `perfectionist/sort-named-exports`, `perfectionist/sort-named-imports`, `antfu/import-dedupe`, `antfu/no-import-dist`, `antfu/no-import-node-modules-by-path`, `e18e/prefer-array-fill`, `e18e/prefer-includes`, `e18e/prefer-nullish-coalescing`, `e18e/prefer-object-has-own`, `e18e/prefer-url-canparse`, `e18e/prefer-timer-args`, `e18e/prefer-date-now`, `e18e/prefer-regex-test`, `e18e/prefer-array-some`, `e18e/prefer-string-fromcharcode`, `ts/ban-ts-comment`, `ts/no-array-constructor`, `ts/no-duplicate-enum-values`, `ts/no-empty-object-type`, `ts/no-extra-non-null-assertion`, `ts/no-misused-new`, `ts/no-namespace`, `ts/no-non-null-asserted-nullish-coalescing`, `ts/no-non-null-asserted-optional-chain`, `ts/no-require-imports`, `ts/no-this-alias`, `ts/no-unnecessary-type-constraint`, `ts/no-unsafe-declaration-merging`, `ts/no-unsafe-function-type`, `ts/no-unused-expressions`, `ts/no-wrapper-object-types`, `ts/prefer-as-const`, `ts/prefer-literal-enum-member`, `ts/prefer-namespace-keyword`, `ts/consistent-type-definitions`, `ts/consistent-type-imports`, `ts/method-signature-style`, `ts/no-dupe-class-members`, `ts/no-import-type-side-effects`, `ts/no-redeclare`, `ts/no-use-before-define`, `style/array-bracket-spacing`, `style/arrow-parens`, `style/arrow-spacing`, `style/block-spacing`, `style/brace-style`, `style/comma-dangle`, `style/comma-spacing`, `style/comma-style`, `style/computed-property-spacing`, `style/dot-location`, `style/eol-last`, `style/generator-star-spacing`, `style/indent`, `style/indent-binary-ops`, `style/key-spacing`, `style/keyword-spacing`, `style/lines-between-class-members`, `style/max-statements-per-line`, `style/member-delimiter-style`, `style/multiline-ternary`, `style/new-parens`, `style/no-extra-parens`, `style/no-floating-decimal`, `style/no-mixed-operators`, `style/no-mixed-spaces-and-tabs`, `style/no-multi-spaces`, `style/no-multiple-empty-lines`, `style/no-tabs`, `style/no-trailing-spaces`, `style/no-whitespace-before-property`, `style/object-curly-spacing`, `style/operator-linebreak`, `style/padded-blocks`, `style/quote-props`, `style/quotes`, `style/rest-spread-spacing`, `style/semi`, `style/semi-spacing`, `style/space-before-blocks`, `style/space-before-function-paren`, `style/space-in-parens`, `style/space-infix-ops`, `style/space-unary-ops`, `style/spaced-comment`, `style/template-curly-spacing`, `style/template-tag-spacing`, `style/type-annotation-spacing`, `style/type-generic-spacing`, `style/type-named-tuple-spacing`, `style/wrap-iife`, `style/yield-star-spacing`, `style/jsx-closing-bracket-location`, `style/jsx-closing-tag-location`, `style/jsx-curly-brace-presence`, `style/jsx-curly-newline`, `style/jsx-curly-spacing`, `style/jsx-equals-spacing`, `style/jsx-first-prop-new-line`, `style/jsx-function-call-newline`, `style/jsx-indent-props`, `style/jsx-max-props-per-line`, `style/jsx-one-expression-per-line`, `style/jsx-quotes`, `style/jsx-tag-spacing`, `style/jsx-wrap-multilines`, `antfu/consistent-chaining`, `antfu/consistent-list-newline`, `antfu/curly`, `antfu/if-newline`, `antfu/reasonable-newline`, `antfu/top-level-function`, `regexp/confusing-quantifier`, `regexp/control-character-escape`, `regexp/match-any`, `regexp/negation`, `regexp/no-contradiction-with-assertion`, `regexp/no-dupe-characters-character-class`, `regexp/no-dupe-disjunctions`, `regexp/no-empty-alternative`, `regexp/no-empty-capturing-group`, `regexp/no-empty-character-class`, `regexp/no-empty-group`, `regexp/no-empty-lookarounds-assertion`, `regexp/no-empty-string-literal`, `regexp/no-escape-backspace`, `regexp/no-extra-lookaround-assertions`, `regexp/no-invalid-regexp`, `regexp/no-invisible-character`, `regexp/no-lazy-ends`, `regexp/no-legacy-features`, `regexp/no-misleading-capturing-group`, `regexp/no-misleading-unicode-character`, `regexp/no-missing-g-flag`, `regexp/no-non-standard-flag`, `regexp/no-obscure-range`, `regexp/no-optional-assertion`, `regexp/no-potentially-useless-backreference`, `regexp/no-super-linear-backtracking`, `regexp/no-trivially-nested-assertion`, `regexp/no-trivially-nested-quantifier`, `regexp/no-unused-capturing-group`, `regexp/no-useless-assertions`, `regexp/no-useless-backreference`, `regexp/no-useless-character-class`, `regexp/no-useless-dollar-replacements`, `regexp/no-useless-escape`, `regexp/no-useless-flag`, `regexp/no-useless-lazy`, `regexp/no-useless-non-capturing-group`, `regexp/no-useless-quantifier`, `regexp/no-useless-range`, `regexp/no-useless-set-operand`, `regexp/no-useless-string-literal`, `regexp/no-useless-two-nums-quantifier`, `regexp/no-zero-quantifier`, `regexp/optimal-lookaround-quantifier`, `regexp/optimal-quantifier-concatenation`, `regexp/prefer-character-class`, `regexp/prefer-d`, `regexp/prefer-plus-quantifier`, `regexp/prefer-predefined-assertion`, `regexp/prefer-question-quantifier`, `regexp/prefer-range`, `regexp/prefer-set-operation`, `regexp/prefer-star-quantifier`, `regexp/prefer-unicode-codepoint-escapes`, `regexp/prefer-w`, `regexp/simplify-set-operations`, `regexp/sort-flags`, `regexp/strict`, `regexp/use-ignore-case`, `test/consistent-test-it`, `test/no-identical-title`, `test/no-import-node-test`, `test/no-only-tests`, `test/prefer-hooks-in-order`, `test/prefer-lowercase-title`, `jsonc/no-bigint-literals`, `jsonc/no-binary-expression`, `jsonc/no-binary-numeric-literals`, `jsonc/no-dupe-keys`, `jsonc/no-escape-sequence-in-identifier`, `jsonc/no-floating-decimal`, `jsonc/no-hexadecimal-numeric-literals`, `jsonc/no-infinity`, `jsonc/no-multi-str`, `jsonc/no-nan`, `jsonc/no-number-props`, `jsonc/no-numeric-separators`, `jsonc/no-octal`, `jsonc/no-octal-escape`, `jsonc/no-octal-numeric-literals`, `jsonc/no-parenthesized`, `jsonc/no-plus-sign`, `jsonc/no-regexp-literals`, `jsonc/no-sparse-arrays`, `jsonc/no-template-literals`, `jsonc/no-undefined-value`, `jsonc/no-unicode-codepoint-escapes`, `jsonc/no-useless-escape`, `jsonc/space-unary-ops`, `jsonc/valid-json-number`, `jsonc/vue-custom-block/no-parsing-error`, `jsonc/array-bracket-spacing`, `jsonc/comma-dangle`, `jsonc/comma-style`, `jsonc/indent`, `jsonc/key-spacing`, `jsonc/object-curly-newline`, `jsonc/object-curly-spacing`, `jsonc/object-property-newline`, `jsonc/quote-props`, `jsonc/quotes`, `jsonc/sort-array-values`, `jsonc/sort-keys`, `jsonc/sort-keys`, `pnpm/json-prefer-workspace-settings`, `pnpm/json-valid-catalog`, `pnpm/yaml-enforce-settings`, `pnpm/yaml-no-duplicate-catalog-item`, `pnpm/yaml-no-unused-catalog-item`, `pnpm/yaml-blank-lines`, `yaml/sort-keys`, `yaml/block-mapping`, `yaml/block-sequence`, `yaml/no-empty-key`, `yaml/no-empty-sequence-entry`, `yaml/no-irregular-whitespace`, `yaml/plain-scalar`, `yaml/vue-custom-block/no-parsing-error`, `yaml/block-mapping-question-indicator-newline`, `yaml/block-sequence-hyphen-indicator-newline`, `yaml/flow-mapping-curly-newline`, `yaml/flow-mapping-curly-spacing`, `yaml/flow-sequence-bracket-newline`, `yaml/flow-sequence-bracket-spacing`, `yaml/indent`, `yaml/key-spacing`, `yaml/no-multiple-empty-lines`, `yaml/no-tab-indent`, `yaml/quotes`, `yaml/spaced-comment`, `toml/comma-style`, `toml/keys-order`, `toml/no-space-dots`, `toml/no-unreadable-number-separator`, `toml/precision-of-fractional-seconds`, `toml/precision-of-integer`, `toml/tables-order`, `toml/vue-custom-block/no-parsing-error`, `toml/array-bracket-newline`, `toml/array-bracket-spacing`, `toml/array-element-newline`, `toml/indent`, `toml/inline-table-curly-spacing`, `toml/key-spacing`, `toml/padding-line-between-pairs`, `toml/padding-line-between-tables`, `toml/quoted-keys`, `toml/spaced-comment`, `toml/table-bracket-spacing`, `markdown/heading-increment`, `markdown/no-duplicate-definitions`, `markdown/no-empty-definitions`, `markdown/no-empty-images`, `markdown/no-empty-links`, `markdown/no-invalid-label-refs`, `markdown/no-missing-atx-heading-space`, `markdown/no-missing-link-fragments`, `markdown/no-multiple-h1`, `markdown/no-reference-like-urls`, `markdown/no-reversed-media-syntax`, `markdown/no-space-in-emphasis`, `markdown/no-unused-definitions`, `markdown/require-alt-text`, `markdown/table-column-count`
 
 </details>
 
@@ -1117,7 +1108,7 @@ Extracted from `eslint-plugin-import@2.32.0`.
 "./node_modules/oxlint-config-presets/import-x/recommended.json"
 ```
 
-Extracted from `eslint-plugin-import-x@4.17.1`.
+Extracted from `eslint-plugin-import-x@4.18.1`.
 
 <details>
 <summary>7 rules successfully migrated</summary>
@@ -1141,7 +1132,7 @@ Extracted from `eslint-plugin-import-x@4.17.1`.
 "./node_modules/oxlint-config-presets/import-x/errors.json"
 ```
 
-Extracted from `eslint-plugin-import-x@4.17.1`.
+Extracted from `eslint-plugin-import-x@4.18.1`.
 
 <details>
 <summary>4 rules successfully migrated</summary>
@@ -1165,7 +1156,7 @@ Extracted from `eslint-plugin-import-x@4.17.1`.
 "./node_modules/oxlint-config-presets/import-x/stage-0.json"
 ```
 
-Extracted from `eslint-plugin-import-x@4.17.1`.
+Extracted from `eslint-plugin-import-x@4.18.1`.
 
 <details>
 <summary>1 rules have no oxlint equivalent</summary>
@@ -1182,7 +1173,7 @@ Extracted from `eslint-plugin-import-x@4.17.1`.
 "./node_modules/oxlint-config-presets/import-x/typescript.json"
 ```
 
-Extracted from `eslint-plugin-import-x@4.17.1`.
+Extracted from `eslint-plugin-import-x@4.18.1`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1197,7 +1188,7 @@ Extracted from `eslint-plugin-import-x@4.17.1`.
 "./node_modules/oxlint-config-presets/import-x/warnings.json"
 ```
 
-Extracted from `eslint-plugin-import-x@4.17.1`.
+Extracted from `eslint-plugin-import-x@4.18.1`.
 
 <details>
 <summary>3 rules successfully migrated</summary>
@@ -1221,7 +1212,7 @@ Extracted from `eslint-plugin-import-x@4.17.1`.
 "./node_modules/oxlint-config-presets/next/recommended.json"
 ```
 
-Extracted from `eslint-config-next@16.4.2`.
+Extracted from `eslint-config-next@16.4.6`.
 
 <details>
 <summary>60 rules successfully migrated</summary>
@@ -1249,7 +1240,7 @@ Extracted from `eslint-config-next@16.4.2`.
 "./node_modules/oxlint-config-presets/next/core-web-vitals.json"
 ```
 
-Extracted from `eslint-config-next@16.4.2`.
+Extracted from `eslint-config-next@16.4.6`.
 
 <details>
 <summary>60 rules successfully migrated</summary>
@@ -1392,7 +1383,7 @@ Extracted from `eslint-plugin-react-hooks@7.1.1`.
 "./node_modules/oxlint-config-presets/react-refresh/recommended.json"
 ```
 
-Extracted from `eslint-plugin-react-refresh@0.5.7`.
+Extracted from `eslint-plugin-react-refresh@0.5.8`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1407,7 +1398,7 @@ Extracted from `eslint-plugin-react-refresh@0.5.7`.
 "./node_modules/oxlint-config-presets/react-refresh/next.json"
 ```
 
-Extracted from `eslint-plugin-react-refresh@0.5.7`.
+Extracted from `eslint-plugin-react-refresh@0.5.8`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1422,7 +1413,7 @@ Extracted from `eslint-plugin-react-refresh@0.5.7`.
 "./node_modules/oxlint-config-presets/react-refresh/vite.json"
 ```
 
-Extracted from `eslint-plugin-react-refresh@0.5.7`.
+Extracted from `eslint-plugin-react-refresh@0.5.8`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1437,7 +1428,7 @@ Extracted from `eslint-plugin-react-refresh@0.5.7`.
 "./node_modules/oxlint-config-presets/react-perf/recommended.json"
 ```
 
-Extracted from `eslint-plugin-react-perf@3.3.3`.
+Extracted from `eslint-plugin-react-perf@3.4.0`.
 
 <details>
 <summary>3 rules successfully migrated</summary>
@@ -1452,7 +1443,7 @@ Extracted from `eslint-plugin-react-perf@3.3.3`.
 "./node_modules/oxlint-config-presets/react-perf/all.json"
 ```
 
-Extracted from `eslint-plugin-react-perf@3.3.3`.
+Extracted from `eslint-plugin-react-perf@3.4.0`.
 
 <details>
 <summary>4 rules successfully migrated</summary>
@@ -1467,7 +1458,7 @@ Extracted from `eslint-plugin-react-perf@3.3.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1491,7 +1482,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1515,7 +1506,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-tsdoc.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1539,7 +1530,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-tsdoc-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1563,7 +1554,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1587,7 +1578,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1611,7 +1602,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-flavor.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1635,7 +1626,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-flavor-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1659,7 +1650,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/default-expressions.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>2 rules have no oxlint equivalent</summary>
@@ -1676,7 +1667,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/examples.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 ### `jsdoc/examples-and-default-expressions.json`
 
@@ -1684,7 +1675,7 @@ Extracted from `eslint-plugin-jsdoc@64.5.4`.
 "./node_modules/oxlint-config-presets/jsdoc/examples-and-default-expressions.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@64.5.4`.
+Extracted from `eslint-plugin-jsdoc@65.4.7`.
 
 <details>
 <summary>2 rules have no oxlint equivalent</summary>
@@ -1749,7 +1740,7 @@ These rules are enabled but their configuration options were dropped because oxl
 "./node_modules/oxlint-config-presets/n/recommended.json"
 ```
 
-Extracted from `eslint-plugin-n@18.4.1`.
+Extracted from `eslint-plugin-n@18.5.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1773,7 +1764,7 @@ Extracted from `eslint-plugin-n@18.4.1`.
 "./node_modules/oxlint-config-presets/n/recommended-module.json"
 ```
 
-Extracted from `eslint-plugin-n@18.4.1`.
+Extracted from `eslint-plugin-n@18.5.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1797,7 +1788,7 @@ Extracted from `eslint-plugin-n@18.4.1`.
 "./node_modules/oxlint-config-presets/n/recommended-script.json"
 ```
 
-Extracted from `eslint-plugin-n@18.4.1`.
+Extracted from `eslint-plugin-n@18.5.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1894,7 +1885,7 @@ Extracted from `eslint-plugin-jest@28.14.0`.
 "./node_modules/oxlint-config-presets/@vitest/recommended.json"
 ```
 
-Extracted from `@vitest/eslint-plugin@1.6.27`.
+Extracted from `@vitest/eslint-plugin@1.6.28`.
 
 <details>
 <summary>17 rules successfully migrated</summary>
@@ -1909,7 +1900,7 @@ Extracted from `@vitest/eslint-plugin@1.6.27`.
 "./node_modules/oxlint-config-presets/@vitest/all.json"
 ```
 
-Extracted from `@vitest/eslint-plugin@1.6.27`.
+Extracted from `@vitest/eslint-plugin@1.6.28`.
 
 <details>
 <summary>71 rules successfully migrated</summary>
@@ -1937,7 +1928,7 @@ Extracted from `@vitest/eslint-plugin@1.6.27`.
 "./node_modules/oxlint-config-presets/vue/recommended.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>2 rules successfully migrated</summary>
@@ -1965,7 +1956,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/recommended-error.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>2 rules successfully migrated</summary>
@@ -1993,7 +1984,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/essential.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>30 rules successfully migrated</summary>
@@ -2021,7 +2012,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/strongly-recommended.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>4 rules successfully migrated</summary>
@@ -2049,7 +2040,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/strongly-recommended-error.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>4 rules successfully migrated</summary>
@@ -2077,7 +2068,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/vue2-essential.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>17 rules successfully migrated</summary>
@@ -2105,7 +2096,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/vue2-recommended.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>2 rules successfully migrated</summary>
@@ -2133,7 +2124,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/vue2-recommended-error.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>2 rules successfully migrated</summary>
@@ -2161,7 +2152,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/vue2-strongly-recommended.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>4 rules successfully migrated</summary>
@@ -2189,7 +2180,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/vue/vue2-strongly-recommended-error.json"
 ```
 
-Extracted from `eslint-plugin-vue@10.11.1`.
+Extracted from `eslint-plugin-vue@10.12.1`.
 
 <details>
 <summary>4 rules successfully migrated</summary>
@@ -2217,7 +2208,7 @@ Extracted from `eslint-plugin-vue@10.11.1`.
 "./node_modules/oxlint-config-presets/unicorn/recommended.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>139 rules successfully migrated</summary>
@@ -2245,7 +2236,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/recommended-css.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>9 rules successfully migrated</summary>
@@ -2273,7 +2264,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/recommended-html.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>5 rules successfully migrated</summary>
@@ -2297,7 +2288,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/recommended-json.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>7 rules successfully migrated</summary>
@@ -2321,7 +2312,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/recommended-markdown.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>4 rules successfully migrated</summary>
@@ -2345,7 +2336,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/recommended-soml.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>7 rules successfully migrated</summary>
@@ -2369,7 +2360,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/recommended-toml.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>8 rules successfully migrated</summary>
@@ -2393,7 +2384,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/recommended-yaml.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>7 rules successfully migrated</summary>
@@ -2417,7 +2408,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/all.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>140 rules successfully migrated</summary>
@@ -2445,7 +2436,7 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 "./node_modules/oxlint-config-presets/unicorn/unopinionated.json"
 ```
 
-Extracted from `eslint-plugin-unicorn@78.0.0`.
+Extracted from `eslint-plugin-unicorn@79.0.0`.
 
 <details>
 <summary>137 rules successfully migrated</summary>
@@ -2455,11 +2446,11 @@ Extracted from `eslint-plugin-unicorn@78.0.0`.
 </details>
 
 <details>
-<summary>127 rules have no oxlint equivalent</summary>
+<summary>126 rules have no oxlint equivalent</summary>
 
 **Not yet implemented in oxlint**
 
-`unicorn/better-dom-traversing`, `unicorn/consistent-compound-words`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-optional-chaining`, `unicorn/expiring-todo-comments`, `unicorn/no-array-from-fill`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-async-iterator-callback`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-canvas-to-image`, `unicorn/no-conflicting-constraints`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-incomplete-accessor-override`, `unicorn/no-ineffective-csp-directives`, `unicorn/no-invalid-boolean-attribute-value`, `unicorn/no-invalid-dom-token`, `unicorn/no-invalid-integrity`, `unicorn/no-invalid-intl-options`, `unicorn/no-invalid-property-descriptor`, `unicorn/no-invalid-response-options`, `unicorn/no-invalid-style-set-property`, `unicorn/no-invalid-temporal-arithmetic`, `unicorn/no-invalid-url-protocol-comparison`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-prevent-default-in-passive-listener`, `unicorn/no-redundant-comparison`, `unicorn/no-subtraction-comparison`, `unicorn/no-top-level-side-effects`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unused-builtin-method-return`, `unicorn/no-unused-iterator-helper`, `unicorn/no-url-in-search-params`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-set-construction`, `unicorn/no-using-resource-escape`, `unicorn/no-xor-as-exponentiation`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-await`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-escaped-irregular-whitespace`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-has-check`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-literal-ascii`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-path2d`, `unicorn/prefer-promise-static-methods`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-short-escape-sequences`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-replace`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-temporal-conversion`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`, `unicorn/require-text-decoder-streaming`
+`unicorn/better-dom-traversing`, `unicorn/consistent-compound-words`, `unicorn/consistent-export-decorator-position`, `unicorn/consistent-optional-chaining`, `unicorn/expiring-todo-comments`, `unicorn/no-array-from-fill`, `unicorn/no-array-sort-for-min-max`, `unicorn/no-async-iterator-callback`, `unicorn/no-async-promise-finally`, `unicorn/no-blob-to-file`, `unicorn/no-canvas-to-image`, `unicorn/no-conflicting-constraints`, `unicorn/no-declarations-before-early-exit`, `unicorn/no-duplicate-logical-operands`, `unicorn/no-error-property-assignment`, `unicorn/no-exports-in-scripts`, `unicorn/no-global-object-property-assignment`, `unicorn/no-impossible-length-comparison`, `unicorn/no-incomplete-accessor-override`, `unicorn/no-ineffective-csp-directives`, `unicorn/no-invalid-boolean-attribute-value`, `unicorn/no-invalid-dom-token`, `unicorn/no-invalid-integrity`, `unicorn/no-invalid-intl-options`, `unicorn/no-invalid-property-descriptor`, `unicorn/no-invalid-response-options`, `unicorn/no-invalid-style-set-property`, `unicorn/no-invalid-temporal-arithmetic`, `unicorn/no-invalid-url-protocol-comparison`, `unicorn/no-invalid-well-known-symbol-methods`, `unicorn/no-multiple-promise-resolver-calls`, `unicorn/no-negated-array-predicate`, `unicorn/no-negated-comparison`, `unicorn/no-prevent-default-in-passive-listener`, `unicorn/no-redundant-comparison`, `unicorn/no-subtraction-comparison`, `unicorn/no-unnecessary-fetch-options`, `unicorn/no-unnecessary-global-this`, `unicorn/no-unnecessary-nested-ternary`, `unicorn/no-unnecessary-polyfills`, `unicorn/no-unnecessary-string-trim`, `unicorn/no-unreadable-object-destructuring`, `unicorn/no-unsafe-buffer-conversion`, `unicorn/no-unsafe-sqlite-interpolation`, `unicorn/no-unused-builtin-method-return`, `unicorn/no-unused-iterator-helper`, `unicorn/no-url-in-search-params`, `unicorn/no-useless-boolean-cast`, `unicorn/no-useless-compound-assignment`, `unicorn/no-useless-continue`, `unicorn/no-useless-delete-check`, `unicorn/no-useless-logical-operand`, `unicorn/no-useless-override`, `unicorn/no-useless-re-export`, `unicorn/no-useless-set-construction`, `unicorn/no-using-resource-escape`, `unicorn/no-xor-as-exponentiation`, `unicorn/prefer-add-event-listener-options`, `unicorn/prefer-aggregate-error`, `unicorn/prefer-array-from-map`, `unicorn/prefer-array-from-range`, `unicorn/prefer-array-last-methods`, `unicorn/prefer-await`, `unicorn/prefer-block-statement-over-iife`, `unicorn/prefer-boolean-return`, `unicorn/prefer-direct-iteration`, `unicorn/prefer-dom-node-replace-children`, `unicorn/prefer-early-return`, `unicorn/prefer-escaped-irregular-whitespace`, `unicorn/prefer-flat-math-min-max`, `unicorn/prefer-global-number-constants`, `unicorn/prefer-has-check`, `unicorn/prefer-identifier-import-export-specifiers`, `unicorn/prefer-iterable-in-constructor`, `unicorn/prefer-iterator-helpers`, `unicorn/prefer-iterator-to-array-at-end`, `unicorn/prefer-literal-ascii`, `unicorn/prefer-map-from-entries`, `unicorn/prefer-math-abs`, `unicorn/prefer-minimal-ternary`, `unicorn/prefer-object-define-properties`, `unicorn/prefer-object-iterable-methods`, `unicorn/prefer-path2d`, `unicorn/prefer-promise-static-methods`, `unicorn/prefer-promise-with-resolvers`, `unicorn/prefer-queue-microtask`, `unicorn/prefer-short-escape-sequences`, `unicorn/prefer-simple-sort-comparator`, `unicorn/prefer-simplified-conditions`, `unicorn/prefer-single-array-predicate`, `unicorn/prefer-single-replace`, `unicorn/prefer-split-limit`, `unicorn/prefer-string-match-all`, `unicorn/prefer-string-pad-start-end`, `unicorn/prefer-string-repeat`, `unicorn/prefer-switch`, `unicorn/prefer-temporal-conversion`, `unicorn/prefer-toggle-attribute`, `unicorn/prefer-unary-minus`, `unicorn/prefer-url-can-parse`, `unicorn/prefer-url-href`, `unicorn/prefer-url-search-parameters`, `unicorn/prefer-while-loop-condition`, `unicorn/require-css-escape`, `unicorn/require-passive-events`, `unicorn/require-text-decoder-streaming`
 
 **Not portable to oxlint**
 
