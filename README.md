@@ -62,6 +62,13 @@ export default defineConfig({
 > [!NOTE]
 > Requires Node.js v22.18+ or v24+ for `with { type: "json" }` (import attributes) support.
 
+### Type-aware rules
+
+Presets that include type-aware rules (such as the `*-type-checked` presets, `airbnb.json` and `standard.json`) set `options.typeAware`, which requires a type-aware backend to be installed. Install one of:
+
+- [`oxlint-tsgolint`](https://www.npmjs.com/package/oxlint-tsgolint): `pnpm add -D oxlint-tsgolint`
+- [`tsrs`](https://www.npmjs.com/package/tsrs) (faster, not yet stable): `pnpm add -D tsrs`
+
 <!-- GENERATED CONFIGS START -->
 
 ## Available configs

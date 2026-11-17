@@ -6,7 +6,14 @@ on:
 
 jobs:
   lint:
+    name: lint (${{ matrix.backend }})
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # Both type-aware backends are installed. Oxlint prefers tsrs when it
+        # is present; OXLINT_TSGOLINT_PATH forces oxlint-tsgolint instead.
+        backend: [tsrs, tsgolint]
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -15,5 +22,8 @@ jobs:
           node-version: lts/*
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm oxfmt --check
+      - if: matrix.backend == 'tsrs'
+        run: pnpm oxfmt --check
+      - if: matrix.backend == 'tsgolint'
+        run: echo "OXLINT_TSGOLINT_PATH=$GITHUB_WORKSPACE/node_modules/.bin/tsgolint" >> "$GITHUB_ENV"
       - run: pnpm oxlint --format=github
