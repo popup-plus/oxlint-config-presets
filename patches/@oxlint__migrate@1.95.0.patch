@@ -1,7 +1,7 @@
-diff --git a/dist/src-BqE_-JMs.mjs b/dist/src-BqE_-JMs.mjs
-index 94f9a6b541e22475ec3830a1ae90d4604b185037..d3381bd8198384e66812ca1107a625a2632d22be 100644
---- a/dist/src-BqE_-JMs.mjs
-+++ b/dist/src-BqE_-JMs.mjs
+diff --git a/dist/src-CCRrj4UH.mjs b/dist/src-CCRrj4UH.mjs
+index f9967b595d6bba5aa3e0c648fc18507349fe63c6..00e2617039fa9fc6da44ef98570456f7c9115667 100644
+--- a/dist/src-CCRrj4UH.mjs
++++ b/dist/src-CCRrj4UH.mjs
 @@ -1,4 +1,6 @@
  import globals from "globals";
 +import { readFileSync } from "node:fs";
@@ -27,7 +27,7 @@ index 94f9a6b541e22475ec3830a1ae90d4604b185037..d3381bd8198384e66812ca1107a625a2
  	for (const [prefix, plugin] of Object.entries(rulesPrefixesForPlugins)) if (prefix !== plugin && rule.startsWith(`${prefix}/`)) return `${plugin}/${rule.slice(prefix.length + 1)}`;
  	return rule;
  }
-@@ -2054,6 +2059,12 @@ const replaceRulePrefix = (config, oldPrefix, newPrefix) => {
+@@ -2056,6 +2061,12 @@ const replaceRulePrefix = (config, oldPrefix, newPrefix) => {
  * extend core ESLint rules have already been stripped of their prefix.
  */
  const replaceCanonicalPluginPrefixes = (config) => {
@@ -40,7 +40,7 @@ index 94f9a6b541e22475ec3830a1ae90d4604b185037..d3381bd8198384e66812ca1107a625a2
  	for (const [prefix, plugin] of Object.entries(rulesPrefixesForPlugins)) if (prefix !== plugin) replaceRulePrefix(config, prefix, plugin);
  };
  // src/cleanup.ts
-@@ -2118,7 +2129,6 @@ const cleanUpOxlintConfig = (config) => {
+@@ -2120,7 +2131,6 @@ const cleanUpOxlintConfig = (config) => {
  	}
  	if (!("files" in config)) {
  		cleanUpUselessOverridesEntries(config);
