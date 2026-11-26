@@ -1465,7 +1465,7 @@ Extracted from `eslint-plugin-react-perf@3.4.0`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1489,7 +1489,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1513,7 +1513,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-tsdoc.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1537,7 +1537,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-tsdoc-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1561,7 +1561,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1585,7 +1585,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1609,7 +1609,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-flavor.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1633,7 +1633,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/recommended-typescript-flavor-error.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>23 rules successfully migrated</summary>
@@ -1657,7 +1657,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/default-expressions.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>2 rules have no oxlint equivalent</summary>
@@ -1674,7 +1674,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/examples.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 ### `jsdoc/examples-and-default-expressions.json`
 
@@ -1682,7 +1682,7 @@ Extracted from `eslint-plugin-jsdoc@65.5.3`.
 "./node_modules/oxlint-config-presets/jsdoc/examples-and-default-expressions.json"
 ```
 
-Extracted from `eslint-plugin-jsdoc@65.5.3`.
+Extracted from `eslint-plugin-jsdoc@65.5.6`.
 
 <details>
 <summary>2 rules have no oxlint equivalent</summary>
@@ -1747,7 +1747,7 @@ These rules are enabled but their configuration options were dropped because oxl
 "./node_modules/oxlint-config-presets/n/recommended.json"
 ```
 
-Extracted from `eslint-plugin-n@18.5.0`.
+Extracted from `eslint-plugin-n@18.6.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1771,7 +1771,7 @@ Extracted from `eslint-plugin-n@18.5.0`.
 "./node_modules/oxlint-config-presets/n/recommended-module.json"
 ```
 
-Extracted from `eslint-plugin-n@18.5.0`.
+Extracted from `eslint-plugin-n@18.6.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
@@ -1795,7 +1795,7 @@ Extracted from `eslint-plugin-n@18.5.0`.
 "./node_modules/oxlint-config-presets/n/recommended-script.json"
 ```
 
-Extracted from `eslint-plugin-n@18.5.0`.
+Extracted from `eslint-plugin-n@18.6.0`.
 
 <details>
 <summary>1 rule successfully migrated</summary>
