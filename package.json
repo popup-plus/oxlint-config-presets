@@ -13,11 +13,11 @@
     "oxlint": "oxlint"
   },
   "devDependencies": {
-    "@types/node": "^26.6.6",
+    "@types/node": "^26.6.11",
     "@typescript/native": "npm:typescript@^7.0.2",
     "oxfmt": "^0.80.0",
     "oxlint": "^1.95.0",
-    "oxlint-tsgolint": "^7.0.2008",
+    "oxlint-tsgolint": "^7.0.2009",
     "tsrs": "7.1.0-beta.tsrs5",
     "typescript": "npm:@typescript/typescript6@^6.0.2"
   },
